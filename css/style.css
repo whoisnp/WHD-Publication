@@ -11,7 +11,14 @@ input,
 textarea {
   font-family: "Poppins", sans-serif;
 }
-
+.h1_packages {
+  text-transform: uppercase;
+  text-align: center;
+}
+.empty_space {
+  display: block;
+  height: 50px;
+}
 .container {
   position: relative;
   width: 100%;
