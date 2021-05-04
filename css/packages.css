@@ -1,75 +1,51 @@
-@media screen and (min-width: 800px) {
-  .h1_packages {
-    text-transform: uppercase;
-    text-align: center;
+
+@media screen and (min-width:800px){
+  .h1_packages{
+      text-transform: uppercase;
+      text-align: center;
   }
-  .empty_space {
-    display: block;
-    height: 50px;
+  .empty_space{
+      display: block;
+      height: 50px;
   }
-  #table-responsive {
-    margin: 0px 45px 0px 45px;
+  #table-responsive{
+      margin:0px 45px 0px 45px;
+      z-index: 50;
+  
   }
-  .table-bordered thead td,
-  .table-bordered thead th {
-    border-width: 4px;
-    border-color: white;
+  .table-bordered thead td, .table-bordered thead th {
+      border-width: 4px;
+      border-color: white;
+      
   }
-  .table-bordered td,
-  .table-bordered th {
-    border-width: 4px;
-    border-color: white;
-    background-color: #ccd9e8;
-  }
-  .buy_now:hover {
-    background-color: #ccd9e8 !important;
-  }
-  .buy_now a:hover {
-    color: #212529 !important;
-  }
-  .buy_now {
-    background-color: #245993 !important ;
-  }
-  .buy_now a {
-    color: white !important;
-    text-decoration: none !important;
-  }
+  .table-bordered td, .table-bordered th {
+      border-width: 4px;
+      border-color:white;
+      background-color: #ccd9e8;
+  } 
 }
-@media screen and (max-width: 799px) {
-  .h1_packages {
-    text-transform: uppercase;
-    text-align: center;
+@media screen and (max-width:799px) {
+  .h1_packages{
+      text-transform: uppercase;
+      text-align: center;
   }
-  .empty_space {
-    display: block;
-    height: 50px;
+  .empty_space{
+      display: block;
+      height: 50px;
   }
-  #table-responsive {
-    margin: auto;
-    padding: 10px;
+  #table-responsive{
+      margin: auto;
+      padding: 10px;
+  
   }
-  .table-bordered thead td,
-  .table-bordered thead th {
-    border-width: 4px;
-    border-color: white;
+  .table-bordered thead td, .table-bordered thead th {
+      border-width: 4px;
+      border-color: white;
+      
   }
-  .table-bordered td,
-  .table-bordered th {
-    border-width: 4px;
-    border-color: white;
-    background-color: #ccd9e8;
-  }
-  .buy_now:hover {
-    background-color: #ccd9e8 !important;
-  }
-  .buy_now a:hover {
-    color: #212529 !important;
-  }
-  .buy_now {
-    background-color: #245993 !important ;
-  }
-  .buy_now a {
-    color: white !important;
-    text-decoration: none !important;
+  .table-bordered td, .table-bordered th {
+      border-width: 4px;
+      border-color:white;
+      background-color: #ccd9e8;
   }
 }
