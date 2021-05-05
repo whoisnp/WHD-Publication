@@ -3,23 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
-      rel="stylesheet"
-    /> -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Cookie"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/Header.css" />
+    <link rel="stylesheet" href="css/Footer.css" />
     <script
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
@@ -27,7 +56,7 @@
     <title>WHD publication</title>
   </head>
   <body>
-    <!-- <iframe src="header.html"></iframe> -->
+    <div id="nav-placeholder"></div>
     <!-- slider starts     -->
     <div class="slider">
       <div class="grid-container">
@@ -138,7 +167,23 @@
       </div>
     </div>
     <!-- Contact Us stop     -->
-
+    <!-- Footer start     -->
+    <div id="foot-placeholder"></div>
+    <!-- Footer stop     -->
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="js/app.js"></script>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("Header.html");
+      });
+      $(function () {
+        $("#foot-placeholder").load("Footer.html");
+      });
+    </script>
   </body>
 </html>
