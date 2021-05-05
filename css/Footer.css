@@ -12,29 +12,6 @@ html {
 body {
   font: 16px/1.6 Arial, sans-serif;
 }
-
-header {
-  text-align: center;
-  padding-top: 100px;
-  margin-bottom: 190px;
-}
-
-header h1 {
-  font: normal 32px/1.5 "Open Sans", sans-serif;
-  color: #3f71ae;
-  padding-bottom: 16px;
-}
-
-header h2 {
-  color: #f05283;
-}
-
-header span {
-  color: #3f71ea;
-}
-
-/* The footer is fixed to the bottom of the page */
-
 footer {
   position: fixed;
   bottom: 0;
