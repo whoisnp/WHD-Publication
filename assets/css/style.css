@@ -2386,7 +2386,6 @@ section {
 }
 
 .footer .credits {
-<<<<<<< HEAD
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
@@ -2394,10 +2393,4 @@ section {
 }
 .modal-backdrop{
   position:sticky;
-=======
-    padding-top: 10px;
-    text-align: center;
-    font-size: 13px;
-    color: #012970;
->>>>>>> b0c37f51ef3bb8b2a7f9c7e62c1dcab24aa8586a
 }
