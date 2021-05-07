@@ -178,12 +178,15 @@ section {
     transition: all 0.5s;
     z-index: 997;
     padding: 20px 0;
+    opacity: 0;
 }
 
 .header.header-scrolled {
+    transition: all 2s;
     background: #fff;
     padding: 15px 0;
     box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+    opacity: 1;
 }
 
 .header .logo {
