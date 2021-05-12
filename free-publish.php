@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>WHD upload form</title>
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap5.min.css">
+    <link href="assets_1/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets_1/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/form.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -191,7 +193,20 @@
     </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap5.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 
+    <!-- bootstrap js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
