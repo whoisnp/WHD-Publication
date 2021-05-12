@@ -70,7 +70,7 @@
         <!-- Modal -->
         <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content" style="border:10px solid #4154f1;">
+                <div class="modal-content" style="border:10px solid #356aac;">
                     <div class="modal-header border-0">
                         <h5 class="modal-title"></h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -86,8 +86,8 @@
                                     <img class="" src="./assets/img/scheduleCall.jpeg" alt="about" width="100%" height="auto">
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                                    <h4 class="modal-title mt-3" id="schedule_title" style="color:#4154f1">Schedule A Call</h4>
-                                    <hr class="mb-4" style="height: 3px;color: #4154f1;background-color: #4154f1;opacity: 1;">
+                                    <h4 class="modal-title mt-3" id="schedule_title" style="color:#356aac">Schedule A Call</h4>
+                                    <hr class="mb-4" style="height: 3px;color: #356aac;background-color: #4154f1;opacity: 1;">
                                     <form method="post" enctype="multipart/form-data">
                                         <div class="form-group mb-4">
                                             <label for="scheduleInputEmail">Email address</label>
@@ -106,7 +106,7 @@
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                       </div> -->
                                         <!-- <button type="submit" class="btn btn-primary" > Submit</button> -->
-                                        <input type="submit" name="submit" class="btn btn-primary" style="background-color: #4154f1;border-color: #4154f1;" value="SUBMIT">
+                                        <input type="submit" name="submit" class="btn btn-primary" style="background-color: #356aac;border-color: #4154f1;" value="SUBMIT">
                                     </form>
                                 </div>
                             </div>
@@ -115,7 +115,7 @@
                 </div>
             </div>
         </div>
-        <button class="btn" style="text-align:center; color:white;background-color: #4154f1;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button>
+        <button class="btn" style="text-align:center; color:white;background-color: #356aac;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button>
 
         <a href="">
             <img src="assets/img/whatsapp_logo.png" id="wa" style="position: fixed;z-index: 9999; bottom: 0; right: 60px; height: 11%;">
