@@ -34,7 +34,7 @@
 
 <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="header fixed-top">
+    <header id="header_1" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <a href="index.html" class="logo d-flex align-items-center">
                 <img src="assets/img/whdph_logo.png" />
@@ -73,7 +73,7 @@
         <!-- Modal -->
     </header>
     <!-- End Header -->
-    <header class="header0">
+    <!-- <header class="header0">
         <div class="container container-xl d-flex align-items-start justify-content-left">
             <a href="index.html" class="logo d-flex align-items-center">
                 <img src="assets/img/whdph_logo.png" />
@@ -82,7 +82,7 @@
         </div>
 
 
-    </header>
+    </header> -->
 
     <!-- schedule button -->
 
