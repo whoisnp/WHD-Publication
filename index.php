@@ -17,7 +17,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" /> -->
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -176,10 +176,10 @@
                 <div class="row gx-0">
                     <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                         <div class="alight-content-center">
-                            <h3>About Us</h3>
-                            <h2>
+                            <h3 id="Head1">About Us</h3>
+                            <p id="aboutcontent">
                                 WHD PH is a global self-publishing platform that aims at encouraging writers and helping their ideas shape into a tangible form. Our aim is to provide aspiring writers a space to sell their book globally by converting their ideas and stories into books..
-                            </h2>
+                            </p>
                             <!-- <p>
                                 Dr Syed initiated to mix of various full and piece meal services like designing a book cover, editing, publishing, organising book events, social media management for authors among other services..
                             </p> -->

@@ -1,13 +1,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,700&display=swap');
 :root {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family:  'Lato', sans-serif;
     color: #444444;
 }
 
@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Nunito", sans-serif;
+    font-family:  'Lato', sans-serif;
 }
 
 
@@ -48,7 +48,7 @@ section {
 .section-header h2 {
     font-size: 13px;
     letter-spacing: 1px;
-    font-weight: 700;
+    font-weight: 400;
     margin: 0;
     color: #4154f1;
     text-transform: uppercase;
@@ -91,7 +91,7 @@ section {
 
 .breadcrumbs h2 {
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .breadcrumbs ol {
@@ -200,7 +200,7 @@ section {
     font-weight: 700;
     letter-spacing: 1px;
     color: #012970;
-    font-family: "Nunito", sans-serif;
+    font-family:  'Lato', sans-serif;
     margin-top: 3px;
 }
 
@@ -233,7 +233,7 @@ section {
     font-weight: 700;
     letter-spacing: 1px;
     color: #012970;
-    font-family: "Nunito", sans-serif;
+    font-family:  'Lato', sans-serif;
     margin-top: 3px;
 }
 
@@ -260,7 +260,7 @@ section {
     font-weight: 700;
     letter-spacing: 1px;
     color: #012970;
-    font-family: "Nunito", sans-serif;
+    font-family:  'Lato', sans-serif;
     margin-top: 3px;
 }
 
@@ -295,7 +295,7 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
-    font-family: "Nunito", sans-serif;
+    font-family:  'Lato', sans-serif;
     font-size: 16px;
     font-weight: 700;
     color: #013289;
@@ -352,7 +352,7 @@ section {
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .navbar .dropdown ul a i {
@@ -538,8 +538,8 @@ section {
 }
 
 .hero .btn-get-started span {
-    font-family: "Nunito", sans-serif;
-    font-weight: 600;
+    font-family:  'Lato', sans-serif;
+    font-weight: 700;
     font-size: 16px;
     letter-spacing: 1px;
 }
@@ -617,7 +617,7 @@ section {
 
 .about h2 {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 400;
     color: #012970;
 }
 
@@ -637,8 +637,8 @@ section {
 }
 
 .about .btn-read-more span {
-    font-family: "Nunito", sans-serif;
-    font-weight: 600;
+    font-family:  'Lato', sans-serif;
+    font-weight: 700;
     font-size: 16px;
     letter-spacing: 1px;
 }
@@ -714,14 +714,14 @@ section {
 .counts .count-box span {
     font-size: 36px;
     display: block;
-    font-weight: 600;
+    font-weight: 700;
     color: white;
 }
 
 .counts .count-box p {
     padding: 0;
     margin: 0;
-    font-family: "Nunito", sans-serif;
+    font-family:  'Lato', sans-serif;
     font-size: 14px;
     color: white;
 }
@@ -785,7 +785,7 @@ section {
     background: none;
     text-transform: uppercase;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 700;
     color: #012970;
     padding: 12px 0;
     margin-right: 25px;
@@ -932,8 +932,8 @@ section {
 }
 
 .cta .cta-btn {
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
+    font-family:  'Lato', sans-serif;
+    font-weight: 400;
     font-size: 15px;
     letter-spacing: 1px;
     display: inline-block;
@@ -994,8 +994,8 @@ section {
 .pricing .price {
     font-size: 36px;
     color: #444444;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-family:  'Lato', sans-serif;
 }
 
 .pricing .price sup {
@@ -1007,7 +1007,7 @@ section {
 .pricing .price span {
     color: #bababa;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .pricing img {
@@ -1041,8 +1041,8 @@ section {
     transition: none;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Nunito", sans-serif;
-    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
     transition: 0.3s;
     border: 1px solid #4154f1;
 }
@@ -1076,7 +1076,7 @@ section {
 
 .faq .accordion-button {
     padding: 15px 15px 20px 0;
-    font-weight: 600;
+    font-weight: 700;
     border: 0;
     font-size: 18px;
     color: #444444;
@@ -1118,7 +1118,7 @@ section {
     display: inline-block;
     padding: 8px 20px 10px 20px;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1;
     color: #444444;
     margin: 0 4px 8px 4px;
@@ -1214,7 +1214,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info p {
     color: #012970;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
     padding: 0;
@@ -1590,7 +1590,7 @@ section {
 
 .recent-blog-posts .post-box .post-date {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     color: rgba(1, 41, 112, 0.6);
     display: block;
     margin-bottom: 10px;
@@ -1608,7 +1608,7 @@ section {
 .recent-blog-posts .post-box .readmore {
     display: flex;
     align-items: center;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1;
     transition: 0.3s;
 }
@@ -1671,7 +1671,7 @@ section {
     text-align: left;
     padding: 15px;
     margin-bottom: 24px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .contact .php-email-form .sent-message {
@@ -1681,7 +1681,7 @@ section {
     text-align: center;
     padding: 15px;
     margin-bottom: 24px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .contact .php-email-form .loading {
@@ -1868,7 +1868,7 @@ section {
     line-height: 1.6;
     margin-bottom: 0;
     font-style: italic;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 22px;
 }
 
@@ -1955,7 +1955,7 @@ section {
 }
 
 .blog .blog-author h4 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 22px;
     margin-bottom: 0px;
     padding: 0;
@@ -2361,7 +2361,7 @@ section {
     font-weight: 700;
     letter-spacing: 1px;
     color: #012970;
-    font-family: "Nunito", sans-serif;
+    font-family:  'Lato', sans-serif;
     margin-top: 3px;
 }
 
@@ -2369,7 +2369,7 @@ section {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 0;
-    font-family: "Nunito", sans-serif;
+    font-family:  'Lato', sans-serif;
 }
 
 .footer .footer-top .social-links a {
