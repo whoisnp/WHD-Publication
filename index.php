@@ -38,7 +38,7 @@
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/whdph_logo.png" />
-                <span>WHD PH</span>
+                <!-- <span>WHD PH</span> -->
             </a>
 
             <nav id="navbar" class="navbar">
@@ -127,7 +127,7 @@
         <div class="container container-xl d-flex align-items-start justify-content-left">
             <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/whdph_logo.png" />
-                <span>WHD PH</span>
+                <!-- <span>WHD PH</span> -->
             </a>
         </div>
 
@@ -176,7 +176,7 @@
                 <div class="row gx-0">
                     <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                         <div class="alight-content-center">
-                            <h3 id="Head1">About Us</h3>
+                            <h2 id="Head1">About Us</h2>
                             <p id="aboutcontent">
                                 WHD PH is a global self-publishing platform that aims at encouraging writers and helping their ideas shape into a tangible form. Our aim is to provide aspiring writers a space to sell their book globally by converting their ideas and stories into books..
                             </p>
@@ -299,7 +299,7 @@
                     <div class="container">
 
                         <div class="section-title">
-                            <h2>Services</h2>
+                            <h2 id="Head1">Services</h2>
                             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis
                                 commodi quidem hic quas.</p>
                         </div>
