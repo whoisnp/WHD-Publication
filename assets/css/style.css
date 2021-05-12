@@ -237,6 +237,33 @@ section {
     margin-top: 3px;
 }
 
+.header1 {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 20px 0;
+    opacity: 1;
+    background: #fff;
+    ;
+}
+
+.header1 .logo {
+    line-height: 0;
+}
+
+.header1 .logo img {
+    max-height: 40px;
+    margin-right: 6px;
+}
+
+.header1 .logo span {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+    margin-top: 3px;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
