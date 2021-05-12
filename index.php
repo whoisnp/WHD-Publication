@@ -1,3 +1,4 @@
+<?php require_once "schedulecall.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +17,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" /> -->
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -35,9 +36,9 @@
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/whdph_logo.png" />
-                <span>WHD PH</span>
+                <!-- <span>WHD PH</span> -->
             </a>
 
             <nav id="navbar" class="navbar">
@@ -50,15 +51,15 @@
               <a class="nav-link scrollto" href="packages.html">Packages</a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto" href="free-publish.html">Free Publish
+                        <a class="nav-link scrollto" href="free-publish.PHP">Free Publish
               </a>
                     </li>
                     <li><a href="publishing-process.html">Publishing Process</a></li>
                     <li>
-                        <a class="nav-link scrollto" href="contact-us.html">Books</a>
+                        <a class="nav-link scrollto" href="books.html">Books</a>
                     </li>
                     <li>
-                        <a class="getstarted scrollto" href="contact-us.html">Contact US</a>
+                        <a class="getstarted scrollto" href="contact-us.php">Contact US</a>
                     </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -69,7 +70,7 @@
         <!-- Modal -->
         <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content" style="border:10px solid #4154f1;">
+                <div class="modal-content" style="border:10px solid #356aac;">
                     <div class="modal-header border-0">
                         <h5 class="modal-title"></h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -80,29 +81,32 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                                    <img class="" src="./assets/img/about.jpg" alt="about" width="100%" height="auto">
+                                <br>
+                                <br>
+                                    <img class="" src="./assets/img/scheduleCall.jpeg" alt="about" width="100%" height="auto">
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                                    <h4 class="modal-title mt-3" id="schedule_title" style="color:#4154f1">Schedule A Call</h4>
-                                    <hr class="mb-4" style="height: 3px;color: #4154f1;background-color: #4154f1;opacity: 1;">
-                                    <form action="">
+                                    <h4 class="modal-title mt-3" id="schedule_title" style="color:#356aac">Schedule A Call</h4>
+                                    <hr class="mb-4" style="height: 3px;color: #356aac;background-color: #4154f1;opacity: 1;">
+                                    <form method="post" enctype="multipart/form-data">
                                         <div class="form-group mb-4">
                                             <label for="scheduleInputEmail">Email address</label>
-                                            <input type="email" class="form-control" id="scheduleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                                            <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" placeholder="Enter email">
                                         </div>
                                         <div class="form-group mb-4">
-                                            <label for="scheduleInputPassword">Password</label>
-                                            <input type="password" class="form-control" id="scheduleInputPassword" placeholder="Password">
+                                            <label for="scheduleInputName">Name</label>
+                                            <input type="text" class="form-control" name="name" id="scheduleInputName" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" placeholder="Name">
                                         </div>
                                         <div class="form-group mb-4">
                                             <label for="scheduleInputPhone">Phone Number</label>
-                                            <input type="text" class="form-control" id="scheduleInputphone" placeholder="Phone Number">
+                                            <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message'])?$postData['message']:''; ?>" placeholder="Phone Number">
                                         </div>
                                         <!-- <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                       </div> -->
-                                        <button type="submit" class="btn btn-primary" style="background-color: #4154f1;border-color: #4154f1;"> Submit</button>
+                                        <!-- <button type="submit" class="btn btn-primary" > Submit</button> -->
+                                        <input type="submit" name="submit" class="btn btn-primary" style="background-color: #356aac;border-color: #4154f1;" value="SUBMIT">
                                     </form>
                                 </div>
                             </div>
@@ -111,22 +115,23 @@
                 </div>
             </div>
         </div>
+        <button class="btn" style="text-align:center; color:white;background-color: #356aac;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button>
 
-
+        <a href="">
+            <img src="assets/img/whatsapp_logo.png" id="wa" style="position: fixed;z-index: 9999; bottom: 0; right: 60px; height: 11%;">
+        </a>
         <!-- Modal -->
     </header>
     <!-- End Header -->
-    <header class="sectionn-header header0">
+    <header class="header0">
         <div class="container container-xl d-flex align-items-start justify-content-left">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/whdph_logo.png" />
-                <span>WHD PH</span>
+                <!-- <span>WHD PH</span> -->
             </a>
         </div>
-        <button class="btn" style="text-align:center; color:white;background-color: #4154f1;position:fixed;display: inline-block; bottom: 0; z-index: 1021;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button>
-        <a href=""">
-          <img src="assets/img/whatsapp_logo.png" id="wa" style="position: fixed;z-index: 1021; bottom: 0; right: 60px; height: 11%;">
-        </a>
+
+
     </header>
 
     <!-- schedule button -->
@@ -171,10 +176,10 @@
                 <div class="row gx-0">
                     <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                         <div class="alight-content-center">
-                            <h3>About Us</h3>
-                            <h2>
+                            <h2 id="Head1">About Us</h2>
+                            <p id="aboutcontent">
                                 WHD PH is a global self-publishing platform that aims at encouraging writers and helping their ideas shape into a tangible form. Our aim is to provide aspiring writers a space to sell their book globally by converting their ideas and stories into books..
-                            </h2>
+                            </p>
                             <!-- <p>
                                 Dr Syed initiated to mix of various full and piece meal services like designing a book cover, editing, publishing, organising book events, social media management for authors among other services..
                             </p> -->
@@ -294,7 +299,7 @@
                     <div class="container">
 
                         <div class="section-title">
-                            <h2>Services</h2>
+                            <h2 id="Head1">Services</h2>
                             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis
                                 commodi quidem hic quas.</p>
                         </div>
@@ -632,83 +637,6 @@
 
                 </section>
                 <!-- End Testimonials Section -->
-                <!-- ======= Contact Section ======= -->
-                <section id="contact" class="contact">
-                    <div class="container" data-aos="fade-up">
-                        <header class="section-header">
-                            <h2>Contact</h2>
-                            <p>Contact Us</p>
-                        </header>
-
-                        <div class="row gy-4">
-                            <div class="col-lg-6">
-                                <div class="row gy-4">
-                                    <div class="col-md-6">
-                                        <div class="info-box">
-                                            <i class="bi bi-geo-alt"></i>
-                                            <h3>Address</h3>
-                                            <p>A108 Adam Street,<br />New York, NY 535022</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="info-box">
-                                            <i class="bi bi-telephone"></i>
-                                            <h3>Call Us</h3>
-                                            <p>+1 5589 55488 55<br />+1 6678 254445 41</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="info-box">
-                                            <i class="bi bi-envelope"></i>
-                                            <h3>Email Us</h3>
-                                            <p>info@example.com<br />contact@example.com</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="info-box">
-                                            <i class="bi bi-clock"></i>
-                                            <h3>Open Hours</h3>
-                                            <p>Monday - Friday<br />9:00AM - 05:00PM</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <form action="forms/contact.php" method="post" class="php-email-form">
-                                    <div class="row gy-4">
-                                        <div class="col-md-6">
-                                            <input type="text" name="name" class="form-control" placeholder="Your Name" required />
-                                        </div>
-
-                                        <div class="col-md-6">
-                                            <input type="email" class="form-control" name="email" placeholder="Your Email" required />
-                                        </div>
-
-                                        <div class="col-md-12">
-                                            <input type="text" class="form-control" name="subject" placeholder="Subject" required />
-                                        </div>
-
-                                        <div class="col-md-12">
-                                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                                        </div>
-
-                                        <div class="col-md-12 text-center">
-                                            <div class="loading">Loading</div>
-                                            <div class="error-message"></div>
-                                            <div class="sent-message">
-                                                Your message has been sent. Thank you!
-                                            </div>
-
-                                            <button type="submit">Send Message</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- End Contact Section -->
     </main>
     <!-- End #main -->
 
@@ -744,7 +672,7 @@
                 &copy; Copyright <strong><span>WHD Publication</span></strong
           >. All Rights Reserved
         </div>
-        <div class="credits">Designed by <a href="">PlusEqualz</a></div>
+        <div class="credits">Designed by <a href="">Le Brand Tech</a></div>
       </div>
     </footer>
     <!-- End Footer -->
@@ -758,7 +686,7 @@
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>

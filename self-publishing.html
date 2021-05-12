@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
@@ -14,508 +15,471 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
 
     <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
 
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- ======= Header ======= -->
-    <header id="header" class="header fixed-top">
-      <div
-        class="container-fluid container-xl d-flex align-items-center justify-content-between"
-      >
-        <a href="index.html" class="logo d-flex align-items-center">
-          <img src="assets/img/whdph_logo.png" />
-          <span>WHD PH</span>
-        </a>
+    <header id="header" class="header1 fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+            <a href="index.php" class="logo d-flex align-items-center">
+                <img src="assets/img/whdph_logo.png" />
+                <span>WHD PH</span>
+            </a>
 
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li>
-              <a class="nav-link scrollto" href="self-publishing.html"
-                >Self Publishing</a
-              >
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="packages.html">Packages</a>
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="free-publish.html"
-                >Free Publish
-              </a>
-            </li>
-            <li><a href="publishing-process.html">Publishing Process</a></li>
-            <li>
-              <a class="nav-link scrollto" href="contact-us.html">Books</a>
-            </li>
-            <li>
-              <a class="getstarted scrollto" href="contact-us.html">Contact US</a>
-            </li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
-      </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li>
+                        <a class="nav-link scrollto" href="self-publishing.html">Self Publishing</a
+            >
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="packages.html">Packages</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="free-publish.PHP">Free Publish
+            </a>
+                    </li>
+                    <li><a href="publishing-process.html">Publishing Process</a></li>
+                    <li>
+                        <a class="nav-link scrollto" href="books.html">Books</a>
+                    </li>
+                    <li>
+                        <a class="getstarted scrollto" href="contact-us.php">Contact US</a>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content" style="border:10px solid #4154f1;">
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <br>
+                                    <br>
+                                    <img class="" src="./assets/img/scheduleCall.jpeg" alt="about" width="100%" height="auto">
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <h4 class="modal-title mt-3" id="schedule_title" style="color:#4154f1">Schedule A Call</h4>
+                                    <hr class="mb-4" style="height: 3px;color: #4154f1;background-color: #4154f1;opacity: 1;">
+                                    <form method="post" enctype="multipart/form-data">
+                                        <div class="form-group mb-4">
+                                            <label for="scheduleInputEmail">Email address</label>
+                                            <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" placeholder="Enter email">
+                                        </div>
+                                        <div class="form-group mb-4">
+                                            <label for="scheduleInputName">Name</label>
+                                            <input type="text" class="form-control" name="name" id="scheduleInputName" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" placeholder="Name">
+                                        </div>
+                                        <div class="form-group mb-4">
+                                            <label for="scheduleInputPhone">Phone Number</label>
+                                            <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message'])?$postData['message']:''; ?>" placeholder="Phone Number">
+                                        </div>
+                                        <!-- <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div> -->
+                                        <!-- <button type="submit" class="btn btn-primary" > Submit</button> -->
+                                        <input type="submit" name="submit" class="btn btn-primary" style="background-color: #4154f1;border-color: #4154f1;" value="SUBMIT">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn" style="text-align:center; color:white;background-color: #4154f1;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button>
+
+        <a href="">
+            <img src="assets/img/whatsapp_logo.png" id="wa" style="position: fixed;z-index: 9999; bottom: 0; right: 60px; height: 11%;">
+        </a>
+        <!-- Modal -->
     </header>
     <!-- End Header -->
 
     <br />
     <br />
-      <!-- ======= Features Section ======= -->
-      <section id="features" class="features">
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
         <div class="container" data-aos="fade-up">
-          <!-- Feature Icons -->
-          <div class="row feature-icons" data-aos="fade-up">
-            <h3>Book Publishing Services</h3>
+            <!-- Feature Icons -->
+            <div class="row feature-icons" data-aos="fade-up">
+                <h3>Book Publishing Services</h3>
 
-            <div class="row">
-              <div
-                class="col-xl-4 text-center"
-                data-aos="fade-right"
-                data-aos-delay="100"
-              >
-                <img
-                  src="assets/img/about-selfph.jpg"
-                  class="img-fluid p-4"
-                  alt=""
-                />
-              </div>
-
-              <div class="col-xl-8 d-flex content">
-                <div class="row align-self-center gy-4">
-                  <div class="col-md-6 icon-box" data-aos="fade-up">
-                    <i class="ri-line-chart-line"></i>
-                    <div>
-                      <h4>e-Book</h4>
-                      <p>
-                        We prepare your book for e-publishing, making it available on devices such as Kindle and iPad.
-                      </p>
+                <div class="row">
+                    <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+                        <img src="assets/img/about-selfph.jpg" class="img-fluid p-4" alt="" />
                     </div>
-                  </div>
 
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <i class="ri-stack-line"></i>
-                    <div>
-                      <h4>Editing and proof reading</h4>
-                      <p>
-                        Our editors are client-focused and maintain communication with authors throughout the editorial process
-                      </p>
-                    </div>
-                  </div>
+                    <div class="col-xl-8 d-flex content">
+                        <div class="row align-self-center gy-4">
+                            <div class="col-md-6 icon-box" data-aos="fade-up">
+                                <i class="ri-line-chart-line"></i>
+                                <div>
+                                    <h4>e-Book</h4>
+                                    <p>
+                                        We prepare your book for e-publishing, making it available on devices such as Kindle and iPad.
+                                    </p>
+                                </div>
+                            </div>
 
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <i class="ri-brush-4-line"></i>
-                    <div>
-                      <h4>Sales and promotions</h4>
-                      <p>
-                        We offer several services and products to help you to sell your book including online sales and print promotion
-                      </p>
-                    </div>
-                  </div>
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                                <i class="ri-stack-line"></i>
+                                <div>
+                                    <h4>Editing and proof reading</h4>
+                                    <p>
+                                        Our editors are client-focused and maintain communication with authors throughout the editorial process
+                                    </p>
+                                </div>
+                            </div>
 
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                  >
-                    <i class="ri-magic-line"></i>
-                    <div>
-                      <h4>Design and layout</h4>
-                      <p>
-                        Working with you, we will design a beautiful cover for your book complete with ISBN barcode and ready for print
-                      </p>
-                    </div>
-                  </div>
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                                <i class="ri-brush-4-line"></i>
+                                <div>
+                                    <h4>Sales and promotions</h4>
+                                    <p>
+                                        We offer several services and products to help you to sell your book including online sales and print promotion
+                                    </p>
+                                </div>
+                            </div>
 
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="400"
-                  >
-                    <i class="ri-command-line"></i>
-                    <div>
-                      <h4>Printing and binding</h4>
-                      <p>
-                        Full retail quality, large or small quantities, in a fraction of the time and at a fraction of the cost
-                      </p>
-                    </div>
-                  </div>
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                                <i class="ri-magic-line"></i>
+                                <div>
+                                    <h4>Design and layout</h4>
+                                    <p>
+                                        Working with you, we will design a beautiful cover for your book complete with ISBN barcode and ready for print
+                                    </p>
+                                </div>
+                            </div>
 
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="500"
-                  >
-                    <i class="ri-radar-line"></i>
-                    <div>
-                      <h4>Author packages</h4>
-                      <p>
-                        We provide you with a consultant to work with you, side by side, every step of the way to help you with your book
-                      </p>
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                                <i class="ri-command-line"></i>
+                                <div>
+                                    <h4>Printing and binding</h4>
+                                    <p>
+                                        Full retail quality, large or small quantities, in a fraction of the time and at a fraction of the cost
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                                <i class="ri-radar-line"></i>
+                                <div>
+                                    <h4>Author packages</h4>
+                                    <p>
+                                        We provide you with a consultant to work with you, side by side, every step of the way to help you with your book
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <!-- End Feature Icons -->
+            <!-- End Feature Icons -->
         </div>
-      </section>
-      <!-- End Features Section -->
+    </section>
+    <!-- End Features Section -->
     <main id="main">
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-          <div class="row gx-0">
-            <div
-              class="col-lg-6 d-flex flex-column justify-content-center"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="content">
-                <h1>Our Support To Authors</h1>
-                <h2>
-                  Get a wonderful experience by our expert managers at every step, Our team will simplify your publishing process
-                </h2>
-                
-                <div class="text-center text-lg-start">
-                 
-                </div>
-              </div>
-            </div>
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+                <div class="row gx-0">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="content">
+                            <h1>Our Support To Authors</h1>
+                            <h2>
+                                Get a wonderful experience by our expert managers at every step, Our team will simplify your publishing process
+                            </h2>
 
-            <div
-              class="col-lg-6 d-flex align-items-center"
-              data-aos="zoom-out"
-              data-aos-delay="200"
-            >
-              <img src="assets/img/about-1.jpg" class="img-fluid" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End About Section -->
+                            <div class="text-center text-lg-start">
 
-      <!-- ======= Values Section ======= -->
-      <section id="values" class="values">
-        <div class="container" data-aos="fade-up">
-          <header class="section-header">
-            <h2>Our Values</h2>
-            
-          </header>
-
-          <div class="row">
-            <div class="col-lg-3">
-              <div class="box" data-aos="fade-up" data-aos-delay="200">
-                <img src="assets/img/values-1.png" class="img-fluid" alt="" />
-                <h3>WRITING SUPPORT</h3>
-                <ul class="list-unstyled">
-                  <li>Manuscript Proofreading</li>
-                  <li>Basic & Comprehensive Editing</li>
-                  <li>Language Translation</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-3 mt-3 mt-lg-0">
-              <div class="box" data-aos="fade-up" data-aos-delay="400">
-                <img src="assets/img/values-2.png" class="img-fluid" alt="" />
-                <h3>DESIGNING SUPPORT</h3>
-                <ul class="list-unstyled">
-                  <li>Cover page Design</li>
-                  <li>Book Interior Design</li>
-                  <li>Layout Formatting</li>
-                  <li>Illustration Design</li>
-                  <li>Paperback/Hard-case binding</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-3 mt-3 mt-lg-0">
-              <div class="box" data-aos="fade-up" data-aos-delay="400">
-                <img src="assets/img/values-4.jpg" class="img-fluid" alt="" />
-                <h3>DISTRIBUTION SUPPORT</h3>
-                <ul class="list-unstyled">
-                  <li>India online distribution</li>
-                  <li>International Distribution</li>
-                  <li>eBook Distribution</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-3 mt-3 mt-lg-0">
-              <div class="box" data-aos="fade-up" data-aos-delay="600">
-                <img src="assets/img/values-3.png" class="img-fluid" alt="" />
-                <h3>MARKETING SUPPORT</h3>
-                <ul class="list-unstyled">
-                  <li>Social Media Marketing</li>
-                  <li>Google Advertising</li>
-                  <li>Flipkart Advertising</li>
-                  <li>Amazon Advertising</li>
-                  <li>Book Launch</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Values Section -->
-
-
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-          <header class="section-header">
-            <h2>Contact</h2>
-            <p>Contact Us</p>
-          </header>
-
-          <div class="row gy-4">
-            <div class="col-lg-6">
-              <div class="row gy-4">
-                <div class="col-md-6">
-                  <div class="info-box">
-                    <i class="bi bi-geo-alt"></i>
-                    <h3>Address</h3>
-                    <p>A108 Adam Street,<br />New York, NY 535022</p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="info-box">
-                    <i class="bi bi-telephone"></i>
-                    <h3>Call Us</h3>
-                    <p>+1 5589 55488 55<br />+1 6678 254445 41</p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="info-box">
-                    <i class="bi bi-envelope"></i>
-                    <h3>Email Us</h3>
-                    <p>info@example.com<br />contact@example.com</p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="info-box">
-                    <i class="bi bi-clock"></i>
-                    <h3>Open Hours</h3>
-                    <p>Monday - Friday<br />9:00AM - 05:00PM</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <form
-                action="forms/contact.php"
-                method="post"
-                class="php-email-form"
-              >
-                <div class="row gy-4">
-                  <div class="col-md-6">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-
-                  <div class="col-md-6">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      placeholder="Your Email"
-                      required
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="subject"
-                      placeholder="Subject"
-                      required
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <textarea
-                      class="form-control"
-                      name="message"
-                      rows="6"
-                      placeholder="Message"
-                      required
-                    ></textarea>
-                  </div>
-
-                  <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
-                      Your message has been sent. Thank you!
+                            </div>
+                        </div>
                     </div>
 
-                    <button type="submit">Send Message</button>
-                  </div>
+                    <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+                        <img src="assets/img/about-1.jpg" class="img-fluid" alt="" />
+                    </div>
                 </div>
-              </form>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Contact Section -->
+        </section>
+        <!-- End About Section -->
+
+        <!-- ======= Values Section ======= -->
+        <section id="values" class="values">
+            <div class="container" data-aos="fade-up">
+                <header class="section-header">
+                    <h2>Our Values</h2>
+
+                </header>
+
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="box" data-aos="fade-up" data-aos-delay="200">
+                            <img src="assets/img/values-1.png" class="img-fluid" alt="" />
+                            <h3>WRITING SUPPORT</h3>
+                            <ul class="list-unstyled">
+                                <li>Manuscript Proofreading</li>
+                                <li>Basic & Comprehensive Editing</li>
+                                <li>Language Translation</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mt-3 mt-lg-0">
+                        <div class="box" data-aos="fade-up" data-aos-delay="400">
+                            <img src="assets/img/values-2.png" class="img-fluid" alt="" />
+                            <h3>DESIGNING SUPPORT</h3>
+                            <ul class="list-unstyled">
+                                <li>Cover page Design</li>
+                                <li>Book Interior Design</li>
+                                <li>Layout Formatting</li>
+                                <li>Illustration Design</li>
+                                <li>Paperback/Hard-case binding</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mt-3 mt-lg-0">
+                        <div class="box" data-aos="fade-up" data-aos-delay="400">
+                            <img src="assets/img/values-4.jpg" class="img-fluid" alt="" />
+                            <h3>DISTRIBUTION SUPPORT</h3>
+                            <ul class="list-unstyled">
+                                <li>India online distribution</li>
+                                <li>International Distribution</li>
+                                <li>eBook Distribution</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mt-3 mt-lg-0">
+                        <div class="box" data-aos="fade-up" data-aos-delay="600">
+                            <img src="assets/img/values-3.png" class="img-fluid" alt="" />
+                            <h3>MARKETING SUPPORT</h3>
+                            <ul class="list-unstyled">
+                                <li>Social Media Marketing</li>
+                                <li>Google Advertising</li>
+                                <li>Flipkart Advertising</li>
+                                <li>Amazon Advertising</li>
+                                <li>Book Launch</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Values Section -->
+
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+                <header class="section-header">
+                    <h2>Contact</h2>
+                    <p>Contact Us</p>
+                </header>
+
+                <div class="row gy-4">
+                    <div class="col-lg-6">
+                        <div class="row gy-4">
+                            <div class="col-md-6">
+                                <div class="info-box">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <h3>Address</h3>
+                                    <p>A108 Adam Street,<br />New York, NY 535022</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-box">
+                                    <i class="bi bi-telephone"></i>
+                                    <h3>Call Us</h3>
+                                    <p>+1 5589 55488 55<br />+1 6678 254445 41</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-box">
+                                    <i class="bi bi-envelope"></i>
+                                    <h3>Email Us</h3>
+                                    <p>info@example.com<br />contact@example.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-box">
+                                    <i class="bi bi-clock"></i>
+                                    <h3>Open Hours</h3>
+                                    <p>Monday - Friday<br />9:00AM - 05:00PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <form action="forms/contact.php" method="post" class="php-email-form">
+                            <div class="row gy-4">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name" required />
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email" required />
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="subject" placeholder="Subject" required />
+                                </div>
+
+                                <div class="col-md-12">
+                                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                                </div>
+
+                                <div class="col-md-12 text-center">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">
+                                        Your message has been sent. Thank you!
+                                    </div>
+
+                                    <button type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Section -->
     </main>
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
-      <div class="footer-newsletter">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-12 text-center">
-              <h4>Our Newsletter</h4>
-              <p>
-                Tamen quem nulla quae legam multos aute sint culpa legam noster
-                magna
-              </p>
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <h4>Our Newsletter</h4>
+                        <p>
+                            Tamen quem nulla quae legam multos aute sint culpa legam noster magna
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <form action="" method="post">
+                            <input type="email" name="email" /><input type="submit" value="Subscribe" />
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6">
-              <form action="" method="post">
-                <input type="email" name="email" /><input
-                  type="submit"
-                  value="Subscribe"
-                />
-              </form>
-            </div>
-          </div>
         </div>
-      </div>
 
-      <div class="footer-top">
-        <div class="container">
-          <div class="row gy-4">
-            <div class="col-lg-5 col-md-12 footer-info">
-              <a href="index.html" class="logo d-flex align-items-center">
-                <img src="assets/img/whdph_logo.png" alt="" />
-                <span>WHD PH</span>
-              </a>
-              <p>
-                Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-                nada terra videa magna derita valies darta donna mare fermentum
-                iaculis eu non diam phasellus.
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"
-                  ><i class="bi bi-instagram bx bxl-instagram"></i
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-5 col-md-12 footer-info">
+                        <a href="index.php" class="logo d-flex align-items-center">
+                            <img src="assets/img/whdph_logo.png" alt="" />
+                            <span>WHD PH</span>
+                        </a>
+                        <p>
+                            Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.
+                        </p>
+                        <div class="social-links mt-3">
+                            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i
                 ></a>
-                <a href="#" class="linkedin"
-                  ><i class="bi bi-linkedin bx bxl-linkedin"></i
+                            <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i
                 ></a>
-              </div>
-            </div>
+                        </div>
+                    </div>
 
-            <div class="col-lg-2 col-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#">Home</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#">About us</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#">Services</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#">Terms of service</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#">Privacy policy</a>
-                </li>
-              </ul>
-            </div>
+                    <div class="col-lg-2 col-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li>
+                                <i class="bi bi-chevron-right"></i> <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i> <a href="#">About us</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i> <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <a href="#">Terms of service</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <a href="#">Privacy policy</a>
+                            </li>
+                        </ul>
+                    </div>
 
-            <div class="col-lg-2 col-6 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#">Web Design</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#">Web Development</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#">Product Management</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#">Marketing</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i>
-                  <a href="#">Graphic Design</a>
-                </li>
-              </ul>
-            </div>
+                    <div class="col-lg-2 col-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li>
+                                <i class="bi bi-chevron-right"></i> <a href="#">Web Design</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <a href="#">Web Development</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <a href="#">Product Management</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i> <a href="#">Marketing</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <a href="#">Graphic Design</a>
+                            </li>
+                        </ul>
+                    </div>
 
-            <div
-              class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
-            >
-              <h4>Contact Us</h4>
-              <p>
-                A108 Adam Street <br />
-                New York, NY 535022<br />
-                United States <br /><br />
-                <strong>Phone:</strong> +1 5589 55488 55<br />
-                <strong>Email:</strong> info@example.com<br />
-              </p>
+                    <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                        <h4>Contact Us</h4>
+                        <p>
+                            A108 Adam Street <br /> New York, NY 535022<br /> United States <br /><br />
+                            <strong>Phone:</strong> +1 5589 55488 55<br />
+                            <strong>Email:</strong> info@example.com<br />
+                        </p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
 
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>WHD Publication</span></strong
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>WHD Publication</span></strong
           >. All Rights Reserved
         </div>
         <div class="credits">Designed by <a href="">PlusEqualz</a></div>
