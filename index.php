@@ -1,3 +1,4 @@
+<?php require_once "schedulecall.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -80,29 +81,32 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                                    <img class="" src="./assets/img/about.jpg" alt="about" width="100%" height="auto">
+                                <br>
+                                <br>
+                                    <img class="" src="./assets/img/scheduleCall.jpeg" alt="about" width="100%" height="auto">
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                                     <h4 class="modal-title mt-3" id="schedule_title" style="color:#4154f1">Schedule A Call</h4>
                                     <hr class="mb-4" style="height: 3px;color: #4154f1;background-color: #4154f1;opacity: 1;">
-                                    <form action="">
+                                    <form method="post" enctype="multipart/form-data">
                                         <div class="form-group mb-4">
                                             <label for="scheduleInputEmail">Email address</label>
-                                            <input type="email" class="form-control" id="scheduleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                                            <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" placeholder="Enter email">
                                         </div>
                                         <div class="form-group mb-4">
-                                            <label for="scheduleInputPassword">Password</label>
-                                            <input type="password" class="form-control" id="scheduleInputPassword" placeholder="Password">
+                                            <label for="scheduleInputName">Name</label>
+                                            <input type="text" class="form-control" name="name" id="scheduleInputName" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" placeholder="Name">
                                         </div>
                                         <div class="form-group mb-4">
                                             <label for="scheduleInputPhone">Phone Number</label>
-                                            <input type="text" class="form-control" id="scheduleInputphone" placeholder="Phone Number">
+                                            <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message'])?$postData['message']:''; ?>" placeholder="Phone Number">
                                         </div>
                                         <!-- <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                       </div> -->
-                                        <button type="submit" class="btn btn-primary" style="background-color: #4154f1;border-color: #4154f1;"> Submit</button>
+                                        <!-- <button type="submit" class="btn btn-primary" > Submit</button> -->
+                                        <input type="submit" name="submit" class="btn btn-primary" style="background-color: #4154f1;border-color: #4154f1;" value="SUBMIT">
                                     </form>
                                 </div>
                             </div>
@@ -633,83 +637,6 @@
 
                 </section>
                 <!-- End Testimonials Section -->
-                <!-- ======= Contact Section ======= -->
-                <section id="contact" class="contact">
-                    <div class="container" data-aos="fade-up">
-                        <header class="section-header">
-                            <h2>Contact</h2>
-                            <p>Contact Us</p>
-                        </header>
-
-                        <div class="row gy-4">
-                            <div class="col-lg-6">
-                                <div class="row gy-4">
-                                    <div class="col-md-6">
-                                        <div class="info-box">
-                                            <i class="bi bi-geo-alt"></i>
-                                            <h3>Address</h3>
-                                            <p>A108 Adam Street,<br />New York, NY 535022</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="info-box">
-                                            <i class="bi bi-telephone"></i>
-                                            <h3>Call Us</h3>
-                                            <p>+1 5589 55488 55<br />+1 6678 254445 41</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="info-box">
-                                            <i class="bi bi-envelope"></i>
-                                            <h3>Email Us</h3>
-                                            <p>info@example.com<br />contact@example.com</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="info-box">
-                                            <i class="bi bi-clock"></i>
-                                            <h3>Open Hours</h3>
-                                            <p>Monday - Friday<br />9:00AM - 05:00PM</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <form action="forms/contact.php" method="post" class="php-email-form">
-                                    <div class="row gy-4">
-                                        <div class="col-md-6">
-                                            <input type="text" name="name" class="form-control" placeholder="Your Name" required />
-                                        </div>
-
-                                        <div class="col-md-6">
-                                            <input type="email" class="form-control" name="email" placeholder="Your Email" required />
-                                        </div>
-
-                                        <div class="col-md-12">
-                                            <input type="text" class="form-control" name="subject" placeholder="Subject" required />
-                                        </div>
-
-                                        <div class="col-md-12">
-                                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                                        </div>
-
-                                        <div class="col-md-12 text-center">
-                                            <div class="loading">Loading</div>
-                                            <div class="error-message"></div>
-                                            <div class="sent-message">
-                                                Your message has been sent. Thank you!
-                                            </div>
-
-                                            <button type="submit">Send Message</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- End Contact Section -->
     </main>
     <!-- End #main -->
 
@@ -745,7 +672,7 @@
                 &copy; Copyright <strong><span>WHD Publication</span></strong
           >. All Rights Reserved
         </div>
-        <div class="credits">Designed by <a href="">PlusEqualz</a></div>
+        <div class="credits">Designed by <a href="">Le Brand Tech</a></div>
       </div>
     </footer>
     <!-- End Footer -->
@@ -759,7 +686,7 @@
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
