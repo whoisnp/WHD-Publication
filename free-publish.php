@@ -9,11 +9,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>WHD upload form</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap5.min.css">
     <link href="assets_1/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets_1/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/form.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="footerfiles/css/my.css" rel="stylesheet">
 </head>
 
 <body>
@@ -191,6 +195,84 @@
             </div>
         </div>
     </section>
+    <!-- address --> 
+<div class="container">
+    <ul class="address row text-center">
+      <li class="col-sm-4"><i class="slide-bottom fa fa-map-marker"></i>
+        <h4 class="slide-bottom">Address</h4>
+        <p class="slide-bottom">Lorem ipsum dolor sit amet.</p>
+      </li>
+      <li class="col-sm-4"><i class="slide-bottom fa fa-phone"></i>
+        <h4 class="slide-bottom">Phone</h4>
+        <p class="slide-bottom">604-788-1832</p>
+      </li>
+      <li class="col-sm-4"><i class="slide-bottom fa fa-envelope"></i>
+        <h4 class="slide-bottom">Email</h4>
+        <p class="slide-bottom">info@sitename.com</p>
+      </li>
+    </ul>
+  </div>
+  
+  <!--address end-->
+  <!--site-footer-->
+<footer class="site-footer section-spacing">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          
+          
+          <!--social-->
+          
+          <ul class="social">
+            <li><a  href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+          
+          <!--social end--> 
+          
+          <small>&copy; Copyright Book. All Rights Reserved.</small>
+          <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
+          
+          <!-- Privacy Modal -->
+          <div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-privacy" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel-privacy">Privacy</h4>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <!-- Privacy Modal end --> 
+          
+          <!-- Terms of Use Modal -->
+          <div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-terms" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel-terms">Terms of Use</h4>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <!-- Terms of Use Modal end --> 
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--site-footer end-->
+  <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+    
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap5.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
@@ -207,6 +289,10 @@
     
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <!-- footer -->
+    <script src="footerfiles/js/scripts.min.js"></script> 
+    <script src="footerfiles/js/jquery.ajaxchimp.min.js"></script> 
+    <script src="footerfiles/js/main.js"></script>
 </body>
 
 </html>

@@ -30,6 +30,7 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="footerfiles/css/my.css" rel="stylesheet">
 </head>
 
 <body>
@@ -640,7 +641,7 @@
     </main>
     <!-- End #main -->
 
-    <!-- ======= Footer ======= -->
+    <!-- ======= Footer ======= 
     <footer id="footer" class="footer">
         <footer>
 
@@ -675,8 +676,82 @@
         <div class="credits">Designed by <a href="">Le Brand Tech</a></div>
       </div>
     </footer>
-    <!-- End Footer -->
+    End Footer -->
 
+
+    
+    <!-- address --> 
+<div class="container">
+    <ul class="address row text-center">
+      <li class="col-sm-4"><i class="slide-bottom fa fa-map-marker"></i>
+        <h4 class="slide-bottom">Address</h4>
+        <p class="slide-bottom">Lorem ipsum dolor sit amet.</p>
+      </li>
+      <li class="col-sm-4"><i class="slide-bottom fa fa-phone"></i>
+        <h4 class="slide-bottom">Phone</h4>
+        <p class="slide-bottom">604-788-1832</p>
+      </li>
+      <li class="col-sm-4"><i class="slide-bottom fa fa-envelope"></i>
+        <h4 class="slide-bottom">Email</h4>
+        <p class="slide-bottom">info@sitename.com</p>
+      </li>
+    </ul>
+  </div>
+  
+  <!--address end-->
+  <!--site-footer-->
+<footer class="site-footer section-spacing">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          
+          
+          <!--social-->
+          
+          <ul class="social">
+            <li><a  href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+          
+          <!--social end--> 
+          
+          <small>&copy; Copyright Book. All Rights Reserved.</small>
+          <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
+          
+          <!-- Privacy Modal -->
+          <div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-privacy" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel-privacy">Privacy</h4>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <!-- Privacy Modal end --> 
+          
+          <!-- Terms of Use Modal -->
+          <div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-terms" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel-terms">Terms of Use</h4>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <!-- Terms of Use Modal end --> 
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--site-footer end-->
     <a
       href="#"
       class="back-to-top d-flex align-items-center justify-content-center"
@@ -698,5 +773,9 @@
     
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <!-- footer -->
+    <script src="footerfiles/js/scripts.min.js"></script> 
+    <script src="footerfiles/js/jquery.ajaxchimp.min.js"></script> 
+    <script src="footerfiles/js/main.js"></script>
   </body>
 </html>
