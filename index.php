@@ -125,7 +125,9 @@
     </header>
     <!-- End Header -->
     <header class="header0">
-        <div class="container container-xl d-flex align-items-start justify-content-left">
+    <div class="overlay"></div>
+        <div class="container container-xl d-flex align-items-center justify-content-left ">
+       
             <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/whdph_logo.png" />
                 <!-- <span>WHD PH</span> -->
@@ -140,10 +142,8 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="hero d-flex align-items-center">
-
-
-
-        <div class="container">
+        <div class="overlay"></div>
+          <div class="container">
 
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
@@ -169,7 +169,7 @@
                     <!-- button -->
                 </div>
                 <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="assets/img/book-icon-138 (1).png" class="img-fluid" alt="" />
+                    <img src="assets/img/book-icon-138.png" class="img-fluid" alt="" />
                 </div>
             </div>
         </div>
@@ -200,7 +200,7 @@
                     </div>
 
                     <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                        <img src="assets/img/whdph_logo.png" class="img-fluid" alt="" />
+                        <img src="assets/img/whdph_logo1.png" class="img-fluid" alt="" />
                     </div>
                 </div>
             </div>
