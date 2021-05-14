@@ -673,7 +673,7 @@ section {
 }
 
 .values .box h3 {
-    font-size: 24px;
+    font-size: 22px;
     color: #356aac;
     font-weight: 700;
     margin-bottom: 18px;
@@ -686,7 +686,9 @@ section {
 .values .box:hover img {
     transform: scale(1);
 }
-
+.values .box ul li{
+    font-size: 19px;
+}
 
 /*--------------------------------------------------------------
 # Counts
@@ -819,7 +821,7 @@ section {
 .features .feature-icons h3 {
     color: #356aac;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 35px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -835,7 +837,7 @@ section {
 }
 
 .features .feature-icons .content .icon-box h4 {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 700;
     margin: 0 0 10px 0;
     color: #356aac;
@@ -849,7 +851,7 @@ section {
 }
 
 .features .feature-icons .content .icon-box p {
-    font-size: 15px;
+    font-size: 20px;
     color: #848484;
 }
 
@@ -1644,7 +1646,7 @@ section {
 }
 
 .contact .info-box h3 {
-    font-size: 20px;
+    font-size: 23px;
     color: #356aac;
     font-weight: 700;
     margin: 20px 0 10px 0;
@@ -1652,8 +1654,8 @@ section {
 
 .contact .info-box p {
     padding: 0;
-    line-height: 24px;
-    font-size: 14px;
+    line-height: 25px;
+    font-size: 17px;
     margin-bottom: 0;
 }
 
@@ -1719,10 +1721,12 @@ section {
 
 .contact .php-email-form input {
     padding: 10px 15px;
+    font-size:16px;
 }
 
 .contact .php-email-form textarea {
     padding: 12px 15px;
+    font-size:16px;
 }
 
 .contact .php-email-form button[type="submit"] {
@@ -1732,6 +1736,7 @@ section {
     color: #fff;
     transition: 0.4s;
     border-radius: 4px;
+    font-size:16px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
@@ -2284,14 +2289,16 @@ section {
 }
 
 .footer .footer-newsletter h4 {
-    font-size: 24px;
+    font-size: 42px;
     margin: 0 0 10px 0;
     padding: 0;
     line-height: 1;
     font-weight: 700;
     color: #356aac;
 }
-
+.footer .footer-newsletter p{
+    font-size:21px;
+}
 .footer .footer-newsletter form {
     margin-top: 20px;
     background: #fff;
@@ -2365,7 +2372,7 @@ section {
 }
 
 .footer .footer-top .footer-info p {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
     margin-bottom: 0;
     font-family:  'Lato', sans-serif;
@@ -2385,7 +2392,7 @@ section {
 }
 
 .footer .footer-top h4 {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: bold;
     color: #356aac;
     text-transform: uppercase;
@@ -2425,6 +2432,7 @@ section {
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
+    font-size:18px;
 }
 
 .footer .footer-top .footer-links ul a:hover {
@@ -2433,6 +2441,7 @@ section {
 
 .footer .footer-top .footer-contact p {
     line-height: 26px;
+    font-size:16px;
 }
 
 .footer .copyright {
@@ -2634,4 +2643,10 @@ a.btn-social,
 #aboutcontent{
     font-size:24px;
     line-height: 30px;
+}
+#supportcontent{
+    font-size: 23px;
+    font-weight: 400;
+    color: #012970;
+    line-height:26px;
 }
