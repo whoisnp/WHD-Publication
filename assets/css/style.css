@@ -8,7 +8,7 @@
 
 body {
     font-family:  'Lato', sans-serif;
-    color: #444444;
+    color: #5a5a5a;
 }
 
 a {
@@ -515,15 +515,15 @@ section {
 
 .hero h1 {
     margin: 0;
-    font-size: 45px;
+    font-size: 70px;
     font-weight: 700;
     color: #356aac;
 }
 
 .hero h2 {
-    color: #444444;
+    color: #5a5a5ae3;
     margin: 15px 0 0 0;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .hero .btn-get-started {
@@ -2641,8 +2641,9 @@ a.btn-social,
     color: #356aac;
 }
 #aboutcontent{
-    font-size:24px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 20px;
+    color: #1e1e1ea1;
 }
 #supportcontent{
     font-size: 23px;
@@ -2650,3 +2651,57 @@ a.btn-social,
     color: #012970;
     line-height:26px;
 }
+
+.button-box {
+   
+    margin-top:20px;
+   }
+
+/* newauthor */
+/* ==========================================================================
+   author
+   ========================================================================== */
+
+   .author { text-align: center; }
+
+   img.author-img {
+     border-radius: 4px;
+     margin-bottom: 3em;
+   }
+   
+   .author h4 {
+     margin-top: 0;
+     font-weight: 700;
+     color: #3498db;
+   }
+   
+   .signature { margin: .75em 0; }
+   
+   .author .social { margin-top: 1.5em; }
+   
+   .social li {
+     display: inline-block;
+     padding-right: .8em;
+     text-align: center;
+   }
+   
+   .social li:last-child { padding-right: 0; }
+   
+   .social li a {
+     display: block;
+     width: 38px;
+     height: 38px;
+     line-height: 38px;
+     color: #fff;
+     border-radius: 50%;
+     background: #3498db;
+     position: relative;
+     -webkit-transition: all .5s linear;
+     transition: all .5s linear;
+   }
+   
+   .social li a:hover {
+     color: #fff;
+     background: #2980b9;
+   }
+
