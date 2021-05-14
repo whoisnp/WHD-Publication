@@ -39,7 +39,7 @@
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/whdph_logo.png" />
-                <span>WHD PH</span>
+    
             </a>
 
             <nav id="navbar" class="navbar">
