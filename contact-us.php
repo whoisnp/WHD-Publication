@@ -60,7 +60,7 @@
                         <a class="nav-link scrollto" href="books.html">Books</a>
                     </li>
                     <li>
-                        <a class="getstarted scrollto" href="contact-us.php">Contact US</a>
+                        <a class="getstarted scrollto active" href="contact-us.php">Contact US</a>
                     </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>

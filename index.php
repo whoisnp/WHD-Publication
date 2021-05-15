@@ -33,11 +33,12 @@
     <link href="footerfiles/css/my.css" rel="stylesheet">
 </head>
 
+
 <body>
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-            <a href="index.php" class="logo d-flex align-items-center">
+            <a href="index.php" class="logo d-flexs">
                 <img src="assets/img/whdph_logo.png" />
                 <!-- <span>WHD PH</span> -->
             </a>
@@ -339,11 +340,7 @@
                 <section id="services" class="services">
                     <div class="container">
 
-                        <div class="section-title">
-                            <h2 id="Head1">Services</h2>
-                            <p id="servicecontent">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis
-                                commodi quidem hic quas.</p>
-                        </div>
+   
 
                         <div class="row">
                             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
