@@ -2737,3 +2737,64 @@ img.author-img {
     font-weight: 400;
     line-height: 1.6;
 }
+
+==========================================================================
+   Features
+   ========================================================================== */
+   
+   .features.section-spacing { padding: 4.5em 0 2.25em; }
+
+   section header h2,
+   section h2 {
+     font-size: 34px;
+     margin-top: 0;
+     color: #333;
+     font-weight: 400;
+   }
+   
+   section header h3 {
+     font-size: 20px;
+     color: #555;
+     margin: 0;
+     line-height: 1.35;
+   }
+   
+   section header { margin-bottom: 3em; }
+   
+   .features h4 {
+     color: #666;
+     position: relative;
+     margin-top: 1.5em;
+     font-weight: 400;
+   }
+   
+   .features > .container > .row > div { margin-bottom: 2.25em; }
+   
+   .features hr {
+     background: #3498db;
+     border: none;
+     height: 1px;
+     width: 20%;
+   }
+   
+   /* ==========================================================================
+      counter
+      ========================================================================== */
+   
+   .section-spacing { padding: 4.5em 0; }
+   
+   .counter {
+     background: #3498db;
+     color: #fff;
+     padding: 4.5em 0;
+   }
+   
+   .counter h3 { font-weight: 400; }
+   
+   .counter p {
+     margin-bottom: 0;
+     color: #fff;
+   }
+   
+   .counter div[class^="col-"]:nth-child(1),
+   .counter div[class^="col-"]:nth-child(2) { padding-bottom: 1.5em; }

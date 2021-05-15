@@ -307,15 +307,15 @@
 <section class="author section-spacing" id="Author">
   <div class="container">
     <header class="text-center">
-      <h2 class="hyy">About Author</h2>
+      <h2 class="hyy"> Message from Chairman's Desk</h2>
     </header>
     <div class="row">
       <div class="slide-left col-md-5 text-center"> <img src="assets/img/founder1.jpg" data-at2x="assets/img/founder2.jpg" alt="author" class="author-img"> </div>
       <div class="col-md-7">
         <h4 class="slide-right">Dr Abdul Basit Syed</h4>
         <hr class="slide-right">
-        <p id="gfty1" class="slide-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-        <p id="gfty1" class="slide-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. </p>
+        <p id="gfty1" class="slide-right">Books are our companion which we carry not only in our hands but also in our mind and heart. As a humanitarian, I feel my responsibility to give a platform to the words and thoughts which can support world peace.</p>
+        <p id="gfty1" class="slide-right"> Hence, I have established this sounded platform WHD Publishing House to be an able companion of not only renowned writes, scholars and journalist but also to the people of common thinking like me. I feel it is the moral duty of each resourceful person to publish a book which can be a friend and guide, as our theme ' Fiat Lux ' (Let light be made)</p>
         <img src="assets/img/signature1.png" data-at2x="assets/img/signature2.png" alt="signature" class="slide-right signature"> 
         
         <!--social-->
@@ -337,7 +337,7 @@
 <!--Author end-->                
 
                 <!-- ======= Services Section ======= -->
-                <section id="services" class="services">
+                <!-- <section id="services" class="services">
                     <div class="container">
 
    
@@ -394,8 +394,52 @@
                         </div>
 
                     </div>
-                </section>
+                </section> -->
                 <!-- End Services Section -->
+<!--features-->
+<section class="features section-spacing text-center" id="Features">
+  <div class="container">
+    <header>
+      <h2>Topics Covered In The Book</h2>
+      <h3>Lorem ipsum dolor sit amet consectetur adip scing elit mauris</h3>
+    </header>
+    <div class="row">
+      <div class="slide-left col-sm-4"> <img src="assets/img/feature-1.png" data-at2x="assets/img/feature-1@2x.png" alt="features">
+        <h4>Lorem Lpsum</h4>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+      <div class="slide-top col-sm-4"> <img src="assets/img/feature-2.png" data-at2x="assets/img/feature-2@2x.png" alt="features">
+        <h4>Lorem Lpsum</h4>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+      <div class="slide-right col-sm-4"> <img src="assets/img/feature-3.png" data-at2x="assets/img/feature-3@2x.png" alt="features">
+        <h4>Lorem Lpsum</h4>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="slide-left col-sm-4"> <img src="assets/img/feature-4.png" data-at2x="assets/img/feature-4@2x.png" alt="features">
+        <h4>Lorem Lpsum</h4>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+      <div class="slide-top col-sm-4"> <img src="assets/img/feature-5.png" data-at2x="assets/img/feature-5@2x.png" alt="features">
+        <h4>Lorem Lpsum</h4>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+      <div class="slide-right col-sm-4"> <img src="assets/img/feature-6.png" data-at2x="assets/img/feature-6@2x.png" alt="features">
+        <h4>Lorem Lpsum</h4>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--features end-->                 
  <!-- ======= F.A.Q Section ======= -->
  <section id="faq" class="faq">
                     <div class="container" data-aos="fade-up">
