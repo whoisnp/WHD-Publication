@@ -309,6 +309,7 @@
     <header class="text-center">
       <h2 class="hyy"> Message from Chairman's Desk</h2>
     </header>
+    <br>
     <div class="row">
       <div class="slide-left col-md-5 text-center"> <img src="assets/img/founder1.jpg" data-at2x="assets/img/founder2.jpg" alt="author" class="author-img"> </div>
       <div class="col-md-7">
@@ -397,12 +398,15 @@
                 </section> -->
                 <!-- End Services Section -->
 <!--features-->
+
 <section class="features section-spacing text-center" id="Features">
   <div class="container">
     <header>
       <h2>Topics Covered In The Book</h2>
       <h3>Lorem ipsum dolor sit amet consectetur adip scing elit mauris</h3>
     </header>
+    <br>
+    
     <div class="row">
       <div class="slide-left col-sm-4"> <img src="assets/img/feature-1.png" data-at2x="assets/img/feature-1@2x.png" alt="features">
         <h4>Lorem Lpsum</h4>
