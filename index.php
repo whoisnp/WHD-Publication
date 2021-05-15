@@ -306,15 +306,15 @@
 <section class="author section-spacing" id="Author">
   <div class="container">
     <header class="text-center">
-      <h2>About Author</h2>
+      <h2 class="hyy">About Author</h2>
     </header>
     <div class="row">
       <div class="slide-left col-md-5 text-center"> <img src="assets/img/author.jpg" data-at2x="assets/img/author@2x.jpg" alt="author" class="author-img"> </div>
       <div class="col-md-7">
         <h4 class="slide-right">Jessica Doe</h4>
         <hr class="slide-right">
-        <p class="slide-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-        <p class="slide-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. </p>
+        <p id="gfty1" class="slide-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+        <p id="gfty1" class="slide-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. </p>
         <img src="assets/img/signature.png" data-at2x="assets/img/signature@2x.png" alt="signature" class="slide-right signature"> 
         
         <!--social-->
@@ -340,17 +340,17 @@
                     <div class="container">
 
                         <div class="section-title">
-                            <h2 id="Head1">Services</h2>
-                            <p id="servicecontent">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis
+                            <h2 id="Head1" class="hyy" style="text-align:center;">Services</h2>
+                            <p id="aboutcontent">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis
                                 commodi quidem hic quas.</p>
                         </div>
-
+                        <br>
                         <div class="row">
                             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                                 <div class="icon-box">
                                     <div class="icon"><i class="bx bxl-dribbble"></i></div>
                                     <h4><a href="">Lorem Ipsum</a></h4>
-                                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                    <p id="gfty1">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                                 </div>
                             </div>
 
@@ -358,7 +358,7 @@
                                 <div class="icon-box">
                                     <div class="icon"><i class="bx bx-file"></i></div>
                                     <h4><a href="">Sed ut perspiciatis</a></h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                    <p id="gfty1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                                 </div>
                             </div>
 
@@ -366,7 +366,7 @@
                                 <div class="icon-box">
                                     <div class="icon"><i class="bx bx-tachometer"></i></div>
                                     <h4><a href="">Magni Dolores</a></h4>
-                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                    <p id="gfty1">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                                 </div>
                             </div>
 
@@ -374,7 +374,7 @@
                                 <div class="icon-box">
                                     <div class="icon"><i class="bx bx-world"></i></div>
                                     <h4><a href="">Nemo Enim</a></h4>
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                    <p id="gfty1">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                                 </div>
                             </div>
 
@@ -382,7 +382,7 @@
                                 <div class="icon-box">
                                     <div class="icon"><i class="bx bx-slideshow"></i></div>
                                     <h4><a href="">Dele cardo</a></h4>
-                                    <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                                    <p id="gfty1">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
                                 </div>
                             </div>
 
@@ -390,7 +390,7 @@
                                 <div class="icon-box">
                                     <div class="icon"><i class="bx bx-arch"></i></div>
                                     <h4><a href="">Divera don</a></h4>
-                                    <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                                    <p id="gfty1">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
                                 </div>
                             </div>
 
@@ -771,15 +771,15 @@
     <ul class="address row text-center">
       <li class="col-sm-4"><i class="slide-bottom fa fa-map-marker"></i>
         <h4 class="slide-bottom">Address</h4>
-        <p class="slide-bottom">Lorem ipsum dolor sit amet.</p>
+        <p class="slide-bottom"style="font-weight:300;">Lorem ipsum dolor sit amet.</p>
       </li>
       <li class="col-sm-4"><i class="slide-bottom fa fa-phone"></i>
         <h4 class="slide-bottom">Phone</h4>
-        <p class="slide-bottom">604-788-1832</p>
+        <p class="slide-bottom" style="font-weight:300;">604-788-1832</p>
       </li>
       <li class="col-sm-4"><i class="slide-bottom fa fa-envelope"></i>
         <h4 class="slide-bottom">Email</h4>
-        <p class="slide-bottom">info@sitename.com</p>
+        <p class="slide-bottom"style="font-weight:300;">info@sitename.com</p>
       </li>
     </ul>
   </div>
