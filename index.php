@@ -306,16 +306,16 @@
 <section class="author section-spacing" id="Author">
   <div class="container">
     <header class="text-center">
-      <h2>About Author</h2>
+      <h2>Message from Chairman's Desk  </h2>
     </header>
     <div class="row">
-      <div class="slide-left col-md-5 text-center"> <img src="assets/img/author.jpg" data-at2x="assets/img/author@2x.jpg" alt="author" class="author-img"> </div>
+      <div class="slide-left col-md-5 text-center"> <img src="assets/img/founder1.jpg" data-at2x="assets/img/founder2.jpg" alt="author" class="author-img"> </div>
       <div class="col-md-7">
-        <h4 class="slide-right">Jessica Doe</h4>
+        <h4 class="slide-right">Dr Abdul Basit Syed</h4>
         <hr class="slide-right">
-        <p class="slide-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-        <p class="slide-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. </p>
-        <img src="assets/img/signature.png" data-at2x="assets/img/signature@2x.png" alt="signature" class="slide-right signature"> 
+        <p class="slide-right">Books are our companion which we carry not only in our hands but also in our mind and heart. As a humanitarian, I feel my responsibility to give a platform to the words and thoughts which can support world peace.</p>
+        <p class="slide-right">Hence, I have established this sounded platform WHD Publishing House to be an able companion of not only renowned writes, scholars and journalist but also to the people of common thinking like me. I feel it is the moral duty of each resourceful person to publish a book which can be a friend and guide, as our theme ' Fiat Lux ' (Let light be made) </p>
+        <img src="assets/img/signature1.png" data-at2x="assets/img/signature2.png" alt="signature" class="slide-right signature"> 
         
         <!--social-->
         <div class="social">
