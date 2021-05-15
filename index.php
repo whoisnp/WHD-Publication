@@ -33,11 +33,12 @@
     <link href="footerfiles/css/my.css" rel="stylesheet">
 </head>
 
+
 <body>
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-            <a href="index.php" class="logo d-flex align-items-center">
+            <a href="index.php" class="logo d-flexs">
                 <img src="assets/img/whdph_logo.png" />
                 <!-- <span>WHD PH</span> -->
             </a>
@@ -147,19 +148,19 @@
 
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
-                    <h1 data-aos="fade-up">
+                    <h1 data-aos="fade-up" style="text-align:left;color:#646464;">
                     You Too Can Become An Author
                     </h1>
-                    <h2 data-aos="fade-up" data-aos-delay="400">
+                    <h2 data-aos="fade-up" data-aos-delay="400"style="text-align:left;" >
                     WHD Publishing House aims to support the authors to publish their novel works in the most simplest way. We provide end to end service and global outreach.
                     </h2>
                     <div data-aos="fade-up"  data-aos-delay="600">
                               <div class="button-box col-lg-12">
-                              <a href="#about"  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                              <a href="#about"  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center" style="border-radius:64px">
                                 <span>Free Publishing</span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
-                            <a href="#about"  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                            <a href="#about"  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center"style="border-radius:64px">
                                 <span>Author Kits</span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -178,7 +179,7 @@
 
     <main id="main">
         <!-- ======= About Section ======= -->
-        <section id="about" class="about">
+        <!-- <section id="about" class="about">
             <div class="container" data-aos="fade-up">
                 <div class="row gx-0">
                     <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -186,7 +187,7 @@
                             <h2 id="Head1">About Us</h2>
                             <p id="aboutcontent">
                                 WHD PH is a global self-publishing platform that aims at encouraging writers and helping their ideas shape into a tangible form. Our aim is to provide aspiring writers a space to sell their book globally by converting their ideas and stories into books..
-                            </p>
+                            </p> -->
                             <!-- <p>
                                 Dr Syed initiated to mix of various full and piece meal services like designing a book cover, editing, publishing, organising book events, social media management for authors among other services..
                             </p> -->
@@ -195,7 +196,7 @@
                                     <span>Read More</span>
                                     <i class="bi bi-arrow-right"></i>
                                 </a>
-                            </div> -->
+                            </div> 
                         </div>
                     </div>
 
@@ -204,7 +205,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- End About Section -->
                         <!-- ======= Counts Section ======= -->
                         <section id="counts" class="counts">
@@ -309,13 +310,13 @@
       <h2 class="hyy">About Author</h2>
     </header>
     <div class="row">
-      <div class="slide-left col-md-5 text-center"> <img src="assets/img/author.jpg" data-at2x="assets/img/author@2x.jpg" alt="author" class="author-img"> </div>
+      <div class="slide-left col-md-5 text-center"> <img src="assets/img/founder1.jpg" data-at2x="assets/img/founder2.jpg" alt="author" class="author-img"> </div>
       <div class="col-md-7">
-        <h4 class="slide-right">Jessica Doe</h4>
+        <h4 class="slide-right">Dr Abdul Basit Syed</h4>
         <hr class="slide-right">
         <p id="gfty1" class="slide-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
         <p id="gfty1" class="slide-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. </p>
-        <img src="assets/img/signature.png" data-at2x="assets/img/signature@2x.png" alt="signature" class="slide-right signature"> 
+        <img src="assets/img/signature1.png" data-at2x="assets/img/signature2.png" alt="signature" class="slide-right signature"> 
         
         <!--social-->
         <div class="social">
@@ -339,12 +340,8 @@
                 <section id="services" class="services">
                     <div class="container">
 
-                        <div class="section-title">
-                            <h2 id="Head1" class="hyy" style="text-align:center;">Services</h2>
-                            <p id="aboutcontent">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis
-                                commodi quidem hic quas.</p>
-                        </div>
-                        <br>
+   
+
                         <div class="row">
                             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                                 <div class="icon-box">
@@ -619,7 +616,7 @@
                 </section>
                 <!-- End Pricing Section -->
                 <!-- ======= Testimonials Section ======= -->
-                <section id="testimonials" class="testimonials">
+                <!-- <section id="testimonials" class="testimonials">
 
                     <div class="container" data-aos="fade-up">
 
@@ -645,10 +642,10 @@
                                             <h4>Ceo &amp; Founder</h4>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- End testimonial item -->
 
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -662,10 +659,10 @@
                                             <h4>Designer</h4>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- End testimonial item -->
 
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -679,10 +676,10 @@
                                             <h4>Store Owner</h4>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- End testimonial item -->
 
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -696,10 +693,10 @@
                                             <h4>Freelancer</h4>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- End testimonial item -->
 
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -713,16 +710,16 @@
                                             <h4>Entrepreneur</h4>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- End testimonial item -->
 
-                            </div>
+                            <!-- </div>
                             <div class="swiper-pagination"></div>
                         </div>
 
                     </div>
 
-                </section>
+                </section> -->
                 <!-- End Testimonials Section -->
     </main>
     <!-- End #main -->
