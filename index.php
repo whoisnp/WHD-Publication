@@ -125,7 +125,9 @@
     </header>
     <!-- End Header -->
     <header class="header0">
-        <div class="container container-xl d-flex align-items-start justify-content-left">
+    <div class="overlay"></div>
+        <div class="container container-xl d-flex align-items-center justify-content-left ">
+       
             <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/whdph_logo.png" />
                 <!-- <span>WHD PH</span> -->
@@ -140,30 +142,34 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="hero d-flex align-items-center">
-
-
-
-        <div class="container">
+        <div class="overlay"></div>
+          <div class="container">
 
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
                     <h1 data-aos="fade-up">
-                        You Can Become An Author
+                    You Too Can Become An Author
                     </h1>
                     <h2 data-aos="fade-up" data-aos-delay="400">
-                        We feel humbled by the love and support our authors have given in our journey so far by recommending us to their friends and coming back to us themselves. We thank each one of you and are committed to keep delivering value to each project
+                    WHD Publishing House aims to support the authors to publish their novel works in the most simplest way. We provide end to end service and global outreach.
                     </h2>
-                    <div data-aos="fade-up" data-aos-delay="600">
-                        <div class="text-center text-lg-start">
-                            <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                                <span>Read More</span>
+                    <div data-aos="fade-up"  data-aos-delay="600">
+                              <div class="button-box col-lg-12">
+                              <a href="#about"  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                                <span>Free Publishing</span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
-                        </div>
+                            <a href="#about"  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                                <span>Author Kits</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+       </div>
                     </div>
+
+                    <!-- button -->
                 </div>
                 <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="assets/img/book-icon-138 (1).png" class="img-fluid" alt="" />
+                    <img src="assets/img/book-icon-138.png" class="img-fluid" alt="" />
                 </div>
             </div>
         </div>
@@ -194,62 +200,14 @@
                     </div>
 
                     <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                        <img src="assets/img/whdph_logo.png" class="img-fluid" alt="" />
+                        <img src="assets/img/whdph_logo1.png" class="img-fluid" alt="" />
                     </div>
                 </div>
             </div>
         </section>
         <!-- End About Section -->
-        <!-- about founder section starts -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4">
-                    <img id="founderimg" alt="image" src="assets/img/founder.jpg">
-                    <br>
-                </div>
-                <div class="col-lg-8">
-                    <h2 id="Head1">ABOUT Founder</h2>
-                    <p id="aboutcontent">
-                        Dr.Abdul Basit Syed, is a British Indian Global Peace Activist, Writer and Entrepreneur living in Croydon, U.K. He holds senior positions in various global organisations. He is accredited with Peace, Education, Trade harmony initiatives globally. His
-                        services to humanity has its history of nearly two decades.
-                    </p>
-                    <p id="aboutcontent">
-                        He was born in Tamil Nadu, India and migrated in his early teens to U.K. He was inspired by his grandfather PKS Kattuwa Mohaiyadeen an Indian Freedom Fighter, was well known for his social activities and community services.
-                    </p>
-
-                    <p id="aboutcontent">
-                        He initiated to mix of various full and piece meal services like designing a book cover, editing, publishing, organising book events, social media management for authors among other service
-                    </p>
-
-                    <div class="social text-center ">
-
-
-
-                        <a href="https://www.facebook.com/abdulsyedibrahim" target="_blank" class="btn-social btn-facebook"><i id="aboutfb" class="fa fa-facebook"></i></a>
-
-                        <a href="https://www.instagram.com/abdulbasitsyed7/?igshid=1v0kvltbcmeu4" target="_blank" class="btn-social btn-instagram"><i id="aboutinsta" class="fa fa-instagram"></i></a>
-
-                        <a href="https://www.linkedin.com/in/abdul-basit-syed-88762b163/" target="_blank" class="btn-social btn-linkedin"><i id="aboutlinkedin" class="fa fa-linkedin"></i></a>
-
-                        <a href="https://twitter.com/abdulbasit4777" target="_blank" class="btn-social btn-twitter"><i id="abouttwitter" class="fa fa-twitter"></i></a>
-
-
-                    </div>
-
-
-
-                </div>
-
-
-
-
-
-
-
-
-                <!-- about founder section stops -->
-                <!-- ======= Counts Section ======= -->
-                <section id="counts" class="counts">
+                        <!-- ======= Counts Section ======= -->
+                        <section id="counts" class="counts">
                     <div class="container" data-aos="fade-up">
                         <div class="row gy-4">
                             <div class="col-lg-3 col-md-6">
@@ -295,6 +253,88 @@
                     </div>
                 </section>
                 <!-- End Counts Section -->
+        <!-- about founder section starts -->
+        <!-- <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img id="founderimg" alt="image" src="assets/img/founder.jpg">
+                    <br>
+                </div>
+                <div class="col-lg-8">
+                    <h2 id="Head1">ABOUT Founder</h2>
+                    <p id="aboutcontent">
+                        Dr.Abdul Basit Syed, is a British Indian Global Peace Activist, Writer and Entrepreneur living in Croydon, U.K. He holds senior positions in various global organisations. He is accredited with Peace, Education, Trade harmony initiatives globally. His
+                        services to humanity has its history of nearly two decades.
+                    </p>
+                    <p id="aboutcontent">
+                        He was born in Tamil Nadu, India and migrated in his early teens to U.K. He was inspired by his grandfather PKS Kattuwa Mohaiyadeen an Indian Freedom Fighter, was well known for his social activities and community services.
+                    </p>
+
+                    <p id="aboutcontent">
+                        
+                    </p>
+
+                    <div class="social text-center ">
+
+
+
+                        <a href="https://www.facebook.com/abdulsyedibrahim" target="_blank" class="btn-social btn-facebook"><i id="aboutfb" class="fa fa-facebook"></i></a>
+
+                        <a href="https://www.instagram.com/abdulbasitsyed7/?igshid=1v0kvltbcmeu4" target="_blank" class="btn-social btn-instagram"><i id="aboutinsta" class="fa fa-instagram"></i></a>
+
+                        <a href="https://www.linkedin.com/in/abdul-basit-syed-88762b163/" target="_blank" class="btn-social btn-linkedin"><i id="aboutlinkedin" class="fa fa-linkedin"></i></a>
+
+                        <a href="https://twitter.com/abdulbasit4777" target="_blank" class="btn-social btn-twitter"><i id="abouttwitter" class="fa fa-twitter"></i></a>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+ -->
+
+
+ 
+
+                <!-- about founder section stops
+<!-Author-->
+
+<section class="author section-spacing" id="Author">
+  <div class="container">
+    <header class="text-center">
+      <h2>About Author</h2>
+    </header>
+    <div class="row">
+      <div class="slide-left col-md-5 text-center"> <img src="assets/img/author.jpg" data-at2x="assets/img/author@2x.jpg" alt="author" class="author-img"> </div>
+      <div class="col-md-7">
+        <h4 class="slide-right">Jessica Doe</h4>
+        <hr class="slide-right">
+        <p class="slide-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+        <p class="slide-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. </p>
+        <img src="assets/img/signature.png" data-at2x="assets/img/signature@2x.png" alt="signature" class="slide-right signature"> 
+        
+        <!--social-->
+        <div class="social">
+          <ul>
+            <li class="slide-right"><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li class="slide-right"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li class="slide-right"><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+            <li class="slide-right"><a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <!--social end--> 
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Author end-->                
+
                 <!-- ======= Services Section ======= -->
                 <section id="services" class="services">
                     <div class="container">
@@ -359,8 +399,8 @@
                     </div>
                 </section>
                 <!-- End Services Section -->
-                <!-- ======= F.A.Q Section ======= -->
-                <section id="faq" class="faq">
+ <!-- ======= F.A.Q Section ======= -->
+ <section id="faq" class="faq">
                     <div class="container" data-aos="fade-up">
                         <header class="section-header">
                             <h2>F.A.Q</h2>
@@ -374,12 +414,13 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                      Non consectetur a erat nam at lectus urna duis?
+                                            1. What's is the process for me to publish my work?
                     </button>
                                         </h2>
                                         <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                                             <div class="accordion-body">
-                                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                                            You can E-mail or WhatsApp us and our team will get in touch with you ASAP. Meanwhile you can look into our website to more about the Author Kit Pricing. 
+
                                             </div>
                                         </div>
                                     </div>
@@ -387,14 +428,13 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                      Feugiat scelerisque varius morbi enim nunc faucibus a
-                      pellentesque?
+                                            3. Who will hold the copyrights of my work? 
+
                     </button>
                                         </h2>
                                         <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                                             <div class="accordion-body">
-                                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                                cursus turpis massa tincidunt dui.
+                                            It is definitely the Author. 
                                             </div>
                                         </div>
                                     </div>
@@ -402,14 +442,38 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                      Dolor sit amet consectetur adipiscing elit pellentesque
-                      habitant morbi?
+                                            5. What is the Author share when the books are Sold? 
                     </button>
                                         </h2>
                                         <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                                             <div class="accordion-body">
-                                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
-                                                molestie at elementum eu facilisis sed odio morbi quis
+                                            It is 100% Share. Zero Royalty. We are purely a Publishing Company and only take up services in relation to editing, formatting,  designing, printing and primary distribution. The Author can decide on the Post Publishing Sales and Marketing as it is non exclusive.
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                                            7. What's the printing cost?
+                    </button>
+                                        </h2>
+                                        <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                            <div class="accordion-body">
+                                            It is purely a Case to Case criteria as this depends on various factors as Page Quality, Colors Indexed, Number of Pages, Binding Type, Dimensions and Number of Copies ordered.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                                            9. What are the available mode of payment?
+                    </button>
+                                        </h2>
+                                        <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                            <div class="accordion-body">
+                                            Bank Transfer and Pay Pal
+*please contact us personally to check other options
                                             </div>
                                         </div>
                                     </div>
@@ -422,13 +486,12 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
-                      Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                                            2. What are all the documents that are required to submit / signed along? 
                     </button>
                                         </h2>
                                         <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                                             <div class="accordion-body">
-                                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                                cursus turpis massa tincidunt dui.
+                                            Author ID Proof is mandatory. Also we require the basic details about the book and the Author. Novel Work Declaration and Publishing Agreement are to be signed. 
                                             </div>
                                         </div>
                                     </div>
@@ -436,13 +499,12 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
-                      Tempus quam pellentesque nec nam aliquam sem et tortor
-                      consequat?
+                                            4. How long will it take for the book to be published? 
                     </button>
                                         </h2>
                                         <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                                             <div class="accordion-body">
-                                                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                                            Minimum of 7 to 14 days after the Final Manuscript, Final Book Cover Design and Signed Approval are submitted. 
                                             </div>
                                         </div>
                                     </div>
@@ -450,13 +512,37 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
-                      Varius vel pharetra vel turpis nunc eget lorem dolor?
+                                            6. Can I edit the contents of the book after publishing?
                     </button>
                                         </h2>
                                         <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                                             <div class="accordion-body">
-                                                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque
-                                                diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                                            Ofcourse yes, but it has to be revised into a new edition
+.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-4">
+                                            8. Will there be any hidden charges?
+                    </button>
+                                        </h2>
+                                        <div id="faq2-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                                            <div class="accordion-body">
+                                            Absolutely No. The prices depends on the package the Author chooses with us. Any additional services asked might incur extra cost that will definitely be intimated to the Author before processing.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-5">
+                                            10. What are the payment terms?
+                    </button>
+                                        </h2>
+                                        <div id="faq2-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                                            <div class="accordion-body">
+                                            If  a Priced Author Kit is chosen, then 50 % advance to be paid while the work begins, 40 % after finalizing the Manuscript before ISBN is applied and the balance 10% after the work is published.
                                             </div>
                                         </div>
                                     </div>
