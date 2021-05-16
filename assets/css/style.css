@@ -58,10 +58,11 @@ section {
 .section-header p {
     margin: 10px 0 0 0;
     padding: 0;
-    font-size: 43px;
+    font-size: 34px;
+    text-align: center!important;
     line-height: 42px;
-    font-weight: 700;
-    color: #356aac;
+    font-weight: 400;
+    color: #333;
 }
 
 @media (max-width: 768px) {
@@ -531,7 +532,7 @@ section {
 }
 
 .hero h2 {
-    font-size: 18px;
+    font-size: 22px;
     color: #666;
     line-height: 1.5;
     font-weight: 300;
@@ -606,7 +607,7 @@ section {
         font-size: 32px;
     }
     .hero h2 {
-        font-size: 24px;
+        font-size: 18px;
     }
     .hero .hero-img img {
         width: 100%;
@@ -2746,6 +2747,9 @@ img.author-img {
     line-height: 1.6;
 }
 
+
+/* ==========================================================================Features==========================================================================*/
+
 .features.section-spacing {
     padding: 4.5em 0 2.25em;
 }
@@ -2814,4 +2818,25 @@ section header {
 .counter div[class^="col-"]:nth-child(1),
 .counter div[class^="col-"]:nth-child(2) {
     padding-bottom: 1.5em;
+}
+
+.underline {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.underline:after {
+    margin-top: 30px;
+    content: '';
+    position: absolute;
+    display: block;
+    height: .10em;
+    width: 70%;
+    margin-left: -60%;
+    left: 75%;
+    bottom: -.20em;
+    border-radius: 40%;
+    z-index: -1;
+    background: #356aac;
 }

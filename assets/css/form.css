@@ -83,9 +83,10 @@ textarea {
 }
 
 .modern-form__hr {
-    border-color: #4daade;
+    border-color: #356aac;
     border-width: 2px;
-    width: 121px;
+    width: 250px;
+    z-index: -1;
 }
 
 .modern-form__form-container {

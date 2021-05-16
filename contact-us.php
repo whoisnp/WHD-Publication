@@ -95,7 +95,12 @@
                         <div class="container" data-aos="fade-up">
                             <header class="section-header">
                                 <h2>Contact</h2>
-                                <p>Contact Us</p>
+                                <div class="text-center">
+            <h6 class="underline" style="color: #6e6e6e; font-size: 25px;">
+                <strong>CONTACT US</strong><br />
+            </h6>
+
+        </div>
                             </header>
     
                             <div class="row gy-4">
