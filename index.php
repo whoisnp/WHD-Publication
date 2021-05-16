@@ -318,14 +318,14 @@
                 <div class="row">
                     <div class="slide-left col-md-5 text-center"> <img src="assets/img/founder1.jpg" data-at2x="assets/img/founder2.jpg" alt="author" class="author-img"> </div>
                     <div class="col-md-7">
-                        <h4 class="slide-right">Dr Abdul Basit Syed</h4>
+                        <h4 align="left" class="slide-right">Dr Abdul Basit Syed</h4>
                         <hr class="slide-right">
-                        <p id="gfty1" class="slide-right">Books are our companion which we carry not only in our hands but also in our mind and heart. As a humanitarian, I feel my responsibility to give a platform to the words and thoughts which can support world peace.</p>
-                        <p id="gfty1" class="slide-right"> Hence, I have established this sounded platform WHD Publishing House to be an able companion of not only renowned writes, scholars and journalist but also to the people of common thinking like me. I feel it is the moral duty of each resourceful person to publish a book which can be a friend and guide, as our theme ' Fiat Lux ' (Let light be made)</p>
+                        <p id="gfty1" align="left" class="slide-right">Books are our companion which we carry not only in our hands but also in our mind and heart. As a humanitarian, I feel my responsibility to give a platform to the words and thoughts which can support world peace.</p>
+                        <p id="gfty1" align="left" class="slide-right"> Hence, I have established this sounded platform WHD Publishing House to be an able companion of not only renowned writes, scholars and journalist but also to the people of common thinking like me. I feel it is the moral duty of each resourceful person to publish a book which can be a friend and guide, as our theme ' Fiat Lux ' (Let light be made)</p>
                         <img src="assets/img/signature1.png" data-at2x="assets/img/signature2.png" alt="signature" class="slide-right signature">
 
                         <!--social-->
-                        <div class="social">
+                        <div class="social" align="left">
                             <ul>
                                 <li class="slide-right"><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                 <li class="slide-right"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
