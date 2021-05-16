@@ -407,43 +407,43 @@
         <section class="features section-spacing text-center" id="Features">
             <div class="container">
                 <header>
-                    <h2>Topics Covered In The Book</h2>
-                    <h3>Lorem ipsum dolor sit amet consectetur adip scing elit mauris</h3>
+                    <h2>Specialities</h2>
+                    <h3>We have few of our features to stand out from the rest and makes WHD Publishing House your Go-To publishing service provider</h3>
                 </header>
                 <br>
 
                 <div class="row">
                     <div class="slide-left col-sm-4"> <img src="assets/img/feature-1.png" data-at2x="assets/img/feature-1@2x.png" alt="features">
-                        <h4>Lorem Lpsum</h4>
+                        <h4>Global Outreach</h4>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>We have our trusted readers and supporters around the world and each book that gets published is assured of a international audience. </p>
                     </div>
                     <div class="slide-top col-sm-4"> <img src="assets/img/feature-2.png" data-at2x="assets/img/feature-2@2x.png" alt="features">
-                        <h4>Lorem Lpsum</h4>
+                        <h4>24x7 Round the Clock Service</h4>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Throughout the year, we ensure our team is active and be available for our clients.</p>
                     </div>
                     <div class="slide-right col-sm-4"> <img src="assets/img/feature-3.png" data-at2x="assets/img/feature-3@2x.png" alt="features">
-                        <h4>Lorem Lpsum</h4>
+                        <h4>100% Author Share</h4>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>We assure all the profits go directly to the author and do not levy any royalties.</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="slide-left col-sm-4"> <img src="assets/img/feature-4.png" data-at2x="assets/img/feature-4@2x.png" alt="features">
-                        <h4>Lorem Lpsum</h4>
+                        <h4>Customer Discussion</h4>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>We provide opportunity for everyone to have a free discussion or consultation with our team to understand more.</p>
                     </div>
                     <div class="slide-top col-sm-4"> <img src="assets/img/feature-5.png" data-at2x="assets/img/feature-5@2x.png" alt="features">
-                        <h4>Lorem Lpsum</h4>
+                        <h4>WHD PH Membership</h4>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Once a person becomes a Client with us, they will have an exclusive advantage to become a Member of WHD PH which will have its own benefits.</p>
                     </div>
                     <div class="slide-right col-sm-4"> <img src="assets/img/feature-6.png" data-at2x="assets/img/feature-6@2x.png" alt="features">
-                        <h4>Lorem Lpsum</h4>
+                        <h4>Fast Track Publications</h4>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>We ensure the books gets ready in the quickest timeframe possible with our exclusive Author Kits.</p>
                     </div>
                 </div>
             </div>
