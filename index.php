@@ -821,15 +821,15 @@
     <!-- address -->
     <div class="container">
         <ul class="address row text-center">
-            <li class="col-sm-4"><i class="slide-bottom fa fa-map-marker"></i>
-                <h4 class="slide-bottom">Address</h4>
-                <p class="slide-bottom" style="font-weight:300;">Lorem ipsum dolor sit amet.</p>
+            <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
+                <h4 class="slide-bottom">Whatsapp</h4>
+                <p class="slide-bottom" style="font-weight:300;">735-854-1277</p>
             </li>
-            <li class="col-sm-4"><i class="slide-bottom fa fa-phone"></i>
+            <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
-                <p class="slide-bottom" style="font-weight:300;">604-788-1832</p>
+                <p class="slide-bottom" style="font-weight:300;">+44 794-632-8097</p>
             </li>
-            <li class="col-sm-4"><i class="slide-bottom fa fa-envelope"></i>
+            <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>
                 <p class="slide-bottom" style="font-weight:300;">info@sitename.com</p>
             </li>
@@ -847,14 +847,16 @@
                     <!--social-->
 
                     <ul class="social">
-                        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="https://plus.google.com/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="https://youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a></li>
+                        
                     </ul>
 
                     <!--social end-->
 
-                    <small>&copy; Copyright Book. All Rights Reserved.</small>
+                    <small>&copy; Copyright WHDPH. All Rights Reserved.</small>
                     <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
 
                     <!-- Privacy Modal -->

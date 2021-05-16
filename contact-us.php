@@ -174,57 +174,47 @@
                     </section>
                     <!-- End Contact Section -->
 
-    <!-- address --> 
-<div class="container">
-    <ul class="address row text-center">
-      <li class="col-sm-4"><i class="slide-bottom fa fa-map-marker"></i>
-        <h4 class="slide-bottom">Address</h4>
-        <p class="slide-bottom">Lorem ipsum dolor sit amet.</p>
-      </li>
-      <li class="col-sm-4"><i class="slide-bottom fa fa-phone"></i>
-        <h4 class="slide-bottom">Phone</h4>
-        <p class="slide-bottom">604-788-1832</p>
-      </li>
-      <li class="col-sm-4"><i class="slide-bottom fa fa-envelope"></i>
-        <h4 class="slide-bottom">Email</h4>
-        <p class="slide-bottom">info@sitename.com</p>
-      </li>
-    </ul>
-  </div>
-  
-  <!--address end-->
-  <!--site-footer-->
-<footer class="site-footer section-spacing">
+    <!-- address -->
     <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          
-          
-          <!--social-->
-          
-          <ul class="social">
-            <li><a  href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-          </ul>
-          
-          <!--social end--> 
-          
-          <small>&copy; Copyright Book. All Rights Reserved.</small>
-          <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
-          
-          <!-- Privacy Modal -->
-          <div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-privacy" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                  <h4 class="modal-title" id="myModalLabel-privacy">Privacy</h4>
-                </div>
-                
-              </div>
-            </div>
-          </div>
+        <ul class="address row text-center">
+            <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
+                <h4 class="slide-bottom">Whatsapp</h4>
+                <p class="slide-bottom">735-854-1277</p>
+            </li>
+            <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
+                <h4 class="slide-bottom">Phone</h4>
+                <p class="slide-bottom">+44 794-632-8097</p>
+            </li>
+            <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
+                <h4 class="slide-bottom">Email</h4>
+                <p class="slide-bottom">info@sitename.com</p>
+            </li>
+        </ul>
+    </div>
+
+    <!--address end-->
+    <!--site-footer-->
+    <footer class="site-footer section-spacing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+
+                    <!--social-->
+
+                    <ul class="social">
+                        <li><a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="https://instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="https://youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a></li>
+
+                    </ul>
+
+                    <!--social end-->
+
+                    <small>&copy; Copyright WHDPH. All Rights Reserved.</small>
+                    <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
+
           <!-- Privacy Modal end --> 
           
           <!-- Terms of Use Modal -->
