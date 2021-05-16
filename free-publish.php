@@ -12,6 +12,21 @@
     <link rel="stylesheet" href="assets/css/form.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+<style>
+    .btn-upload {
+        border-radius: 50px;
+        transition: 0.5s;
+        color: #356aac;
+        border: 1px solid #356aac;
+        transition: 0.3s;
+        box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+    }
+    
+    .btn-upload:hover {
+        background: #356aac;
+        color: #fff;
+    }
+</style>
 
 <body>
     <header id="header" class="header1 fixed-top">
@@ -200,11 +215,11 @@
         <div class="container modern-form">
             <div class="text-center">
                 <h6 style="color: #6e6e6e; font-size: 25px">
-                    <strong>AUTHOR REGISTRATION FORM</strong><br />
+                    <strong>AUTHOR REGISTRATION FORM</strong>
                 </h6>
             </div>
             <hr class="modern-form__hr" />
-            <div class="modern-form__form-container">
+            <div class="modern-form__form-container" style="padding-top: 20px;">
                 <!-- <form method="" id="book-form"> -->
                 <div class="container">
                     <div class="container-fluid">
@@ -225,6 +240,7 @@
                                         
                                     </div> -->
                                 <select class="form-control" id="sel1">
+                                  <option value=""disabled selected hidden>Title</option>
                     <option>Mr.</option>
                     <option>Mrs.</option>
                     <option>Miss.</option>
@@ -278,12 +294,20 @@
                         <br />
                         <br />
                         <div class="row">
-                            <div class="col-md-6 text-center">
-                                <button class="btn btn-success" id="upload">Upload</button>
+                            <div class="col-md-6 col-sm-6 col-6 text-center justify-content-start">
+                                <button class="btn btn-upload" id="upload0">Upload</button>
                             </div>
-                            <div class="col-md-6 text-center">
-                                <button class="btn btn-success" id="send">Send</button>
+                            <div class="col-md-6 col-sm-6 col-6 text-center justify-content-end">
+                                <button class="btn btn-upload" id="upload2">Upload</button>
                             </div>
+                        </div>
+
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <button class="btn btn-upload" id="upload">Send</button>
+                            </div>
+
                         </div>
                     </div>
                 </div>
