@@ -96,7 +96,7 @@
                             <header class="section-header">
                                 <h2>Contact</h2>
                                 <div class="text-center">
-            <h6 style="color: #6e6e6e; font-size: 25px;">
+            <h6 class="underline" style="color: #6e6e6e; font-size: 25px;">
                 <strong>CONTACT US</strong><br />
             </h6>
 
