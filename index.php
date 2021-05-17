@@ -153,21 +153,21 @@
                     <h2 data-aos="fade-up" data-aos-delay="400" style="text-align:left;">
                         WHD Publishing House aims to support the authors to publish their novel works in the most simplest way. We provide end to end service and global outreach.
                     </h2>
-                    <div style="z-index: 999;">
+                    <div style="z-index: 99;">
                         <div class="row">
-                        <div class="button-box col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                            <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100" style="border-radius:64px">
-                                <span>Free Publishing</span>
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
+                            <div class="button-box col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                                <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100" style="border-radius:64px">
+                                    <span>Free Publishing</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
 
-                        <div class="button-box col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                            <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100" style="border-radius:64px">
-                                <span> Author Kits</span>
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
+                            <div class="button-box col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                                <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100" style="border-radius:64px">
+                                    <span> Author Kits</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
@@ -221,18 +221,18 @@
                         <div class="count-box">
                             <i class="bi bi-emoji-smile"></i>
                             <div>
-                                <span data-purecounter-start="0" data-purecounter-end="100%" data-purecounter-duration="1" class="purecounter"></span>
-                                <p>Profit</p>
+                                <span data-purecounter-start="0" data-purecounter-end="195" data-purecounter-duration="1" class="purecounter"></span>
+                                <p>Countries</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6">
                         <div class="count-box">
-                            <i class="bi bi-journal-richtext"></i>
+                            <i class="bi-people"></i>
                             <div>
-                                <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></span>
-                                <p>Trusted Leaders</p>
+                                <span data-purecounter-start="0" data-purecounter-end="7520" data-purecounter-duration="1" class="purecounter"></span>
+                                <p>Followers</p>
                             </div>
                         </div>
                     </div>
@@ -241,15 +241,15 @@
                         <div class="count-box">
                             <i class="bi bi-headset"></i>
                             <div>
-                                <span data-purecounter-start="0" data-purecounter-end="24/7" data-purecounter-duration="1" class="purecounter"></span>
-                                <p>Round the clock support</p>
+                                <span data-purecounter-start="0" data-purecounter-end="1125" data-purecounter-duration="1" class="purecounter"></span>
+                                <p>Hours Of Support</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6">
                         <div class="count-box">
-                            <i class="bi bi-people"></i>
+                            <i class="bi bi-journal-richtext"></i>
                             <div>
                                 <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
                                 <p>Working Projects</p>
@@ -616,63 +616,170 @@
                 <div class="row gy-4" data-aos="fade-left">
 
                     <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="box">
-                            <h3 style="color: #07d5c0;">Free Plan</h3>
+
+                        <div class="box" style="padding-top:0px">
+                            <div class="row text-center" style="background:#356aac;color:white">
+                                <h3 style="padding-top:30px;">Cipher kit</h3>
+                             
+                            </div>
+
                             <!-- <div class="price"><sup>$</sup>0<span> / mo</span></div> -->
-                            <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+
+
+
                             <ul>
-                                <li>Aida dere</li>
-                                <li>Nec feugiat nisl</li>
-                                <li>Nulla at volutpat dola</li>
-                                <li class="na">Pharetra massa</li>
-                                <li class="na">Massa ultricies mi</li>
+                                <li>ISBN</li>
+                                <li class="na">Author Copies</li>
+                                <li class="na">Content Revisions</li>
+                                <li class="na">Online Book Launch</li>
+                                <li class="na">Social Media Setup</li>
+                               
                             </ul>
                             <a href="packages.html" class="btn-buy">Know More</a>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
 
-                </section>
-                <!-- End Pricing Section -->
-                <section id="">
-
-                    <div class="container" data-aos="fade-up">
-
-                     <header class="section-header">
-                         <h2>Have A Discussion With Our Team</h2> 
-                         <p>Schedule A Call</p>
-                     </header>
-
-                     <div class="row" data-aos="fade-up">
-                        <form method="post" enctype="multipart/form-data" class="col-lg-8 offset-lg-2">
-                            <div class="form-group mb-4">
-                                <label for="scheduleInputName"style="font-size:17px;">Name</label>
-                                <input type="text" class="form-control" name="name" id="scheduleInputName" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" placeholder="Enter Name"style="font-size:17px;">
+                        <div class="box" style="padding-top:0px">
+                            <div class="row text-center" style="background:#356aac;color:white">
+                                <h3 style="padding-top:30px;">Standard Kit</h3>
+                                
                             </div>
-                            <div class="form-group mb-4">
-                                <label for="scheduleInputName"style="font-size:17px;">Country</label>
-                                <input type="text" class="form-control" name="country" id="scheduleInputCountry" value="" placeholder="Enter Country"style="font-size:17px;">
-                            </div>           
-                            <br>            
-                            <div class="form-group mb-4">
-                                <label for="scheduleInputEmail"style="font-size:17px;">Email address</label>
-                                <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" placeholder="Enter Email"style="font-size:17px;">
-                             </div>
-                             <br>
-                             <div class="form-group mb-4">
-                                <label for="scheduleInputPhone" style="font-size:17px;">Phone Number</label>
-                                <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message'])?$postData['message']:''; ?>" placeholder="Phone Number"style="font-size:17px;">
-                             </div>
-                             <br>
-                             <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'"onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
-                        </form>
-                     </div>
 
+                            <!-- <h3 style="color: #07d5c0;margin-top:8px;">Free Plan</h3> -->
+                            <!-- <div class="price"><sup>$</sup>0<span> / mo</span></div> -->
+
+
+
+                            <ul>
+                            <li>ISBN</li>
+                                <li>Author Copies</li>
+                                <li class="na">Content Revisions</li>
+
+                                <li class="na">Online Book Launch</li>
+                                <li class="na">Social Media Setup</li>
+                            </ul>
+                            <a href="packages.html" class="btn-buy">Know More</a>
+                        </div>
                     </div>
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
 
-                </section>
-                <!-- end of free Consultancy -->
-                <!-- ======= Testimonials Section ======= -->
-                <!-- <section id="testimonials" class="testimonials">
+                        <div class="box" style="padding-top:0px">
+                            <div class="row text-center" style="background:#356aac;color:white">
+                                <h3 style="padding-top:30px;">Specialist Kit</h3>
+                            </div>
+
+                            <!-- <div class="price"><sup>$</sup>0<span> / mo</span></div> -->
+
+
+
+                            <ul>
+                            <li>ISBN</li>
+                                <li>Author Copies</li>
+                                <li>Content Revisions</li>
+
+                                <li class="na">Online Book Launch</li>
+                                <li class="na">Social Media Setup</li>                         </ul>
+                            <a href="packages.html" class="btn-buy">Know More</a>
+                        </div>
+                    </div>
+                    <div class="row gy-4 justify-content-evenly" data-aos="fade-left">
+                        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+
+                            <div class="box" style="padding-top:0px">
+                                <div class="row text-center" style="background:#356aac;color:white">
+                                    <h3 style="padding-top:30px;">Expert Kit</h3>
+                                    
+                                </div>
+
+                                <!-- <div class="price"><sup>$</sup>0<span> / mo</span></div> -->
+
+
+
+                                <ul>
+                                <li>ISBN</li>
+                                <li>Author Copies</li>
+                                <li>Content Revisions</li>
+
+                                <li>Online Book Launch</li>
+                                <li class="na">Social Media Setup</li>
+                                </ul>
+                                <a href="packages.html" class="btn-buy">Know More</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+
+                            <div class="box" style="padding-top:0px">
+                                <div class="row text-center" style="background:#356aac;color:white">
+                                    <h3 style="padding-top:30px;">Pro Plus Kit</h3>
+                                   
+                                </div>
+
+                                
+                                <!-- <div class="price"><sup>$</sup>0<span> / mo</span></div> -->
+
+
+
+                                <ul>
+
+                                <li>ISBN</li>
+                                <li>Author Copies</li>
+                                <li>Content Revisions</li>
+
+                                <li>Social Media Setup</li>
+                                <li>Online Book L                                </ul>
+                                <a href="packages.html" class="btn-buy">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                   
+                        
+                    
+                </div>
+
+
+        </section>
+        <!-- End Pricing Section -->
+        <section id="">
+
+            <div class="container" data-aos="fade-up">
+
+                <header class="section-header">
+                    <h2>Have A Discussion With Our Team</h2>
+                    <p>Schedule A Call</p>
+                </header>
+
+                <div class="row" data-aos="fade-up">
+                    <form method="post" enctype="multipart/form-data" class="col-lg-8 offset-lg-2">
+                        <div class="form-group mb-4">
+                            <label for="scheduleInputName" style="font-size:17px;">Name</label>
+                            <input type="text" class="form-control" name="name" id="scheduleInputName" value="<?php echo !empty($postData['name']) ? $postData['name'] : ''; ?>" placeholder="Enter Name" style="font-size:17px;">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="scheduleInputName" style="font-size:17px;">Country</label>
+                            <input type="text" class="form-control" name="country" id="scheduleInputCountry" value="" placeholder="Enter Country" style="font-size:17px;">
+                        </div>
+                        <br>
+                        <div class="form-group mb-4">
+                            <label for="scheduleInputEmail" style="font-size:17px;">Email address</label>
+                            <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>" placeholder="Enter Email" style="font-size:17px;">
+                        </div>
+                        <br>
+                        <div class="form-group mb-4">
+                            <label for="scheduleInputPhone" style="font-size:17px;">Phone Number</label>
+                            <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" style="font-size:17px;">
+                        </div>
+                        <br>
+                        <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- end of free Consultancy -->
+        <!-- ======= Testimonials Section ======= -->
+        <!-- <section id="testimonials" class="testimonials">
 
                     <div class="container" data-aos="fade-up">
 
