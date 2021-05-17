@@ -32,7 +32,32 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="footerfiles/css/my.css" rel="stylesheet">
 </head>
+<style>
+    #head2 {
+        text-align: left;
+        color: #646464;
+    }
 
+    #head3 {
+        text-align: left;
+    }
+
+    @media only screen and (max-width:988px) {
+        #head2 {
+            text-align: center;
+
+        }
+        
+            
+            
+        
+
+        #head3 {
+            text-align: center;
+        }
+
+    }
+</style>
 
 <body>
     <!-- ======= Header ======= -->
@@ -68,12 +93,12 @@
             <!-- .navbar -->
         </div>
 
-        
+
     </header>
     <!-- End Header -->
     <header class="header0">
         <div class="overlay"></div>
-        <div class="container container-xl d-flex align-items-center justify-content-left ">
+        <div class="container container-xl d-flex justify-content-left ">
 
             <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/whdph_logo1.png" />
@@ -84,7 +109,7 @@
 
     </header>
 
-    
+
 
 
     <!-- ======= Hero Section ======= -->
@@ -94,10 +119,10 @@
 
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
-                    <h1 data-aos="fade-up" style="text-align:left;color:#646464;">
+                    <h1 data-aos="fade-up" id="head2">
                         You Too Can Become An Author
                     </h1>
-                    <h2 data-aos="fade-up" data-aos-delay="400" style="text-align:left;">
+                    <h2 data-aos="fade-up" id="head3" data-aos-delay="400">
                         WHD Publishing House aims to support the authors to publish their novel works in the most simplest way. We provide end to end service and global outreach.
                     </h2>
                     <div style="z-index: 99;">
@@ -265,14 +290,14 @@
                 <br>
                 <div class="row">
                     <div class="slide-left col-md-12 col-lg-5 text-center">
-                         <img src="assets/img/small_absimage.png" data-at2x="assets/img/big_absimage.png" alt="author" class="author-img">
-                     </div>
+                        <img src="assets/img/small_absimage.png" data-at2x="assets/img/big_absimage.png" alt="author" class="author-img">
+                    </div>
                     <div class="col-md-12 col-lg-7" align="left">
                         <h4 align="left" class="slide-right">Dr Abdul Basit Syed</h4>
                         <hr class="slide-right">
-                        <p id="gfty1"  class="slide-right">Books are our companion which we carry not only in our hands but also in our mind and heart. As a humanitarian, I feel my responsibility to give a platform to the words and thoughts which can support world peace.</p>
-                        <p id="gfty1"  class="slide-right"> Hence, I have established this sounded platform WHD Publishing House to be an able companion of not only renowned writes, scholars and journalist but also to the people of common thinking like me. I feel it is the moral duty of each resourceful person to publish a book which can be a friend and guide, as our theme ' Fiat Lux ' (Let light be made)</p>
-                        <img  src="assets/img/small_absgreysign.png" data-at2x="assets/img/big_absgreysign.png" alt="signature" class="slide-right signature">
+                        <p id="gfty1" class="slide-right">Books are our companion which we carry not only in our hands but also in our mind and heart. As a humanitarian, I feel my responsibility to give a platform to the words and thoughts which can support world peace.</p>
+                        <p id="gfty1" class="slide-right"> Hence, I have established this sounded platform WHD Publishing House to be an able companion of not only renowned writes, scholars and journalist but also to the people of common thinking like me. I feel it is the moral duty of each resourceful person to publish a book which can be a friend and guide, as our theme ' Fiat Lux ' (Let light be made)</p>
+                        <img src="assets/img/small_absgreysign.png" data-at2x="assets/img/big_absgreysign.png" alt="signature" class="slide-right signature">
 
                         <!--social-->
                         <div class="social" align="left">
@@ -407,7 +432,7 @@
                     <p>Frequently Asked Questions</p>
                 </header>
 
-                <div class="row" >
+                <div class="row">
                     <div class="col-lg-6">
                         <!-- F.A.Q List 1-->
                         <div class="accordion accordion-flush" id="faqlist1">
@@ -569,20 +594,20 @@
                         <div class="box" style="padding-top:0px">
                             <div class="row text-center" style="background:#356aac;color:white">
                                 <h3 style="padding-top:30px;">Cipher kit</h3>
-                             
+
                             </div>
 
                             <!-- <div class="price"><sup>$</sup>0<span> / mo</span></div> -->
 
 
-<br>
+                            <br>
                             <ul>
                                 <li>ISBN</li>
                                 <li class="na">Author Copies</li>
                                 <li class="na">Content Revisions</li>
                                 <li class="na">Online Book Launch</li>
                                 <li class="na">Social Media Setup</li>
-                               
+
                             </ul>
                             <a href="packages.html" class="btn-buy">Know More</a>
                         </div>
@@ -592,7 +617,7 @@
                         <div class="box" style="padding-top:0px">
                             <div class="row text-center" style="background:#356aac;color:white">
                                 <h3 style="padding-top:30px;">Standard Kit</h3>
-                                
+
                             </div>
 
                             <!-- <h3 style="color: #07d5c0;margin-top:8px;">Free Plan</h3> -->
@@ -602,7 +627,7 @@
                             <br>
 
                             <ul>
-                            <li>ISBN</li>
+                                <li>ISBN</li>
                                 <li>Author Copies</li>
                                 <li class="na">Content Revisions</li>
 
@@ -625,12 +650,13 @@
                             <br>
 
                             <ul>
-                            <li>ISBN</li>
+                                <li>ISBN</li>
                                 <li>Author Copies</li>
                                 <li>Content Revisions</li>
 
                                 <li class="na">Online Book Launch</li>
-                                <li class="na">Social Media Setup</li>                         </ul>
+                                <li class="na">Social Media Setup</li>
+                            </ul>
                             <a href="packages.html" class="btn-buy">Know More</a>
                         </div>
                     </div>
@@ -640,7 +666,7 @@
                             <div class="box" style="padding-top:0px">
                                 <div class="row text-center" style="background:#356aac;color:white">
                                     <h3 style="padding-top:30px;">Expert Kit</h3>
-                                    
+
                                 </div>
 
                                 <!-- <div class="price"><sup>$</sup>0<span> / mo</span></div> -->
@@ -649,12 +675,12 @@
                                 <br>
 
                                 <ul>
-                                <li>ISBN</li>
-                                <li>Author Copies</li>
-                                <li>Content Revisions</li>
+                                    <li>ISBN</li>
+                                    <li>Author Copies</li>
+                                    <li>Content Revisions</li>
 
-                                <li>Online Book Launch</li>
-                                <li class="na">Social Media Setup</li>
+                                    <li>Online Book Launch</li>
+                                    <li class="na">Social Media Setup</li>
                                 </ul>
                                 <a href="packages.html" class="btn-buy">Know More</a>
                             </div>
@@ -664,10 +690,10 @@
                             <div class="box" style="padding-top:0px">
                                 <div class="row text-center" style="background:#356aac;color:white">
                                     <h3 style="padding-top:30px;">Pro Plus Kit</h3>
-                                   
+
                                 </div>
 
-                                
+
                                 <!-- <div class="price"><sup>$</sup>0<span> / mo</span></div> -->
 
 
@@ -675,19 +701,20 @@
 
                                 <ul>
 
-                                <li>ISBN</li>
-                                <li>Author Copies</li>
-                                <li>Content Revisions</li>
+                                    <li>ISBN</li>
+                                    <li>Author Copies</li>
+                                    <li>Content Revisions</li>
 
-                                <li>Social Media Setup</li>
-                                <li>Online Book L                                </ul>
+                                    <li>Social Media Setup</li>
+                                    <li>Online Book L
+                                </ul>
                                 <a href="packages.html" class="btn-buy">Know More</a>
                             </div>
                         </div>
                     </div>
-                   
-                        
-                    
+
+
+
                 </div>
 
 
