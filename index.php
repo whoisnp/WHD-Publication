@@ -267,12 +267,12 @@
                     <div class="slide-left col-md-12 col-lg-5 text-center">
                          <img src="assets/img/small_absimage.png" data-at2x="assets/img/big_absimage.png" alt="author" class="author-img">
                      </div>
-                    <div class="col-md-12 col-lg-7">
+                    <div class="col-md-12 col-lg-7" align="left">
                         <h4 align="left" class="slide-right">Dr Abdul Basit Syed</h4>
                         <hr class="slide-right">
-                        <p id="gfty1" align="left" class="slide-right">Books are our companion which we carry not only in our hands but also in our mind and heart. As a humanitarian, I feel my responsibility to give a platform to the words and thoughts which can support world peace.</p>
-                        <p id="gfty1" align="left" class="slide-right"> Hence, I have established this sounded platform WHD Publishing House to be an able companion of not only renowned writes, scholars and journalist but also to the people of common thinking like me. I feel it is the moral duty of each resourceful person to publish a book which can be a friend and guide, as our theme ' Fiat Lux ' (Let light be made)</p>
-                        <img src="assets/img/small_absgreysign.png" data-at2x="assets/img/big_absgreysign.png" alt="signature" class="slide-right signature">
+                        <p id="gfty1"  class="slide-right">Books are our companion which we carry not only in our hands but also in our mind and heart. As a humanitarian, I feel my responsibility to give a platform to the words and thoughts which can support world peace.</p>
+                        <p id="gfty1"  class="slide-right"> Hence, I have established this sounded platform WHD Publishing House to be an able companion of not only renowned writes, scholars and journalist but also to the people of common thinking like me. I feel it is the moral duty of each resourceful person to publish a book which can be a friend and guide, as our theme ' Fiat Lux ' (Let light be made)</p>
+                        <img  src="assets/img/small_absgreysign.png" data-at2x="assets/img/big_absgreysign.png" alt="signature" class="slide-right signature">
 
                         <!--social-->
                         <div class="social" align="left">
@@ -884,7 +884,7 @@
         <ul class="address row text-center">
             <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
                 <h4 class="slide-bottom">Whatsapp</h4>
-                <p class="slide-bottom" style="font-weight:300;">735-854-1277</p>
+                <p class="slide-bottom" style="font-weight:300;">+91 735-854-1277</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
@@ -892,7 +892,7 @@
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>
-                <p class="slide-bottom" style="font-weight:300;">info@sitename.com</p>
+                <p class="slide-bottom" style="font-weight:300;">publish@whdph.com</p>
             </li>
         </ul>
     </div>
@@ -917,7 +917,7 @@
 
                     <!--social end-->
 
-                    <small>&copy; Copyright WHDPH. All Rights Reserved.</small>
+                    <small>&copy; Copyright WHD Publishing House 2021. All Rights Reserved.</small>
                     <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
 
                     <!-- Privacy Modal -->

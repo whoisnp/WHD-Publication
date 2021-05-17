@@ -41,6 +41,7 @@ a:hover {
     overflow: hidden;
     position: relative;
     color: #356aac;
+    border: 2.5px solid #356aac;
 }
 
 .postcard a {

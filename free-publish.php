@@ -212,14 +212,17 @@
       </a>
                         <!-- Modal -->
     </header>
+    <br>
+    <br>
     <section class="getintouch">
         <div class="container modern-form">
             <div class="text-center">
                 <h6 style="color: #6e6e6e; font-size: 25px">
-                    <strong>AUTHOR REGISTRATION FORM</strong>
+                    <strong>PUBLISH YOUR OWN BOOK AT ZERO COST</strong>
+                    <hr class="modern-form__hr" />
                 </h6>
+                <p> If you have your Manuscript and Cover Design ready, you can become a Author.<br> Fill in the details below and we will publish your book at no cost in 15 days.</p>
             </div>
-            <hr class="modern-form__hr" />
             <div class="modern-form__form-container" style="padding-top: 20px;">
                 <!-- <form method="" id="book-form"> -->
                 <div class="container">
@@ -245,7 +248,7 @@
                     <option>Mr.</option>
                     <option>Mrs.</option>
                     <option>Miss.</option>
-                    <option>Ms.</option>
+                    <option>Dr.</option>
                   </select>
                             </div>
                             <div class="col-md-10">
@@ -321,7 +324,7 @@
         <ul class="address row text-center">
             <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
                 <h4 class="slide-bottom">Whatsapp</h4>
-                <p class="slide-bottom" style="font-weight:300;">735-854-1277</p>
+                <p class="slide-bottom" style="font-weight:300;">+91 735-854-1277</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
@@ -329,7 +332,7 @@
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>
-                <p class="slide-bottom" style="font-weight:300;">info@sitename.com</p>
+                <p class="slide-bottom" style="font-weight:300;">publish@whdph.com</p>
             </li>
         </ul>
     </div>
@@ -354,7 +357,7 @@
 
                     <!--social end-->
 
-                    <small>&copy; Copyright WHDPH. All Rights Reserved.</small>
+                    <small>&copy; Copyright WHD Publishing House 2021. All Rights Reserved.</small>
                     <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
 
                     <!-- Privacy Modal -->
