@@ -2770,7 +2770,7 @@ section header h3 {
 }
 
 section header {
-    margin-bottom: 3em;
+    margin-bottom: 0.1em;
 }
 
 .features h4 {
@@ -2785,10 +2785,11 @@ section header {
 }
 
 .features hr {
-    background: #3498db;
+    background: #b19c9c;
     border: none;
     height: 1px;
     width: 20%;
+    font-size: 5px;
 }
 
 

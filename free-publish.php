@@ -6,6 +6,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <title>WHD publishing - Free Publish</title>
+        <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap5.min.css" />
     <link href="assets_1/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
     <link href="assets_1/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
@@ -51,10 +54,11 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a>
-                    </li>
-                    <li>
-                        <a class="nav-link scrollto" href="packages.html">Packages</a>
+                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a
+              >
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="packages.html">Author Kit</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto active" href="free-publish.php">Quick Publish

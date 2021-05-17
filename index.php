@@ -49,7 +49,7 @@
                         <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto" href="packages.html">Packages</a>
+                        <a class="nav-link scrollto" href="packages.html">Author Kit</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto" href="free-publish.php">Quick Publish
@@ -358,42 +358,42 @@
             <div class="container">
                 <header>
                     <h2>Specialities</h2>
-                    <h3>We have few of our features to stand out from the rest and makes WHD Publishing House your Go-To publishing service provider</h3>
+                    <h3 style="font-weight:300;color:#807d7d;">We have few of our features to stand out from the rest and makes WHD Publishing House your Go-To publishing service provider</h3>
                 </header>
                 <br>
 
                 <div class="row">
-                    <div class="slide-left col-sm-4"> <img src="assets/img/feature-1.png" data-at2x="assets/img/feature-1@2x.png" alt="features">
-                        <h4>Global Outreach</h4>
+                    <div class="slide-left col-sm-4"> <img src="assets/img/feature-3.png" data-at2x="assets/img/feature-1@2x.png" alt="features">
+                        <h4 style="font-size: calc(1.05rem + .3vw);"> Global Outreach</h4>
                         <hr>
-                        <p>We have our trusted readers and supporters around the world and each book that gets published is assured of a international audience. </p>
+                        <p style="font-weight:200;color:#807d7d;"> We have our trusted readers and supporters around the world and each book that gets published is assured of a international audience. </p>
                     </div>
-                    <div class="slide-top col-sm-4"> <img src="assets/img/feature-2.png" data-at2x="assets/img/feature-2@2x.png" alt="features">
-                        <h4>24x7 Round the Clock Service</h4>
+                    <div class="slide-top col-sm-4"> <img src="assets/img/feature-1.png" data-at2x="assets/img/feature-2@2x.png" alt="features">
+                        <h4 style="font-size: calc(1.05rem + .3vw);">24x7 Round the Clock Service</h4>
                         <hr>
-                        <p>Throughout the year, we ensure our team is active and be available for our clients.</p>
+                        <p style="font-weight:300;color:#807d7d;">Throughout the year, we ensure our team is active and be available for our clients.</p>
                     </div>
-                    <div class="slide-right col-sm-4"> <img src="assets/img/feature-3.png" data-at2x="assets/img/feature-3@2x.png" alt="features">
-                        <h4>100% Author Share</h4>
+                    <div class="slide-right col-sm-4"> <img src="assets/img/feature-5.png" data-at2x="assets/img/feature-3@2x.png" alt="features">
+                        <h4 style="font-size: calc(1.05rem + .3vw);">100% Author Share</h4>
                         <hr>
-                        <p>We assure all the profits go directly to the author and do not levy any royalties.</p>
+                        <p style="font-weight:300;color:#807d7d;">We assure all the profits go directly to the author and do not levy any royalties.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="slide-left col-sm-4"> <img src="assets/img/feature-4.png" data-at2x="assets/img/feature-4@2x.png" alt="features">
-                        <h4>Customer Discussion</h4>
+                    <div class="slide-left col-sm-4"> <img src="assets/img/feature-2.png" data-at2x="assets/img/feature-4@2x.png" alt="features">
+                        <h4 style="font-size: calc(1.05rem + .3vw);">Customer Discussion</h4>
                         <hr>
-                        <p>We provide opportunity for everyone to have a free discussion or consultation with our team to understand more.</p>
+                        <p style="font-weight:300;color:#807d7d;"> We provide opportunity for everyone to have a free discussion or consultation with our team to understand more.</p>
                     </div>
-                    <div class="slide-top col-sm-4"> <img src="assets/img/feature-5.png" data-at2x="assets/img/feature-5@2x.png" alt="features">
-                        <h4>WHD PH Membership</h4>
+                    <div class="slide-top col-sm-4"> <img src="assets/img/feature-4.png" data-at2x="assets/img/feature-5@2x.png" alt="features">
+                        <h4 style="font-size: calc(1.05rem + .3vw);">WHD PH Membership</h4>
                         <hr>
-                        <p>Once a person becomes a Client with us, they will have an exclusive advantage to become a Member of WHD PH which will have its own benefits.</p>
+                        <p style="font-weight:300;color:#807d7d;">Once a person becomes a Client with us, they will have an exclusive advantage to become a Member of WHD PH which will have its own benefits.</p>
                     </div>
                     <div class="slide-right col-sm-4"> <img src="assets/img/feature-6.png" data-at2x="assets/img/feature-6@2x.png" alt="features">
-                        <h4>Fast Track Publications</h4>
+                        <h4 style="font-size: calc(1.05rem + .3vw);">Fast Track Publications</h4>
                         <hr>
-                        <p>We ensure the books gets ready in the quickest timeframe possible with our exclusive Author Kits.</p>
+                        <p style="font-weight:300;color:#807d7d;">We ensure the books gets ready in the quickest timeframe possible with our exclusive Author Kits.</p>
                     </div>
                 </div>
             </div>
@@ -407,7 +407,7 @@
                     <p>Frequently Asked Questions</p>
                 </header>
 
-                <div class="row">
+                <div class="row" >
                     <div class="col-lg-6">
                         <!-- F.A.Q List 1-->
                         <div class="accordion accordion-flush" id="faqlist1">
