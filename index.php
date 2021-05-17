@@ -68,60 +68,7 @@
             <!-- .navbar -->
         </div>
 
-        <!-- Modal -->
-        <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content" style="border:10px solid #356aac;">
-                    <div class="modal-header border-0">
-                        <h5 class="modal-title"></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                                    <br>
-                                    <br>
-                                    <img class="" src="./assets/img/scheduleCall.jpeg" alt="about" width="100%" height="auto">
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                                    <h4 class="modal-title mt-3" id="schedule_title" style="color:#356aac">Schedule A Call</h4>
-                                    <hr class="mb-4" style="height: 3px;color: #356aac;background-color: #4154f1;opacity: 1;">
-                                    <form method="post" enctype="multipart/form-data">
-                                        <div class="form-group mb-4">
-                                            <label for="scheduleInputEmail">Email address</label>
-                                            <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>" placeholder="Enter email">
-                                        </div>
-                                        <div class="form-group mb-4">
-                                            <label for="scheduleInputName">Name</label>
-                                            <input type="text" class="form-control" name="name" id="scheduleInputName" value="<?php echo !empty($postData['name']) ? $postData['name'] : ''; ?>" placeholder="Name">
-                                        </div>
-                                        <div class="form-group mb-4">
-                                            <label for="scheduleInputPhone">Phone Number</label>
-                                            <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number">
-                                        </div>
-                                        <!-- <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                      </div> -->
-                                        <!-- <button type="submit" class="btn btn-primary" > Submit</button> -->
-                                        <input type="submit" name="submit" class="btn btn-primary" style="background-color: #356aac;border-color: #4154f1;" value="SUBMIT">
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="btn" style="text-align:center; color:white;background-color: #356aac;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button>
-
-        <a href="https://wa.me/917358541277">
-            <img src="assets/img/whatsapp_logo.png" id="wa" style="position: fixed;z-index: 9999; bottom: 0; right: 60px; height: 11%;">
-        </a>
-        <!-- Modal -->
+        
     </header>
     <!-- End Header -->
     <header class="header0">
@@ -137,7 +84,7 @@
 
     </header>
 
-    <!-- schedule button -->
+    
 
 
     <!-- ======= Hero Section ======= -->
