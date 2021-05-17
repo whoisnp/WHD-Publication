@@ -46,21 +46,21 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.html">Self Publishing</a>
+                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto" href="packages.html">Packages</a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto" href="free-publish.PHP">Free Publish
+                        <a class="nav-link scrollto" href="free-publish.php">Quick Publish
                         </a>
                     </li>
-                    <li><a href="publishing-process.html">Publishing Process</a></li>
+                    <li><a href="publishing-process.html">Publishing Steps</a></li>
                     <li>
                         <a class="nav-link scrollto" href="books.html">Books</a>
                     </li>
                     <li>
-                        <a class="getstarted scrollto" href="contact-us.php">Contact US</a>
+                        <a class="getstarted scrollto" href="contact-us.php">Contact us</a>
                     </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -118,7 +118,7 @@
         </div>
         <button class="btn" style="text-align:center; color:white;background-color: #356aac;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button>
 
-        <a href="">
+        <a href="https://wa.me/917358541277">
             <img src="assets/img/whatsapp_logo.png" id="wa" style="position: fixed;z-index: 9999; bottom: 0; right: 60px; height: 11%;">
         </a>
         <!-- Modal -->
@@ -129,7 +129,7 @@
         <div class="container container-xl d-flex align-items-center justify-content-left ">
 
             <a href="index.php" class="logo d-flex align-items-center">
-                <img src="assets/img/whdph_logo.png" />
+                <img src="assets/img/whdph_logo1.png" />
                 <!-- <span>WHD PH</span> -->
             </a>
         </div>
@@ -175,7 +175,8 @@
                     <!-- button -->
                 </div>
                 <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="assets/img/book-icon-138.png" class="img-fluid" alt="" />
+                    <!-- <img src="assets/img/book-icon-138.png" class="img-fluid" alt="" /> -->
+                    <img src="assets/img/headerbookimage.png" class="img-fluid" alt="" />
                 </div>
             </div>
         </div>
@@ -827,7 +828,7 @@
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
-                <p class="slide-bottom" style="font-weight:300;">+44 794-632-8097</p>
+                <p class="slide-bottom" style="font-weight:300;">+44 7946 328097</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>
@@ -846,13 +847,13 @@
 
                     <!--social-->
 
-                    <ul class="social">
+                    <!-- <ul class="social">
                         <li><a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a></li>
                         <li><a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a></li>
                         <li><a href="https://plus.google.com/" target="_blank"><i class="bi bi-instagram"></i></a></li>
                         <li><a href="https://youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a></li>
                         
-                    </ul>
+                    </ul> -->
 
                     <!--social end-->
 

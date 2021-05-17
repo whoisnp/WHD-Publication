@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <title>WHD upload form</title>
+    <title>WHD publishing - Free Publish</title>
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap5.min.css" />
     <link href="assets_1/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
     <link href="assets_1/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
@@ -45,22 +45,22 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.html">Self Publishing</a
+                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a
               >
             </li>
             <li>
               <a class="nav-link scrollto" href="packages.html">Packages</a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto active" href="free-publish.PHP">Free Publish
+                        <a class="nav-link scrollto active" href="free-publish.php">Quick Publish
               </a>
                     </li>
-                    <li><a href="publishing-process.html">Publishing Process</a></li>
+                    <li><a href="publishing-process.html">Publishing Steps</a></li>
                     <li>
                         <a class="nav-link scrollto" href="books.html">Books</a>
                     </li>
                     <li>
-                        <a class="getstarted scrollto" href="contact-us.php">Contact US</a
+                        <a class="getstarted scrollto" href="contact-us.php">Contact us</a
               >
             </li>
           </ul>
@@ -197,7 +197,7 @@
         Schedule A Call
       </button>
 
-      <a href="">
+      <a href="https://wa.me/917358541277">
         <img
           src="assets/img/whatsapp_logo.png"
           id="wa"
@@ -344,13 +344,13 @@
 
                     <!--social-->
 
-                    <ul class="social">
+                    <!-- <ul class="social">
                         <li><a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a></li>
                         <li><a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a></li>
                         <li><a href="https://plus.google.com/" target="_blank"><i class="bi bi-instagram"></i></a></li>
                         <li><a href="https://youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a></li>
                         
-                    </ul>
+                    </ul> -->
 
                     <!--social end-->
 

@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>WHD publishing - Index</title>
+    <title>WHD publishing - Contact</title>
     <meta content="" name="description" />
 
     <meta content="" name="keywords" />
@@ -45,22 +45,22 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.html">Self Publishing</a
+                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a
               >
             </li>
             <li>
               <a class="nav-link scrollto" href="packages.html">Packages</a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto" href="free-publish.PHP">Free Publish
+                        <a class="nav-link scrollto" href="free-publish.php">Quick Publish
               </a>
                     </li>
-                    <li><a href="publishing-process.html">Publishing Process</a></li>
+                    <li><a href="publishing-process.html">Publishing steps</a></li>
                     <li>
                         <a class="nav-link scrollto" href="books.html">Books</a>
                     </li>
                     <li>
-                        <a class="getstarted scrollto active" href="contact-us.php">Contact US</a>
+                        <a class="getstarted scrollto active" href="contact-us.php">Contact</a>
                     </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -68,7 +68,7 @@
             <!-- .navbar -->
         </div>
 
-        <a href="">
+        <a href="https://wa.me/917358541277">
             <img src="assets/img/whatsapp_logo.png" id="wa" style="position: fixed;z-index: 9999; bottom: 0; right: 60px; height: 11%;">
         </a>
         <!-- Modal -->
@@ -202,13 +202,13 @@
 
                     <!--social-->
 
-                    <ul class="social">
+                    <!-- <ul class="social">
                         <li><a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a></li>
                         <li><a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a></li>
                         <li><a href="https://instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a></li>
                         <li><a href="https://youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a></li>
 
-                    </ul>
+                    </ul> -->
 
                     <!--social end-->
 
