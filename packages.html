@@ -19,6 +19,9 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="footerfiles/css/my.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
     <style>
         @media screen and (min-width:800px) {
             .h1_packages {
@@ -101,7 +104,7 @@
               >
             </li>
             <li>
-              <a class="nav-link scrollto active" href="packages.html">Packages</a>
+              <a class="nav-link scrollto active" href="packages.html">Author Kit</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto" href="free-publish.php">Quick Publish
@@ -136,7 +139,7 @@
                                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                                     <br>
                                     <br>
-                                    <img class="" src="./assets/img/scheduleCall.jpeg" alt="about" width="100%" height="auto">
+                                    <img class="" src="./assets/img/whdph_logo1.png" alt="about" width="100%" height="auto">
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                                     <h4 class="modal-title mt-3" id="schedule_title" style="color:#356aac">Schedule A Call</h4>
@@ -154,12 +157,16 @@
                                             <label for="scheduleInputPhone">Phone Number</label>
                                             <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message'])?$postData['message']:''; ?>" placeholder="Phone Number">
                                         </div>
+                                        <div class="form-group mb-4">
+                                            <label for="scheduleInputPhone">Country</label>
+                                            <input type="text" class="form-control" name="country" id="scheduleInputcountry" value="<?php echo !empty($postData['country'])?$postData['country']:''; ?>" placeholder="Enter Country">
+                                        </div>
                                         <!-- <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                       </div> -->
                                         <!-- <button type="submit" class="btn btn-primary" > Submit</button> -->
-                                        <input type="submit" name="submit" class="btn btn-primary" style="background-color: #356aac;border-color: #356aac;" value="SUBMIT">
+                                         <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'"onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
 
 
 
@@ -513,7 +520,7 @@
             <ul class="address row text-center">
                 <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
                     <h4 class="slide-bottom">Whatsapp</h4>
-                    <p class="slide-bottom" style="font-weight:300;">735-854-1277</p>
+                    <p class="slide-bottom" style="font-weight:300;">=91 735-854-1277</p>
                 </li>
                 <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                     <h4 class="slide-bottom">Phone</h4>
@@ -521,7 +528,7 @@
                 </li>
                 <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                     <h4 class="slide-bottom">Email</h4>
-                    <p class="slide-bottom" style="font-weight:300;">info@sitename.com</p>
+                    <p class="slide-bottom" style="font-weight:300;">publish@whdph.com</p>
                 </li>
             </ul>
         </div>
@@ -546,7 +553,7 @@
                     </ul> -->
                     <!--social end-->
 
-                    <small>&copy; Copyright WHDPH. All Rights Reserved.</small>
+                    <small>&copy; Copyright WHD Publishing House 2021. All Rights Reserved.</small>
                     <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
 
                     <!-- Privacy Modal -->
