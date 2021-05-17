@@ -519,7 +519,7 @@ section {
 .hero {
     background: url(../img/hero-bg.jpg) top center no-repeat scroll;
     background-size: cover;
-    padding: 3em 0 4.5em;
+    padding: 0 0 4.5em;
     position: relative;
     text-align: center;
 }
@@ -588,7 +588,7 @@ section {
 @media (max-width: 991px) {
     .hero {
         height: auto;
-        padding: 120px 0 60px 0;
+        padding: 0 0 60px 0;
     }
     .hero .hero-img {
         text-align: center;

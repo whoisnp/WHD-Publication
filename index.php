@@ -60,7 +60,7 @@
                         <a class="nav-link scrollto" href="books.html">Books</a>
                     </li>
                     <li>
-                        <a class="getstarted scrollto" href="contact-us.php">Contact us</a>
+                        <a class="getstarted scrollto" href="contact-us.php">Contact</a>
                     </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -317,8 +317,10 @@
                 </header>
                 <br>
                 <div class="row">
-                    <div class="slide-left col-md-5 text-center"> <img src="assets/img/founder1.jpg" data-at2x="assets/img/founder2.jpg" alt="author" class="author-img"> </div>
-                    <div class="col-md-7">
+                    <div class="slide-left col-md-12 col-lg-5 text-center">
+                         <img src="assets/img/founder1.jpg" data-at2x="assets/img/founder2.jpg" alt="author" class="author-img">
+                     </div>
+                    <div class="col-md-12 col-lg-7">
                         <h4 align="left" class="slide-right">Dr Abdul Basit Syed</h4>
                         <hr class="slide-right">
                         <p id="gfty1" align="left" class="slide-right">Books are our companion which we carry not only in our hands but also in our mind and heart. As a humanitarian, I feel my responsibility to give a platform to the words and thoughts which can support world peace.</p>
