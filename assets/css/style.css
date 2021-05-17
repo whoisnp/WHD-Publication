@@ -2785,10 +2785,11 @@ section header {
 }
 
 .features hr {
-    background: #3498db;
+    background: #b19c9c;
     border: none;
     height: 1px;
     width: 20%;
+    font-size: 5px;
 }
 
 

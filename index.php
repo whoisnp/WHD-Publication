@@ -49,7 +49,7 @@
                         <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto" href="packages.html">Packages</a>
+                        <a class="nav-link scrollto" href="packages.html">Author Kit</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto" href="free-publish.php">Quick Publish
@@ -267,12 +267,12 @@
                     <div class="slide-left col-md-12 col-lg-5 text-center">
                          <img src="assets/img/small_absimage.png" data-at2x="assets/img/big_absimage.png" alt="author" class="author-img">
                      </div>
-                    <div class="col-md-12 col-lg-7">
+                    <div class="col-md-12 col-lg-7" align="left">
                         <h4 align="left" class="slide-right">Dr Abdul Basit Syed</h4>
                         <hr class="slide-right">
-                        <p id="gfty1" align="left" class="slide-right">Books are our companion which we carry not only in our hands but also in our mind and heart. As a humanitarian, I feel my responsibility to give a platform to the words and thoughts which can support world peace.</p>
-                        <p id="gfty1" align="left" class="slide-right"> Hence, I have established this sounded platform WHD Publishing House to be an able companion of not only renowned writes, scholars and journalist but also to the people of common thinking like me. I feel it is the moral duty of each resourceful person to publish a book which can be a friend and guide, as our theme ' Fiat Lux ' (Let light be made)</p>
-                        <img src="assets/img/small_absgreysign.png" data-at2x="assets/img/big_absgreysign.png" alt="signature" class="slide-right signature">
+                        <p id="gfty1"  class="slide-right">Books are our companion which we carry not only in our hands but also in our mind and heart. As a humanitarian, I feel my responsibility to give a platform to the words and thoughts which can support world peace.</p>
+                        <p id="gfty1"  class="slide-right"> Hence, I have established this sounded platform WHD Publishing House to be an able companion of not only renowned writes, scholars and journalist but also to the people of common thinking like me. I feel it is the moral duty of each resourceful person to publish a book which can be a friend and guide, as our theme ' Fiat Lux ' (Let light be made)</p>
+                        <img  src="assets/img/small_absgreysign.png" data-at2x="assets/img/big_absgreysign.png" alt="signature" class="slide-right signature">
 
                         <!--social-->
                         <div class="social" align="left">
@@ -358,42 +358,42 @@
             <div class="container">
                 <header>
                     <h2>Specialities</h2>
-                    <h3>We have few of our features to stand out from the rest and makes WHD Publishing House your Go-To publishing service provider</h3>
+                    <h3 style="font-weight:300;">We have few of our features to stand out from the rest and makes WHD Publishing House your Go-To publishing service provider</h3>
                 </header>
                 <br>
 
                 <div class="row">
-                    <div class="slide-left col-sm-4"> <img src="assets/img/feature-1.png" data-at2x="assets/img/feature-1@2x.png" alt="features">
-                        <h4>Global Outreach</h4>
+                    <div class="slide-left col-sm-4"> <img src="assets/img/feature-3.png" data-at2x="assets/img/feature-1@2x.png" alt="features">
+                        <h4 style="font-size: calc(1.05rem + .3vw);"> Global Outreach</h4>
                         <hr>
-                        <p>We have our trusted readers and supporters around the world and each book that gets published is assured of a international audience. </p>
+                        <p style="font-weight:300;"> We have our trusted readers and supporters around the world and each book that gets published is assured of a international audience. </p>
                     </div>
-                    <div class="slide-top col-sm-4"> <img src="assets/img/feature-2.png" data-at2x="assets/img/feature-2@2x.png" alt="features">
-                        <h4>24x7 Round the Clock Service</h4>
+                    <div class="slide-top col-sm-4"> <img src="assets/img/feature-1.png" data-at2x="assets/img/feature-2@2x.png" alt="features">
+                        <h4 style="font-size: calc(1.05rem + .3vw);">24x7 Round the Clock Service</h4>
                         <hr>
-                        <p>Throughout the year, we ensure our team is active and be available for our clients.</p>
+                        <p style="font-weight:300;">"Throughout the year, we ensure our team is active and be available for our clients.</p>
                     </div>
-                    <div class="slide-right col-sm-4"> <img src="assets/img/feature-3.png" data-at2x="assets/img/feature-3@2x.png" alt="features">
-                        <h4>100% Author Share</h4>
+                    <div class="slide-right col-sm-4"> <img src="assets/img/feature-5.png" data-at2x="assets/img/feature-3@2x.png" alt="features">
+                        <h4 style="font-size: calc(1.05rem + .3vw);">100% Author Share</h4>
                         <hr>
-                        <p>We assure all the profits go directly to the author and do not levy any royalties.</p>
+                        <p style="font-weight:300;">We assure all the profits go directly to the author and do not levy any royalties.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="slide-left col-sm-4"> <img src="assets/img/feature-4.png" data-at2x="assets/img/feature-4@2x.png" alt="features">
-                        <h4>Customer Discussion</h4>
+                    <div class="slide-left col-sm-4"> <img src="assets/img/feature-2.png" data-at2x="assets/img/feature-4@2x.png" alt="features">
+                        <h4 style="font-size: calc(1.05rem + .3vw);">Customer Discussion</h4>
                         <hr>
-                        <p>We provide opportunity for everyone to have a free discussion or consultation with our team to understand more.</p>
+                        <p style="font-weight:300;"> We provide opportunity for everyone to have a free discussion or consultation with our team to understand more.</p>
                     </div>
-                    <div class="slide-top col-sm-4"> <img src="assets/img/feature-5.png" data-at2x="assets/img/feature-5@2x.png" alt="features">
-                        <h4>WHD PH Membership</h4>
+                    <div class="slide-top col-sm-4"> <img src="assets/img/feature-4.png" data-at2x="assets/img/feature-5@2x.png" alt="features">
+                        <h4 style="font-size: calc(1.05rem + .3vw);">WHD PH Membership</h4>
                         <hr>
-                        <p>Once a person becomes a Client with us, they will have an exclusive advantage to become a Member of WHD PH which will have its own benefits.</p>
+                        <p style="font-weight:300;">Once a person becomes a Client with us, they will have an exclusive advantage to become a Member of WHD PH which will have its own benefits.</p>
                     </div>
                     <div class="slide-right col-sm-4"> <img src="assets/img/feature-6.png" data-at2x="assets/img/feature-6@2x.png" alt="features">
-                        <h4>Fast Track Publications</h4>
+                        <h4 style="font-size: calc(1.05rem + .3vw);">Fast Track Publications</h4>
                         <hr>
-                        <p>We ensure the books gets ready in the quickest timeframe possible with our exclusive Author Kits.</p>
+                        <p style="font-weight:300;">We ensure the books gets ready in the quickest timeframe possible with our exclusive Author Kits.</p>
                     </div>
                 </div>
             </div>
@@ -407,7 +407,7 @@
                     <p>Frequently Asked Questions</p>
                 </header>
 
-                <div class="row">
+                <div class="row" >
                     <div class="col-lg-6">
                         <!-- F.A.Q List 1-->
                         <div class="accordion accordion-flush" id="faqlist1">
@@ -884,7 +884,7 @@
         <ul class="address row text-center">
             <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
                 <h4 class="slide-bottom">Whatsapp</h4>
-                <p class="slide-bottom" style="font-weight:300;">735-854-1277</p>
+                <p class="slide-bottom" style="font-weight:300;">+91 735-854-1277</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
@@ -892,7 +892,7 @@
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>
-                <p class="slide-bottom" style="font-weight:300;">info@sitename.com</p>
+                <p class="slide-bottom" style="font-weight:300;">publish@whdph.com</p>
             </li>
         </ul>
     </div>
@@ -917,7 +917,7 @@
 
                     <!--social end-->
 
-                    <small>&copy; Copyright WHDPH. All Rights Reserved.</small>
+                    <small>&copy; Copyright WHD Publishing House 2021. All Rights Reserved.</small>
                     <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
 
                     <!-- Privacy Modal -->
