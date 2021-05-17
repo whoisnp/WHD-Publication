@@ -575,7 +575,7 @@
                             <!-- <div class="price"><sup>$</sup>0<span> / mo</span></div> -->
 
 
-
+<br>
                             <ul>
                                 <li>ISBN</li>
                                 <li class="na">Author Copies</li>
@@ -599,6 +599,7 @@
                             <!-- <div class="price"><sup>$</sup>0<span> / mo</span></div> -->
 
 
+                            <br>
 
                             <ul>
                             <li>ISBN</li>
@@ -621,6 +622,7 @@
                             <!-- <div class="price"><sup>$</sup>0<span> / mo</span></div> -->
 
 
+                            <br>
 
                             <ul>
                             <li>ISBN</li>
@@ -644,6 +646,7 @@
                                 <!-- <div class="price"><sup>$</sup>0<span> / mo</span></div> -->
 
 
+                                <br>
 
                                 <ul>
                                 <li>ISBN</li>
@@ -668,6 +671,7 @@
                                 <!-- <div class="price"><sup>$</sup>0<span> / mo</span></div> -->
 
 
+                                <br>
 
                                 <ul>
 
