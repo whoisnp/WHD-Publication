@@ -22,11 +22,17 @@
         transition: 0.3s;
         box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
     }
-    
+
     .btn-upload:hover {
         background: #356aac;
         color: #fff;
     }
+@media only screen and (max-width:770px)
+{ #sell,#name,#number,#country{
+    margin-top:15px;
+};
+}
+    
 </style>
 
 <body>
@@ -45,144 +51,85 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a
-              >
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="packages.html">Packages</a>
+                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="packages.html">Packages</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto active" href="free-publish.php">Quick Publish
-              </a>
+                        </a>
                     </li>
                     <li><a href="publishing-process.html">Publishing Steps</a></li>
                     <li>
                         <a class="nav-link scrollto" href="books.html">Books</a>
                     </li>
                     <li>
-                        <a class="getstarted scrollto" href="contact-us.php">Contact us</a
-              >
-            </li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
-      </div>
+                        <a class="getstarted scrollto" href="contact-us.php">Contact us</a>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+        </div>
 
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        id="schedule_modal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div
-          class="modal-dialog modal-dialog-centered modal-lg"
-          role="document"
-        >
-          <div class="modal-content" style="border: 10px solid #4154f1">
-            <div class="modal-header border-0">
-              <h5 class="modal-title"></h5>
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <br />
-                    <br />
-                    <img
-                      class=""
-                      src="./assets/img/scheduleCall.jpeg"
-                      alt="about"
-                      width="100%"
-                      height="auto"
-                    />
-                  </div>
-                  <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <h4
-                      class="modal-title mt-3"
-                      id="schedule_title"
-                      style="color: #4154f1"
-                    >
-                      Schedule A Call
-                    </h4>
-                    <hr
-                      class="mb-4"
-                      style="
+        <!-- Modal -->
+        <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content" style="border: 10px solid #4154f1">
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <br />
+                                    <br />
+                                    <img class="" src="./assets/img/scheduleCall.jpeg" alt="about" width="100%" height="auto" />
+                                </div>
+                                
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <h4 class="modal-title mt-3" id="schedule_title" style="color: #4154f1">
+                                        Schedule A Call
+                                    </h4>
+                                    <hr class="mb-4" style="
                         height: 3px;
                         color: #4154f1;
                         background-color: #4154f1;
                         opacity: 1;
-                      "
-                    />
-                    <form method="post" enctype="multipart/form-data">
-                      <div class="form-group mb-4">
-                        <label for="scheduleInputEmail">Email address</label>
-                        <input
-                          type="email"
-                          class="form-control"
-                          name="email"
-                          id="scheduleInputEmail"
-                          aria-describedby="emailHelp"
-                          value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>"
-                          placeholder="Enter email"
-                        />
-                      </div>
-                      <div class="form-group mb-4">
-                        <label for="scheduleInputName">Name</label>
-                        <input
-                          type="text"
-                          class="form-control"
-                          name="name"
-                          id="scheduleInputName"
-                          value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>"
-                          placeholder="Name"
-                        />
-                      </div>
-                      <div class="form-group mb-4">
-                        <label for="scheduleInputPhone">Phone Number</label>
-                        <input
-                          type="tel"
-                          class="form-control"
-                          name="message"
-                          id="scheduleInputPhone"
-                          value="<?php echo !empty($postData['message'])?$postData['message']:''; ?>"
-                          placeholder="Phone Number"
-                        />
-                      </div>
-                      <!-- <div class="form-check">
+                      " />
+                                    <form method="post" enctype="multipart/form-data">
+                                        <div class="form-group mb-4">
+                                            <label for="scheduleInputEmail">Email address</label>
+                                            <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>" placeholder="Enter email" />
+                                        </div>
+                                        <div class="form-group mb-4">
+                                            <label for="scheduleInputName">Name</label>
+                                            <input type="text" class="form-control" name="name" id="scheduleInputName" value="<?php echo !empty($postData['name']) ? $postData['name'] : ''; ?>" placeholder="Name" />
+                                        </div>
+                                        <div class="form-group mb-4">
+                                            <label for="scheduleInputPhone">Phone Number</label>
+                                            <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" />
+                                        </div>
+                                        <!-- <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                       </div> -->
-                      <!-- <button type="submit" class="btn btn-primary" > Submit</button> -->
-                      <input
-                        type="submit"
-                        name="submit"
-                        class="btn btn-primary"
-                        style="background-color: #4154f1; border-color: #4154f1"
-                        value="SUBMIT"
-                      />
-                    </form>
-                  </div>
+                                        <!-- <button type="submit" class="btn btn-primary" > Submit</button> -->
+                                        <input type="submit" name="submit" class="btn btn-primary" style="background-color: #4154f1; border-color: #4154f1" value="SUBMIT" />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-      <button
-        class="btn"
-        style="
+        <button class="btn" style="
           text-align: center;
           color: white;
           background-color: #4154f1;
@@ -190,27 +137,20 @@
           display: inline-block;
           bottom: 0;
           z-index: 9999;
-        "
-        data-toggle="modal"
-        data-target="#schedule_modal"
-      >
-        Schedule A Call
-      </button>
+        " data-toggle="modal" data-target="#schedule_modal">
+            Schedule A Call
+        </button>
 
-      <a href="https://wa.me/917358541277">
-        <img
-          src="assets/img/whatsapp_logo.png"
-          id="wa"
-          style="
+        <a href="https://wa.me/917358541277">
+            <img src="assets/img/whatsapp_logo.png" id="wa" style="
             position: fixed;
             z-index: 9999;
             bottom: 0;
             right: 60px;
             height: 11%;
-          "
-        />
-      </a>
-                        <!-- Modal -->
+          " />
+        </a>
+        <!-- Modal -->
     </header>
     <br>
     <br>
@@ -244,12 +184,12 @@
                                         
                                     </div> -->
                                 <select class="form-control" id="sel1">
-                                  <option value=""disabled selected hidden>Title</option>
-                    <option>Mr.</option>
-                    <option>Mrs.</option>
-                    <option>Miss.</option>
-                    <option>Dr.</option>
-                  </select>
+                                    <option value="" disabled selected hidden>Title</option>
+                                    <option>Mr.</option>
+                                    <option>Mrs.</option>
+                                    <option>Miss.</option>
+                                    <option>Dr.</option>
+                                </select>
                             </div>
                             <div class="col-md-10">
                                 <div class="mb-3">
@@ -257,7 +197,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row justify-content-evenly">
                             <div class="col-md-6">
                                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" />
                             </div>
@@ -279,32 +219,30 @@
                             <div class="col-md-6">
                                 <label for="customFile">Upload Your Book Here</label>
                                 <input type="file" class="form-control" id="customFile" />
+                                <div class="col-12 justify-content-center">
+
+                                    <p id="uploading"></p>
+                                    <progress value="0" max="100" id="progress"></progress>
+                                </div>
+                                <div class="col-12 justify-content-center">
+                                    <button class="btn btn-upload" id="upload0">Upload</button>
+                                </div>
                             </div>
                             <div class="col-md-6">
                                 <label for="formFileMultiple">Upload Cover Page Here</label>
                                 <input class="form-control" type="file" id="formFileMultiple" multiple />
+                                <div class="col-12 justify-content-center">
+                                    <p id="uploading"></p>
+                                    <progress value="0" max="100" id="progress2"></progress>
+                                </div>
+                                <div class="col-12 justify-content-center">
+                                    <button class="btn btn-upload" id="upload2">Upload</button>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p id="uploading"></p>
-                                <progress value="0" max="100" id="progress"></progress>
-                            </div>
-                            <div class="col-md-6">
-                                <p id="uploading2"></p>
-                                <progress value="0" max="100" id="progress2"></progress>
-                            </div>
-                        </div>
+
                         <br />
                         <br />
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6 col-6 text-center justify-content-start">
-                                <button class="btn btn-upload" id="upload0">Upload</button>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-6 text-center justify-content-end">
-                                <button class="btn btn-upload" id="upload2">Upload</button>
-                            </div>
-                        </div>
 
                         <hr>
                         <div class="row">
