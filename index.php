@@ -831,17 +831,17 @@
                             <label for="scheduleInputName" style="font-size:17px;">Country</label>
                             <input type="text" class="form-control" name="country" id="scheduleInputCountry" value="" placeholder="Enter Country" style="font-size:17px;">
                         </div>
-                        <br>
+                        
                         <div class="form-group mb-4">
                             <label for="scheduleInputEmail" style="font-size:17px;">Email address</label>
                             <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>" placeholder="Enter Email" style="font-size:17px;">
                         </div>
-                        <br>
+                    
                         <div class="form-group mb-4">
                             <label for="scheduleInputPhone" style="font-size:17px;">Phone Number</label>
                             <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" style="font-size:17px;">
                         </div>
-                        <br>
+                        
                         <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
                     </form>
                 </div>
