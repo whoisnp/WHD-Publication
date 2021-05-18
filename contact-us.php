@@ -48,13 +48,13 @@
                         <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto" href="packages.html">Author Kit</a>
+                        <a class="nav-link scrollto" href="packages.php">Author Kit</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto" href="free-publish.php">Quick Publish
                         </a>
                     </li>
-                    <li><a href="publishing-process.html">Publishing steps</a></li>
+                    <li><a href="publishing-process.php">Publishing steps</a></li>
                     <li>
                         <a class="nav-link scrollto" href="books.html">Books</a>
                     </li>

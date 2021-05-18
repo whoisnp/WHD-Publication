@@ -58,13 +58,13 @@
               >
             </li>
             <li>
-              <a class="nav-link scrollto" href="packages.html">Author Kit</a>
+              <a class="nav-link scrollto" href="packages.php">Author Kit</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto active" href="free-publish.php">Quick Publish
                         </a>
                     </li>
-                    <li><a href="publishing-process.html">Publishing Steps</a></li>
+                    <li><a href="publishing-process.php">Publishing Steps</a></li>
                     <li>
                         <a class="nav-link scrollto" href="books.html">Books</a>
                     </li>
@@ -236,7 +236,7 @@
                                 <label for="formFileMultiple">Upload Cover Page Here</label>
                                 <input class="form-control" type="file" id="formFileMultiple" multiple />
                                 <div class="col-12 justify-content-center">
-                                    <p id="uploading"></p>
+                                    <p id="uploading2"></p>
                                     <progress value="0" max="100" id="progress2"></progress>
                                 </div>
                                 <div class="col-12 justify-content-center">
@@ -251,7 +251,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <button class="btn btn-upload" id="upload">Send</button>
+                                <button class="btn btn-upload" id="send">Send</button>
                             </div>
 
                         </div>
@@ -393,9 +393,9 @@
                 }
             });
 
-        document.getElementById("upload").addEventListener("click", function() {
+        document.getElementById("upload0").addEventListener("click", function() {
             //checks if files are selected
-            if (files.length != 0 || bookfiles.length != 0) {
+            if (bookfiles.length != 0) {
                 //Loops through all the selected files
                 for (let i = 0; i < bookfiles.length; i++) {
                     //create a storage reference
@@ -425,6 +425,15 @@
                         }
                     );
                 }
+            } else {
+                alert("No file chosen");
+            }
+            // ajaxFuntion(filesUrl,bookfilesUrl)
+        });
+        document.getElementById("upload2").addEventListener("click", function() {
+            //checks if files are selected
+            if (files.length != 0) {
+                //Loops through all the selected files
                 for (let i = 0; i < files.length; i++) {
                     //create a storage reference
                     var storage = firebase.storage().ref(files[i].name);
@@ -485,7 +494,7 @@
             var cno = document.getElementById("number").value;
             var BookTitle = document.getElementById("BookTitle").value;
             var country = document.getElementById("country").value;
-            console.log(prefix, name, email, cno, BookTitle, country);
+            // console.log(prefix, name, email, cno, BookTitle, country);
             $.ajax({
                 type: "POST",
                 url: "test.php",

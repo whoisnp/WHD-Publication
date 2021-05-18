@@ -50,13 +50,13 @@
               >
             </li>
             <li>
-              <a class="nav-link scrol/lto" href="packages.html">Author Kit</a>
+              <a class="nav-link scrol/lto" href="packages.php">Author Kit</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto" href="free-publish.php">Quick Publish
               </a>
                     </li>
-                    <li><a class="nav-link scrollto active" href="publishing-process.html">Publishing steps</a></li>
+                    <li><a class="nav-link scrollto active" href="publishing-process.php">Publishing steps</a></li>
                     <li>
                         <a class="nav-link scrollto" href="books.html">Books</a>
                     </li>
@@ -130,7 +130,7 @@
             </div>
         </div>
     </div>
-    <button class="btn" style="text-align:center; color:white;background-color: #356aac;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button>
+    <!-- <button class="btn" style="text-align:center; color:white;background-color: #356aac;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button> -->
     <main id="main">
         <div class="text-center">
             <h6 class="underline" style="color: #6e6e6e; font-size: 25px">
