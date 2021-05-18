@@ -1072,14 +1072,14 @@
             </table>
         </div>
         <div style="height:2px"></div>
-        <p style="text-align: center;">
+        <!-- <p style="text-align: center;">
             <h5 style="text-align: center;"><i class="fa fa-download" style="color:#356aac;"></i>
                 <a href="" style="color: #292929;" onMouseOver="this.style.color='#245993'" onMouseOut="this.style.color='#292929'">Download Details</a></h5>
         </p>
         <p style="text-align: center;">
             Give your book a chance to become the best it can become. Choose from the widest range of professional<br> book publishing and marketing services. Get Published by <strong><a href="">Publishinghouse.com.</a></strong><br><br>
             <button class="btn" style="text-align:center; color:white;background-color: #356aac;">Schedule A Call</button>
-        </p>
+        </p> -->
 
         <!-- address -->
         <div class="container">

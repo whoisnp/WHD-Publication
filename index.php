@@ -129,7 +129,7 @@
                         <div class="row">
                             <div class="button-box col-xl-6 col-lg-12 col-md-12 col-sm-12">
                                 <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100" style="border-radius:64px">
-                                    <span>Free Publishing</span>
+                                    <span>Quick Publishing</span>
                                     <i class="bi bi-arrow-right"></i>
                                 </a>
                             </div>
@@ -304,8 +304,8 @@
                             <ul>
                                 <li class="slide-right"><a href="https://twitter.com/abdulbasit4777" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                 <li class="slide-right"><a href="https://www.facebook.com/abdulsyedibrahim" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li class="slide-right"><a href="https://www.instagram.com/abdulbasitsyed7/?igshid=1v0kvltbcmeu4" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li class="slide-right"><a href="https://www.linkedin.com/in/abdul-basit-syed-88762b163" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="slide-right"><a href="https://instagram.com/dr_abdulbasitsyed?igshid=1ob99e3f4trp5" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li class="slide-right"><a href="https://www.linkedin.com/in/dr-abdul-basit-syed-88762b163" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                         <!--social end-->
@@ -382,7 +382,7 @@
         <section class="features section-spacing text-center" id="Features">
             <div class="container">
                 <header>
-                    <h2>Specialities</h2>
+                    <h2>Our Specialities</h2>
                     <h3 style="font-weight:300;color:#807d7d;">We have few of our features to stand out from the rest and makes WHD Publishing House your Go-To publishing service provider</h3>
                 </header>
                 <br>
@@ -609,7 +609,7 @@
                                 <li class="na">Social Media Setup</li>
 
                             </ul>
-                            <a href="packages.html" class="btn-buy">Know More</a>
+                            <a href="packages.php" class="btn-buy">Know More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
@@ -634,7 +634,7 @@
                                 <li class="na">Online Book Launch</li>
                                 <li class="na">Social Media Setup</li>
                             </ul>
-                            <a href="packages.html" class="btn-buy">Know More</a>
+                            <a href="packages.php" class="btn-buy">Know More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
@@ -657,7 +657,7 @@
                                 <li class="na">Online Book Launch</li>
                                 <li class="na">Social Media Setup</li>
                             </ul>
-                            <a href="packages.html" class="btn-buy">Know More</a>
+                            <a href="packages.php" class="btn-buy">Know More</a>
                         </div>
                     </div>
                     <div class="row gy-4 justify-content-evenly" data-aos="fade-left">
@@ -682,7 +682,7 @@
                                     <li>Online Book Launch</li>
                                     <li class="na">Social Media Setup</li>
                                 </ul>
-                                <a href="packages.html" class="btn-buy">Know More</a>
+                                <a href="packages.php" class="btn-buy">Know More</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
@@ -708,7 +708,7 @@
                                     <li>Social Media Setup</li>
                                     <li>Online Book L
                                 </ul>
-                                <a href="packages.html" class="btn-buy">Know More</a>
+                                <a href="packages.php" class="btn-buy">Know More</a>
                             </div>
                         </div>
                     </div>
@@ -739,17 +739,14 @@
                             <label for="scheduleInputName" style="font-size:17px;">Country</label>
                             <input type="text" class="form-control" name="country" id="scheduleInputCountry" value="" placeholder="Enter Country" style="font-size:17px;">
                         </div>
-                        <br>
                         <div class="form-group mb-4">
                             <label for="scheduleInputEmail" style="font-size:17px;">Email address</label>
                             <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>" placeholder="Enter Email" style="font-size:17px;">
                         </div>
-                        <br>
                         <div class="form-group mb-4">
                             <label for="scheduleInputPhone" style="font-size:17px;">Phone Number</label>
                             <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" style="font-size:17px;">
                         </div>
-                        <br>
                         <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
                     </form>
                 </div>

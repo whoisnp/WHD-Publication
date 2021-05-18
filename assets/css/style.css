@@ -2798,7 +2798,7 @@ section header {
       ========================================================================== */
 
 .section-spacing {
-    padding: 4.5em 0;
+    /* padding: 4.5em 0; */
 }
 
 .counter {
