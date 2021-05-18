@@ -908,11 +908,11 @@
         <ul class="address row text-center">
             <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
                 <h4 class="slide-bottom">Whatsapp</h4>
-                <p class="slide-bottom" style="font-weight:300;">+91 735-854-1277</p>
+                <p class="slide-bottom" style="font-weight:300;">+91 735 854 1277</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
-                <p class="slide-bottom" style="font-weight:300;">+44 7946 328097</p>
+                <p class="slide-bottom" style="font-weight:300;">+44 794 632 8097</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>
