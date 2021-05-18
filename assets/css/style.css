@@ -548,7 +548,7 @@ section {
     color: #356aac;
     border: 1px solid #356aac;
     transition: 0.3s;
-    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+    /* box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4); */
 }
 
 .hero .btn-get-started span {
@@ -2796,10 +2796,6 @@ section header {
 /* ==========================================================================
       counter
       ========================================================================== */
-
-.section-spacing {
-    /* padding: 4.5em 0; */
-}
 
 .counter {
     background: #3498db;
