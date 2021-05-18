@@ -106,7 +106,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a
+                        <a class="nav-link scrollto" href="self-publishing.php">Book Publishing</a
               >
             </li>
             <li>
@@ -216,14 +216,14 @@
             <table class="table table-hover table-bordered" data-aos="fade-up">
                 <thead>
                     <tr>
-                        <th style="color:white; background-color: #356aac;">AuthorKits</th>
-                        <th style="color:white; background-color: #356aac;">Chipher
+                        <th style="color:white; font-size:25; background-color: #356aac;">AuthorKits</th>
+                        <th style="color:white; font-size:25; background-color: #356aac;">Chipher
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th style="color:white; background-color: #356aac;">Price</th>
-                        <th style="color:white; background-color: #356aac;">0</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;">Price</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;">0</th>
                     </tr>
                     <tr>
                         <td>Book Cover Design</td>
@@ -328,14 +328,14 @@
             <table class="table table-hover table-bordered" data-aos="fade-up">
                 <thead>
                     <tr>
-                        <th style="color:white; background-color: #356aac;">AuthorKits</th>
-                        <th style="color:white; background-color: #356aac;">Standard
+                        <th style="color:white; font-size:25; background-color: #356aac;">AuthorKits</th>
+                        <th style="color:white; font-size:25; background-color: #356aac;">Standard
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th style="color:white; background-color: #356aac;">Price</th>
-                        <th style="color:white; background-color: #356aac;">Ask Us</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;">Price</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;">Ask Us</th>
                     </tr>
                     <tr>
                         <td>Book Cover Design</td>
@@ -440,14 +440,14 @@
             <table class="table table-hover table-bordered" data-aos="fade-up">
                 <thead>
                     <tr>
-                        <th style="color:white; background-color: #356aac;">AuthorKits</th>
-                        <th style="color:white; background-color: #356aac;">Specialist
+                        <th style="color:white; font-size:25; background-color: #356aac;">AuthorKits</th>
+                        <th style="color:white; font-size:25; background-color: #356aac;">Specialist
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th style="color:white; background-color: #356aac;">Price</th>
-                        <th style="color:white; background-color: #356aac;">Ask Us</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;">Price</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;">Ask Us</th>
                     </tr>
                     <tr>
                         <td>Book Cover Design</td>
@@ -552,14 +552,14 @@
             <table class="table table-hover table-bordered" data-aos="fade-up">
                 <thead>
                     <tr>
-                        <th style="color:white; background-color: #356aac;">AuthorKits</th>
-                        <th style="color:white; background-color: #356aac;">Expert
+                        <th style="color:white; font-size:25; background-color: #356aac;">AuthorKits</th>
+                        <th style="color:white; font-size:25; background-color: #356aac;">Expert
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th style="color:white; background-color: #356aac;">Price</th>
-                        <th style="color:white; background-color: #356aac;">Ask Us</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;">Price</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;">Ask Us</th>
                     </tr>
                     <tr>
                         <td>Book Cover Design</td>
@@ -664,14 +664,14 @@
             <table class="table table-hover table-bordered" data-aos="fade-up">
                 <thead>
                     <tr>
-                        <th style="color:white; background-color: #356aac;">AuthorKits</th>
-                        <th style="color:white; background-color: #356aac;">Pro Plus
+                        <th style="color:white; font-size:25; background-color: #356aac;">AuthorKits</th>
+                        <th style="color:white; font-size:25; background-color: #356aac;">Pro Plus
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th style="color:white; background-color: #356aac;">Price</th>
-                        <th style="color:white; background-color: #356aac;">Ask Us</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;">Price</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;">Ask Us</th>
                     </tr>
                     <tr>
                         <td>Book Cover Design</td>
@@ -776,27 +776,27 @@
             <table class="table table-hover table-bordered" data-aos="fade-up">
                 <thead>
                     <tr>
-                        <th style="color:white; background-color: #356aac;">AuthorKits</th>
-                        <th style="color:white; background-color: #356aac;">Chipher
+                        <th style="color:white; font-size:25; background-color: #356aac;">AuthorKits</th>
+                        <th style="color:white; font-size:25; background-color: #356aac;">Chipher
                         </th>
-                        <th style="color:white; background-color: #356aac;">Standard
+                        <th style="color:white; font-size:25; background-color: #356aac;">Standard
                         </th>
-                        <th style="color:white; background-color: #356aac;">Specialist
+                        <th style="color:white; font-size:25; background-color: #356aac;">Specialist
                         </th>
-                        <th style="color:white; background-color: #356aac;">Expert
+                        <th style="color:white; font-size:25; background-color: #356aac;">Expert
                         </th>
-                        <th style="color:white; background-color: #356aac;">Pro Plus
+                        <th style="color:white; font-size:25; background-color: #356aac;">Pro Plus
                         </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th style="color:white; background-color: #356aac;">Price</th>
-                        <th style="color:white; background-color: #356aac;" class="tb_content">0</th>
-                        <th style="color:white; background-color: #356aac;" class="tb_content">Ask Us</th>
-                        <th style="color:white; background-color: #356aac;" class="tb_content">Ask Us</th>
-                        <th style="color:white; background-color: #356aac;" class="tb_content">Ask Us</th>
-                        <th style="color:white; background-color: #356aac;" class="tb_content">Ask Us</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;">Price</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;" class="tb_content">0</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;" class="tb_content">Ask Us</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;" class="tb_content">Ask Us</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;" class="tb_content">Ask Us</th>
+                        <th style="color:white; font-size:21; background-color: #356aac;" class="tb_content">Ask Us</th>
                     </tr>
                     <tr>
                         <td>

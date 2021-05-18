@@ -41,14 +41,20 @@
     #head3 {
         text-align: left;
     }
-
+#mob{
+    visibility: hidden;
+}
     @media only screen and (max-width:988px) {
         #head2 {
             text-align: center;
 
         }
-        
-            
+        #mob{
+    visibility: visible;
+}
+#comp img{
+    display: none;
+}
             
         
 
@@ -62,22 +68,27 @@
 <body>
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top">
-        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-            <a href="index.php" class="logo d-flexs">
+        <div class="
+          container-fluid container-xl
+          d-flex
+          align-items-center
+          justify-content-between
+        ">
+            <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/whdph_logo.png" />
-                <!-- <span>WHD PH</span> -->
+
             </a>
 
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a>
+                        <a class="nav-link scrollto" href="self-publishing.php">Book Publishing</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto" href="packages.php">Author Kit</a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto" href="free-publish.php">Quick Publish
+                        <a class="nav-link scrollto active" href="free-publish.php">Quick Publish
                         </a>
                     </li>
                     <li><a href="publishing-process.php">Publishing Steps</a></li>
@@ -85,7 +96,7 @@
                         <a class="nav-link scrollto" href="books.html">Books</a>
                     </li>
                     <li>
-                        <a class="getstarted scrollto" href="contact-us.php">Contact</a>
+                        <a class="getstarted scrollto" href="contact-us.php">Contact us</a>
                     </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -93,14 +104,95 @@
             <!-- .navbar -->
         </div>
 
+        <!-- Modal -->
+        <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content" style="border: 10px solid #4154f1">
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <br />
+                                    <br />
+                                    <img class="" src="./assets/img/scheduleCall.jpeg" alt="about" width="100%" height="auto" />
+                                </div>
+                                
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <h4 class="modal-title mt-3" id="schedule_title" style="color: #4154f1">
+                                        Schedule A Call
+                                    </h4>
+                                    <hr class="mb-4" style="
+                        height: 3px;
+                        color: #4154f1;
+                        background-color: #4154f1;
+                        opacity: 1;
+                      " />
+                                    <form method="post" enctype="multipart/form-data">
+                                        <div class="form-group mb-4">
+                                            <label for="scheduleInputEmail">Email address</label>
+                                            <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>" placeholder="Enter email" />
+                                        </div>
+                                        <div class="form-group mb-4">
+                                            <label for="scheduleInputName">Name</label>
+                                            <input type="text" class="form-control" name="name" id="scheduleInputName" value="<?php echo !empty($postData['name']) ? $postData['name'] : ''; ?>" placeholder="Name" />
+                                        </div>
+                                        <div class="form-group mb-4">
+                                            <label for="scheduleInputPhone">Phone Number</label>
+                                            <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" />
+                                        </div>
+                                        <!-- <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div> -->
+                                        <!-- <button type="submit" class="btn btn-primary" > Submit</button> -->
+                                        <input type="submit" name="submit" class="btn btn-primary" style="background-color: #4154f1; border-color: #4154f1" value="SUBMIT" />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn" style="
+          text-align: center;
+          color: white;
+          background-color: #4154f1;
+          position: fixed;
+          display: inline-block;
+          bottom: 0;
+          z-index: 9999;
+        " data-toggle="modal" data-target="#schedule_modal">
+            Schedule A Call
+        </button>
 
+        <a href="https://wa.me/917358541277">
+            <img src="assets/img/whatsapp_logo.png" id="wa" style="
+            position: fixed;
+            z-index: 9999;
+            bottom: 0;
+            right: 60px;
+            height: 11%;
+          " />
+        </a>
+        <!-- Modal -->
     </header>
     <!-- End Header -->
     <header class="header0">
         <div class="overlay"></div>
-        <div class="container container-xl d-flex justify-content-left ">
+        <div class="container container-xl d-flex">
+        <a href="index.php" id="comp"class="logo d-block center-block"style="z-index:930">
+                <img src="assets/img/whdph_logo1.png" />
+                <!-- <span>WHD PH</span> -->
+            </a>
 
-            <a href="index.php" class="logo d-flex align-items-center">
+            <a href="index.php" id="mob"class="logo d-block center-block mx-auto"style="z-index:930">
                 <img src="assets/img/whdph_logo1.png" />
                 <!-- <span>WHD PH</span> -->
             </a>
@@ -129,7 +221,7 @@
                         <div class="row">
                             <div class="button-box col-xl-6 col-lg-12 col-md-12 col-sm-12">
                                 <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100" style="border-radius:64px">
-                                    <span>Quick Publishing</span>
+                                    <span>Free Publishing</span>
                                     <i class="bi bi-arrow-right"></i>
                                 </a>
                             </div>
@@ -304,8 +396,8 @@
                             <ul>
                                 <li class="slide-right"><a href="https://twitter.com/abdulbasit4777" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                 <li class="slide-right"><a href="https://www.facebook.com/abdulsyedibrahim" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li class="slide-right"><a href="https://instagram.com/dr_abdulbasitsyed?igshid=1ob99e3f4trp5" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li class="slide-right"><a href="https://www.linkedin.com/in/dr-abdul-basit-syed-88762b163" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="slide-right"><a href="https://www.instagram.com/abdulbasitsyed7/?igshid=1v0kvltbcmeu4" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li class="slide-right"><a href="https://www.linkedin.com/in/abdul-basit-syed-88762b163" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                         <!--social end-->
@@ -382,7 +474,7 @@
         <section class="features section-spacing text-center" id="Features">
             <div class="container">
                 <header>
-                    <h2>Our Specialities</h2>
+                    <h2>Specialities</h2>
                     <h3 style="font-weight:300;color:#807d7d;">We have few of our features to stand out from the rest and makes WHD Publishing House your Go-To publishing service provider</h3>
                 </header>
                 <br>
@@ -609,7 +701,7 @@
                                 <li class="na">Social Media Setup</li>
 
                             </ul>
-                            <a href="packages.php" class="btn-buy">Know More</a>
+                            <a href="packages.html" class="btn-buy">Know More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
@@ -634,7 +726,7 @@
                                 <li class="na">Online Book Launch</li>
                                 <li class="na">Social Media Setup</li>
                             </ul>
-                            <a href="packages.php" class="btn-buy">Know More</a>
+                            <a href="packages.html" class="btn-buy">Know More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
@@ -657,7 +749,7 @@
                                 <li class="na">Online Book Launch</li>
                                 <li class="na">Social Media Setup</li>
                             </ul>
-                            <a href="packages.php" class="btn-buy">Know More</a>
+                            <a href="packages.html" class="btn-buy">Know More</a>
                         </div>
                     </div>
                     <div class="row gy-4 justify-content-evenly" data-aos="fade-left">
@@ -682,7 +774,7 @@
                                     <li>Online Book Launch</li>
                                     <li class="na">Social Media Setup</li>
                                 </ul>
-                                <a href="packages.php" class="btn-buy">Know More</a>
+                                <a href="packages.html" class="btn-buy">Know More</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
@@ -708,7 +800,7 @@
                                     <li>Social Media Setup</li>
                                     <li>Online Book L
                                 </ul>
-                                <a href="packages.php" class="btn-buy">Know More</a>
+                                <a href="packages.html" class="btn-buy">Know More</a>
                             </div>
                         </div>
                     </div>
@@ -739,14 +831,17 @@
                             <label for="scheduleInputName" style="font-size:17px;">Country</label>
                             <input type="text" class="form-control" name="country" id="scheduleInputCountry" value="" placeholder="Enter Country" style="font-size:17px;">
                         </div>
+                        <br>
                         <div class="form-group mb-4">
                             <label for="scheduleInputEmail" style="font-size:17px;">Email address</label>
                             <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>" placeholder="Enter Email" style="font-size:17px;">
                         </div>
+                        <br>
                         <div class="form-group mb-4">
                             <label for="scheduleInputPhone" style="font-size:17px;">Phone Number</label>
                             <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" style="font-size:17px;">
                         </div>
+                        <br>
                         <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
                     </form>
                 </div>
@@ -908,11 +1003,11 @@
         <ul class="address row text-center">
             <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
                 <h4 class="slide-bottom">Whatsapp</h4>
-                <p class="slide-bottom" style="font-weight:300;">+91 735 854 1277</p>
+                <p class="slide-bottom" style="font-weight:300;">+91 735-854-1277</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
-                <p class="slide-bottom" style="font-weight:300;">+44 794 632 8097</p>
+                <p class="slide-bottom" style="font-weight:300;">+44 7946 328097</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>
