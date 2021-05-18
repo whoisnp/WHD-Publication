@@ -45,7 +45,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a>
+                        <a class="nav-link scrollto" href="self-publishing.php">Book Publishing</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto" href="packages.php">Author Kit</a>
