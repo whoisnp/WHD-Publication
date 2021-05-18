@@ -83,10 +83,10 @@
                     <div class="modal-body">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <!-- <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                                     <img class="" src="./assets/img/about.jpg" alt="about" width="100%" height="auto">
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                </div> -->
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                                     <h4 class="modal-title mt-3" id="schedule_title" style="color:#4154f1">Schedule A Call</h4>
                                     <hr class="mb-4" style="height: 3px;color: #4154f1;background-color: #4154f1;opacity: 1;">
                                     <form action="">
@@ -95,8 +95,8 @@
                                             <input type="email" class="form-control" id="scheduleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
                                         </div>
                                         <div class="form-group mb-4">
-                                            <label for="scheduleInputPassword">Password</label>
-                                            <input type="password" class="form-control" id="scheduleInputPassword" placeholder="Password">
+                                            <label for="scheduleInputPassword">Name</label>
+                                            <input type="text" class="form-control" id="scheduleInputPassword" placeholder="Name">
                                         </div>
                                         <div class="form-group mb-4">
                                             <label for="scheduleInputPhone">Phone Number</label>
@@ -110,8 +110,9 @@
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                       </div> -->
-                                        <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'"
-                                            value="SUBMIT">
+                      <div class="text-center">
+                                        <input type="submit" name="submit" class="btn btn-buy" align="right" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'"onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
+                      </div>
                                     </form>
                                 </div>
                             </div>

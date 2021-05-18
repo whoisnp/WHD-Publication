@@ -23,7 +23,7 @@
         color: #356aac;
         border: 1px solid #356aac;
         transition: 0.3s;
-        box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+        /* box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4); */
     }
 
     .btn-upload:hover {
@@ -227,10 +227,11 @@
 
                                     <p id="uploading"></p>
                                     <progress value="0" max="100" id="progress"></progress>
-                                </div>
-                                <div class="col-12 justify-content-center">
+                                <div class="text-center">
                                     <button class="btn btn-upload" id="upload0">Upload</button>
                                 </div>
+                                </div>
+                                <!-- <div class="col-12 justify-content-center"> -->
                             </div>
                             <div class="col-md-6">
                                 <label for="formFileMultiple">Upload Cover Page Here</label>
@@ -238,9 +239,9 @@
                                 <div class="col-12 justify-content-center">
                                     <p id="uploading2"></p>
                                     <progress value="0" max="100" id="progress2"></progress>
-                                </div>
-                                <div class="col-12 justify-content-center">
+                                <div class="text-center">
                                     <button class="btn btn-upload" id="upload2">Upload</button>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -251,7 +252,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <button class="btn btn-upload" id="send">Send</button>
+                                <button class="btn btn-upload" style="width:20%;" id="send">Send</button>
                             </div>
 
                         </div>
