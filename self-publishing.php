@@ -47,7 +47,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a
+                        <a class="nav-link scrollto" href="self-publishing.php">Book Publishing</a
               >
             </li>
             <li>
@@ -83,10 +83,10 @@
                     <div class="modal-body">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <!-- <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                                     <img class="" src="./assets/img/about.jpg" alt="about" width="100%" height="auto">
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                </div> -->
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                                     <h4 class="modal-title mt-3" id="schedule_title" style="color:#4154f1">Schedule A Call</h4>
                                     <hr class="mb-4" style="height: 3px;color: #4154f1;background-color: #4154f1;opacity: 1;">
                                     <form action="">
@@ -95,8 +95,8 @@
                                             <input type="email" class="form-control" id="scheduleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
                                         </div>
                                         <div class="form-group mb-4">
-                                            <label for="scheduleInputPassword">Password</label>
-                                            <input type="password" class="form-control" id="scheduleInputPassword" placeholder="Password">
+                                            <label for="scheduleInputPassword">Name</label>
+                                            <input type="text" class="form-control" id="scheduleInputPassword" placeholder="Name">
                                         </div>
                                         <div class="form-group mb-4">
                                             <label for="scheduleInputPhone">Phone Number</label>
@@ -110,7 +110,9 @@
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                       </div> -->
-                                        <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'"onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
+                      <div class="text-center">
+                                        <input type="submit" name="submit" class="btn btn-buy" align="right" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'"onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
+                      </div>
                                     </form>
                                 </div>
                             </div>
@@ -431,7 +433,7 @@
                             <div class="col-md-6 ">
                                 <div class="info-box ">
                                     <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
-                                        
+
                                     </li>
                                     <h3>Whatsapp</h3>
                                     <p>+44 794 632 8097</p>
@@ -533,11 +535,11 @@
         <ul class="address row text-center ">
             <li class="col-sm-4 "><i class="slide-bottom bi bi-whatsapp "></i>
                 <h4 class="slide-bottom ">Whatsapp</h4>
-                <p class="slide-bottom " style="font-weight:300;">+91 735-854-1277</p>
+                <p class="slide-bottom " style="font-weight:300;">+91 735 854 1277</p>
             </li>
             <li class="col-sm-4 "><i class="slide-bottom bi bi-telephone-fill "></i>
                 <h4 class="slide-bottom ">Phone</h4>
-                <p class="slide-bottom " style="font-weight:300;">+44 794-632-8097</p>
+                <p class="slide-bottom " style="font-weight:300;">+44 794 632 8097</p>
             </li>
             <li class="col-sm-4 "><i class="slide-bottom bi bi-envelope-fill "></i>
                 <h4 class="slide-bottom ">Email</h4>

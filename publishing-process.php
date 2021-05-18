@@ -46,7 +46,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a
+                        <a class="nav-link scrollto" href="self-publishing.php">Book Publishing</a
               >
             </li>
             <li>
@@ -159,7 +159,7 @@
                             </div>
                             <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-up">
                                 <img class="rounded mx-auto d-block" src="assets_1/img/1.png" height=50px width=50px>
-                                <h3 class="text-center">Choose your Author Kit and services</h3>
+                                <h3 class="text-center">Choose your Author Kit & services</h3>
 
 
                             </div>
@@ -261,7 +261,7 @@
                             </div>
                             <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-up">
                                 <img class="rounded mx-auto d-block" src="assets_1/img/8.png" height==50px width=50px>
-                                <h3 class="text-center">Printed Copies and E-Books</h3>
+                                <h3 class="text-center">Printed Copies & E-Books</h3>
 
                             </div>
                         </div>
@@ -314,19 +314,18 @@
                             <label for="scheduleInputName" style="font-size:17px;">Country</label>
                             <input type="text" class="form-control" name="country" id="scheduleInputCountry" value="" placeholder="Enter Country" style="font-size:17px;">
                         </div>
-                        <br>
                         <div class="form-group mb-4">
                             <label for="scheduleInputEmail" style="font-size:17px;">Email address</label>
                             <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>" placeholder="Enter Email" style="font-size:17px;">
                         </div>
-                        <br>
                         <div class="form-group mb-4">
                             <label for="scheduleInputPhone" style="font-size:17px;">Phone Number</label>
                             <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" style="font-size:17px;">
                         </div>
-                        <br>
-                        <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'"
+                        <div class="text-center">
+                            <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'"
                             value="SUBMIT">
+                        </div>
                     </form>
                 </div>
 
@@ -353,11 +352,11 @@
         <ul class="address row text-center">
             <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
                 <h4 class="slide-bottom">Whatsapp</h4>
-                <p class="slide-bottom" style="font-weight:300;">+91 735-854-1277</p>
+                <p class="slide-bottom" style="font-weight:300;">+91 735 854 1277</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
-                <p class="slide-bottom" style="font-weight:300;">+44 794-632-8097</p>
+                <p class="slide-bottom" style="font-weight:300;">+44 794 632 8097</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>

@@ -128,7 +128,7 @@ a:hover {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(-70deg, #b1b1b1, transparent 50%);
+    /* background-image: linear-gradient(-70deg, #b1b1b1, transparent 50%); */
     opacity: 1;
     border-radius: 10px;
 }
@@ -236,11 +236,11 @@ a:hover {
 }
 
 .blue::before {
-    background-image: linear-gradient(-30deg, rgba(0, 118, 189, 0.1), transparent 50%);
+    /* background-image: linear-gradient(-30deg, rgba(0, 118, 189, 0.1), transparent 50%); */
 }
 
 .blue:nth-child(2n)::before {
-    background-image: linear-gradient(30deg, rgba(0, 118, 189, 0.1), transparent 50%);
+    /* background-image: linear-gradient(30deg, rgba(0, 118, 189, 0.1), transparent 50%); */
 }
 
 .postcard .postcard__tagbox .red.play:hover {
@@ -292,10 +292,10 @@ a:hover {
         background-image: linear-gradient(80deg, rgba(121, 221, 9, 0.1), transparent 50%);
     }
     .blue::before {
-        background-image: linear-gradient(-80deg, rgba(0, 118, 189, 0.1), transparent 50%);
+        /* background-image: linear-gradient(-80deg, rgba(0, 118, 189, 0.1), transparent 50%); */
     }
     .blue:nth-child(2n)::before {
-        background-image: linear-gradient(80deg, rgba(0, 118, 189, 0.1), transparent 50%);
+        /* background-image: linear-gradient(80deg, rgba(0, 118, 189, 0.1), transparent 50%); */
     }
     .red::before {
         background-image: linear-gradient(-80deg, rgba(189, 21, 11, 0.1), transparent 50%);

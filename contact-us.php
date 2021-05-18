@@ -45,7 +45,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a>
+                        <a class="nav-link scrollto" href="self-publishing.php">Book Publishing</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto" href="packages.php">Author Kit</a>
@@ -107,30 +107,30 @@
                     <div class="row gy-4">
                         <div class="col-md-6">
                             <div class="info-box">
-                                <i class="bi bi-geo-alt"></i>
-                                <h3>Address</h3>
-                                <p>A108 Adam Street,<br />New York, NY 535022</p>
+                                <i class="bi bi-whatsapp"></i>
+                                <h3>Whatsapp</h3>
+                                <p>+91 735 854 1277</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-telephone"></i>
                                 <h3>Call Us</h3>
-                                <p>+1 5589 55488 55<br />+1 6678 254445 41</p>
+                                <p>+44 794 632 80971</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-envelope"></i>
                                 <h3>Email Us</h3>
-                                <p>info@example.com<br />contact@example.com</p>
+                                <p>publish@whdph.com</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-clock"></i>
                                 <h3>Open Hours</h3>
-                                <p>Monday - Friday<br />9:00AM - 05:00PM</p>
+                                <p>24 x 7 (All Days)</p>
                             </div>
                         </div>
                     </div>
@@ -184,11 +184,11 @@
         <ul class="address row text-center">
             <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
                 <h4 class="slide-bottom">Whatsapp</h4>
-                <p class="slide-bottom" style="font-weight:300;">+91 735-854-1277</p>
+                <p class="slide-bottom" style="font-weight:300;">+91 735 854 1277</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
-                <p class="slide-bottom" style="font-weight:300;">+44 794-632-8097</p>
+                <p class="slide-bottom" style="font-weight:300;">+44 794 632 8097</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>

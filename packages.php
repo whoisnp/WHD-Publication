@@ -106,7 +106,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.html">Book Publishing</a
+                        <a class="nav-link scrollto" href="self-publishing.php">Book Publishing</a
               >
             </li>
             <li>
@@ -1072,25 +1072,25 @@
             </table>
         </div>
         <div style="height:2px"></div>
-        <p style="text-align: center;">
+        <!-- <p style="text-align: center;">
             <h5 style="text-align: center;"><i class="fa fa-download" style="color:#356aac;"></i>
                 <a href="" style="color: #292929;" onMouseOver="this.style.color='#245993'" onMouseOut="this.style.color='#292929'">Download Details</a></h5>
         </p>
         <p style="text-align: center;">
             Give your book a chance to become the best it can become. Choose from the widest range of professional<br> book publishing and marketing services. Get Published by <strong><a href="">Publishinghouse.com.</a></strong><br><br>
             <button class="btn" style="text-align:center; color:white;background-color: #356aac;">Schedule A Call</button>
-        </p>
+        </p> -->
 
         <!-- address -->
         <div class="container">
             <ul class="address row text-center">
                 <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
                     <h4 class="slide-bottom">Whatsapp</h4>
-                    <p class="slide-bottom" style="font-weight:300;">=91 735-854-1277</p>
+                    <p class="slide-bottom" style="font-weight:300;">=91 735 854 1277</p>
                 </li>
                 <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                     <h4 class="slide-bottom">Phone</h4>
-                    <p class="slide-bottom" style="font-weight:300;">+44 794-632-8097</p>
+                    <p class="slide-bottom" style="font-weight:300;">+44 794 632 8097</p>
                 </li>
                 <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                     <h4 class="slide-bottom">Email</h4>
