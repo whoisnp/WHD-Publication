@@ -61,7 +61,14 @@
         #head3 {
             text-align: center;
         }
-
+.counts .count-box {
+    display: flex;
+    align-items: center;
+    /* padding: 30px; */
+    padding-bottom: 20px;
+    padding-left: 0;
+    width: 100%;
+}
     }
 </style>
 
@@ -88,7 +95,7 @@
                         <a class="nav-link scrollto" href="packages.php">Author Kit</a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto active" href="free-publish.php">Quick Publish
+                        <a class="nav-link scrollto" href="free-publish.php">Quick Publish
                         </a>
                     </li>
                     <li><a href="publishing-process.php">Publishing Steps</a></li>
@@ -105,7 +112,7 @@
         </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content" style="border: 10px solid #4154f1">
                     <div class="modal-header border-0">
@@ -129,8 +136,8 @@
                                     </h4>
                                     <hr class="mb-4" style="
                         height: 3px;
-                        color: #4154f1;
-                        background-color: #4154f1;
+                        color: #3498db;
+                        background-color: #3498db;
                         opacity: 1;
                       " />
                                     <form method="post" enctype="multipart/form-data">
@@ -145,13 +152,13 @@
                                         <div class="form-group mb-4">
                                             <label for="scheduleInputPhone">Phone Number</label>
                                             <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" />
-                                        </div>
+                                        </div> -->
                                         <!-- <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                       </div> -->
                                         <!-- <button type="submit" class="btn btn-primary" > Submit</button> -->
-                                        <input type="submit" name="submit" class="btn btn-primary" style="background-color: #4154f1; border-color: #4154f1" value="SUBMIT" />
+                                        <!-- <input type="submit" name="submit" class="btn btn-primary" style="background-color: #3498db; border-color: #4154f1" value="SUBMIT" />
                                     </form>
                                 </div>
                             </div>
@@ -159,18 +166,18 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <button class="btn" style="
+        </div> -->
+        <!-- <button class="btn" style="
           text-align: center;
           color: white;
-          background-color: #4154f1;
+          background-color: #3498db;
           position: fixed;
           display: inline-block;
           bottom: 0;
           z-index: 9999;
         " data-toggle="modal" data-target="#schedule_modal">
             Schedule A Call
-        </button>
+        </button> -->
 
         <a href="https://wa.me/917358541277">
             <img src="assets/img/whatsapp_logo.png" id="wa" style="
@@ -220,14 +227,14 @@
                     <div style="z-index: 99;">
                         <div class="row">
                             <div class="button-box col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                                <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100" style="border-radius:64px">
-                                    <span>Free Publishing</span>
+                                <a href="free-publish.php" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100" style="border-radius:64px">
+                                    <span>Quick Publish</span>
                                     <i class="bi bi-arrow-right"></i>
                                 </a>
                             </div>
 
                             <div class="button-box col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                                <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100" style="border-radius:64px">
+                                <a href="packages.php" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100" style="border-radius:64px">
                                     <span> Author Kits</span>
                                     <i class="bi bi-arrow-right"></i>
                                 </a>
@@ -281,7 +288,7 @@
         <section id="counts" class="counts">
             <div class="container" data-aos="fade-up">
                 <div class="row gy-4">
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 col-6">
                         <div class="count-box">
                             <i class="bi bi-emoji-smile"></i>
                             <div>
@@ -291,7 +298,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 col-6">
                         <div class="count-box">
                             <i class="bi-people"></i>
                             <div>
@@ -301,7 +308,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 col-6">
                         <div class="count-box">
                             <i class="bi bi-headset"></i>
                             <div>
@@ -311,7 +318,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 col-6 col-6">
                         <div class="count-box">
                             <i class="bi bi-journal-richtext"></i>
                             <div>
@@ -701,7 +708,7 @@
                                 <li class="na">Social Media Setup</li>
 
                             </ul>
-                            <a href="packages.html" class="btn-buy">Know More</a>
+                            <a href="packages.php" class="btn-buy">Know More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
@@ -726,7 +733,7 @@
                                 <li class="na">Online Book Launch</li>
                                 <li class="na">Social Media Setup</li>
                             </ul>
-                            <a href="packages.html" class="btn-buy">Know More</a>
+                            <a href="packages.php" class="btn-buy">Know More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
@@ -749,7 +756,7 @@
                                 <li class="na">Online Book Launch</li>
                                 <li class="na">Social Media Setup</li>
                             </ul>
-                            <a href="packages.html" class="btn-buy">Know More</a>
+                            <a href="packages.php" class="btn-buy">Know More</a>
                         </div>
                     </div>
                     <div class="row gy-4 justify-content-evenly" data-aos="fade-left">
@@ -774,7 +781,7 @@
                                     <li>Online Book Launch</li>
                                     <li class="na">Social Media Setup</li>
                                 </ul>
-                                <a href="packages.html" class="btn-buy">Know More</a>
+                                <a href="packages.php" class="btn-buy">Know More</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
@@ -800,7 +807,7 @@
                                     <li>Social Media Setup</li>
                                     <li>Online Book L
                                 </ul>
-                                <a href="packages.html" class="btn-buy">Know More</a>
+                                <a href="packages.php" class="btn-buy">Know More</a>
                             </div>
                         </div>
                     </div>
@@ -842,7 +849,7 @@
                             <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" style="font-size:17px;">
                         </div>
                         
-                        <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
+                        <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
                     </form>
                 </div>
 
@@ -1003,11 +1010,11 @@
         <ul class="address row text-center">
             <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
                 <h4 class="slide-bottom">Whatsapp</h4>
-                <p class="slide-bottom" style="font-weight:300;">+91 735-854-1277</p>
+                <p class="slide-bottom" style="font-weight:300;">+91 7358541277</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
-                <p class="slide-bottom" style="font-weight:300;">+44 7946 328097</p>
+                <p class="slide-bottom" style="font-weight:300;">+91 7946 328097</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>

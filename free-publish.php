@@ -102,8 +102,8 @@
                                     </h4>
                                     <hr class="mb-4" style="
                         height: 3px;
-                        color: #4154f1;
-                        background-color: #4154f1;
+                        color: #3498db;
+                        background-color: #3498db;
                         opacity: 1;
                       " />
                                     <form method="post" enctype="multipart/form-data">
@@ -120,7 +120,7 @@
                                             <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" />
                                         </div>
                                         
-                                        <input type="submit" name="submit" class="btn btn-primary" style="background-color: #4154f1; border-color: #4154f1" value="SUBMIT" />
+                                        <input type="submit" name="submit" class="btn btn-primary" style="background-color: #3498db; border-color: #4154f1" value="SUBMIT" />
                                     </form>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@
                 </div>
             </div>
         </div> -->
-        <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+<div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -168,7 +168,7 @@
 
       </div>
       <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-indigo" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+        <button class="btn btn-indigo" style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
       </div>
     </div>
   </div>
@@ -177,7 +177,7 @@
         <button class="btn" style="
           text-align: center;
           color: white;
-          background-color: #4154f1;
+          background-color: #3498db;
           position: fixed;
           display: inline-block;
           bottom: 0;
@@ -308,11 +308,11 @@
         <ul class="address row text-center">
             <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
                 <h4 class="slide-bottom">Whatsapp</h4>
-                <p class="slide-bottom" style="font-weight:300;">+91 735 854-1277</p>
+                <p class="slide-bottom" style="font-weight:300;">+91 735 854 1277</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
-                <p class="slide-bottom" style="font-weight:300;">+44 794 632 8097</p>
+                <p class="slide-bottom" style="font-weight:300;">+91 794 632 8097</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>

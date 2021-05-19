@@ -116,7 +116,7 @@
                             <div class="info-box">
                                 <i class="bi bi-telephone"></i>
                                 <h3>Call Us</h3>
-                                <p>+44 794 632 80971</p>
+                                <p>+91 794 632 8097</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -168,7 +168,7 @@
                                     Your message has been sent. Thank you!
                                 </div>
 
-                                <input type="submit" name="submit" class="btn btn-primary submit-now"style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
+                                <input type="submit" name="submit" class="btn btn-primary submit-now"style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
                                 <!-- <button type="submit">Send Message</button> -->
                             </div>
                         </div>
@@ -188,7 +188,7 @@
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
-                <p class="slide-bottom" style="font-weight:300;">+44 794 632 8097</p>
+                <p class="slide-bottom" style="font-weight:300;">+91 794 632 8097</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>
