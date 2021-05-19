@@ -78,7 +78,7 @@
         </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content" style="border: 10px solid #4154f1">
                     <div class="modal-header border-0">
@@ -119,11 +119,7 @@
                                             <label for="scheduleInputPhone">Phone Number</label>
                                             <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" />
                                         </div>
-                                        <!-- <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                      </div> -->
-                                        <!-- <button type="submit" class="btn btn-primary" > Submit</button> -->
+                                        
                                         <input type="submit" name="submit" class="btn btn-primary" style="background-color: #4154f1; border-color: #4154f1" value="SUBMIT" />
                                     </form>
                                 </div>
@@ -132,7 +128,52 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+        <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Schedule A Call</h4>
+        <button type="button" class="close" style="padding:0px" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-4">
+          <i class="fas fa-user prefix grey-text"></i>
+          <label data-error="wrong" data-success="right" for="form3">Your name</label>
+          <input type="text" placeholder="Enter Your Name" id="form3" class="form-control validate">
+          
         </div>
+
+        <div class="md-form mb-4">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <label data-error="wrong" data-success="right" for="form2">Your email</label>
+          <input type="email"  placeholder="Enter Your E-mail" id="form2" class="form-control validate">
+        </div>
+
+        <div class="md-form mb-4">
+          <i class="fas fa-user prefix grey-text"></i>
+          <label data-error="wrong" data-success="right" for="form3">Country</label>
+          <input type="text" placeholder="Enter Your Country" id="form3" class="form-control validate">
+          
+        </div>
+
+        <div class="md-form mb-4">
+          <i class="fas fa-user prefix grey-text"></i>
+          <label data-error="wrong" data-success="right" for="form3">Phone number</label>
+          <input type="tel"  placeholder="Enter Your Number" id="form3" class="form-control validate">
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-indigo" style="background-color: #ffffff;border-color: #4154f1; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
         <button class="btn" style="
           text-align: center;
           color: white;
