@@ -481,7 +481,7 @@
         <section class="features section-spacing text-center" id="Features">
             <div class="container">
                 <header>
-                    <h2>Specialities</h2>
+                    <h2>Our Specialities</h2>
                     <h3 style="font-weight:300;color:#807d7d;">We have few of our features to stand out from the rest and makes WHD Publishing House your Go-To publishing service provider</h3>
                 </header>
                 <br>
