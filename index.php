@@ -538,7 +538,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                                        1. What's is the process for me to publish my work?
+                                        What's is the process for me to publish my work?
                                     </button>
                                 </h2>
                                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
@@ -552,7 +552,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                                        3. Who will hold the copyrights of my work?
+                                        Who will hold the copyrights of my work?
 
                                     </button>
                                 </h2>
@@ -566,7 +566,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                                        5. What is the Author share when the books are Sold?
+                                        What is the Author share when the books are Sold?
                                     </button>
                                 </h2>
                                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
@@ -579,7 +579,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
-                                        7. What's the printing cost?
+                                        What's the printing cost?
                                     </button>
                                 </h2>
                                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
@@ -591,7 +591,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
-                                        9. What are the available mode of payment?
+                                        What are the available mode of payment?
                                     </button>
                                 </h2>
                                 <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
@@ -610,7 +610,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
-                                        2. What are all the documents that are required to submit / signed along?
+                                        What are all the documents that are required to submit / signed along?
                                     </button>
                                 </h2>
                                 <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
@@ -623,7 +623,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
-                                        4. How long will it take for the book to be published?
+                                        How long will it take for the book to be published?
                                     </button>
                                 </h2>
                                 <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
@@ -636,7 +636,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
-                                        6. Can I edit the contents of the book after publishing?
+                                        Can I edit the contents of the book after publishing?
                                     </button>
                                 </h2>
                                 <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
@@ -649,7 +649,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-4">
-                                        8. Will there be any hidden charges?
+                                        Will there be any hidden charges?
                                     </button>
                                 </h2>
                                 <div id="faq2-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
@@ -661,7 +661,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-5">
-                                        10. What are the payment terms?
+                                        What are the payment terms?
                                     </button>
                                 </h2>
                                 <div id="faq2-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
