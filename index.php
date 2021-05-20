@@ -404,7 +404,7 @@
                                 <li class="slide-right"><a href="https://twitter.com/abdulbasit4777" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                 <li class="slide-right"><a href="https://www.facebook.com/abdulsyedibrahim" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                 <li class="slide-right"><a href="https://www.instagram.com/abdulbasitsyed7/?igshid=1v0kvltbcmeu4" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li class="slide-right"><a href="https://www.linkedin.com/in/abdul-basit-syed-88762b163" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="slide-right"><a href="https://www.linkedin.com/in/dr-abdul-basit-syed-88762b163" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                         <!--social end-->
