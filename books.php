@@ -56,7 +56,7 @@
                     </li>
                     <li><a href="publishing-process.php">Publishing Steps</a></li>
                     <li>
-                        <a class="nav-link scrollto" href="books.html">Books</a>
+                        <a class="nav-link scrollto active" href="books.html">Books</a>
                     </li>
                     <li>
                         <a class="getstarted scrollto" href="contact-us.php">Contact</a>
@@ -68,51 +68,46 @@
         </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Schedule A Call</h4>
-        <button type="button" class="close" style="padding:0px" data-dismiss="modal" aria-label="Close">
+        <!-- <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title w-100 font-weight-bold">Schedule A Call</h4>
+                        <button type="button" class="close" style="padding:0px" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-4">
-          <i class="fas fa-user prefix grey-text"></i>
-          <label data-error="wrong" data-success="right" for="form3">Your name</label>
-          <input type="text" placeholder="Enter Your Name" id="form3" class="form-control validate">
-          
-        </div>
+                    </div>
+                    <div class="modal-body mx-3">
+                        <div class="md-form mb-4">
+                            <label data-error="wrong" data-success="right" for="form3">Your name</label>
+                            <input type="text" placeholder="Enter Your Name" id="form3" class="form-control validate">
 
-        <div class="md-form mb-4">
-          <i class="fas fa-envelope prefix grey-text"></i>
-          <label data-error="wrong" data-success="right" for="form2">Your email</label>
-          <input type="email"  placeholder="Enter Your E-mail" id="form2" class="form-control validate">
-        </div>
+                        </div>
 
-        <div class="md-form mb-4">
-          <i class="fas fa-user prefix grey-text"></i>
-          <label data-error="wrong" data-success="right" for="form3">Country</label>
-          <input type="text" placeholder="Enter Your Country" id="form3" class="form-control validate">
-          
-        </div>
+                        <div class="md-form mb-4">
+                            <label data-error="wrong" data-success="right" for="form2">Your email</label>
+                            <input type="email" placeholder="Enter Your E-mail" id="form2" class="form-control validate">
+                        </div>
 
-        <div class="md-form mb-4">
-          <i class="fas fa-user prefix grey-text"></i>
-          <label data-error="wrong" data-success="right" for="form3">Phone number</label>
-          <input type="tel"  placeholder="Enter Your Number" id="form3" class="form-control validate">
-        </div>
+                        <div class="md-form mb-4">
+                            <label data-error="wrong" data-success="right" for="form3">Country</label>
+                            <input type="text" placeholder="Enter Your Country" id="form3" class="form-control validate">
 
-      </div>
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-indigo" style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
-      </div>
-    </div>
-  </div>
-</div>
-        <button class="btn" style="text-align:center; color:white;background-color: #4154f1;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button>
+                        </div>
+
+                        <div class="md-form mb-4">
+                            <label data-error="wrong" data-success="right" for="form3">Phone number</label>
+                            <input type="tel" placeholder="Enter Your Number" id="form3" class="form-control validate">
+                        </div>
+
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn btn-indigo" style="background-color: #ffffff;border-color: #356aac; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- <button class="btn" style="text-align:center; color:white;background-color: #356aac;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button> -->
 
         <a href="">
             <img src="assets/img/whatsapp_logo.png" id="wa" style="position: fixed;z-index: 9999; bottom: 0; right: 60px; height: 11%;">
@@ -187,7 +182,43 @@
                 </ul>
             </div>
         </article> -->
+        <section id="">
 
+            <div class="container" data-aos="fade-up">
+
+                <header class="section-header">
+
+                    <p>Schedule A Call</p>
+                </header>
+
+                <div class="row" data-aos="fade-up">
+                    <form method="post" enctype="multipart/form-data" class="col-lg-8 offset-lg-2">
+                        <div class="form-group mb-4">
+                            <label for="scheduleInputName" style="font-size:17px;">Name</label>
+                            <input type="text" class="form-control" name="name" id="scheduleInputName" value="<?php echo !empty($postData['name']) ? $postData['name'] : ''; ?>" placeholder="Enter Name" style="font-size:17px;">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="scheduleInputName" style="font-size:17px;">Country</label>
+                            <input type="text" class="form-control" name="country" id="scheduleInputCountry" value="" placeholder="Enter Country" style="font-size:17px;">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="scheduleInputEmail" style="font-size:17px;">Email address</label>
+                            <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>" placeholder="Enter Email" style="font-size:17px;">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="scheduleInputPhone" style="font-size:17px;">Phone Number</label>
+                            <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" style="font-size:17px;">
+                        </div>
+                        <div class="text-center">
+                            <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'"
+                                value="SUBMIT">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
 
     </main>
     <!-- address -->
@@ -199,7 +230,7 @@
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
-                <p class="slide-bottom" style="font-weight:300;">+91 794 632 8097</p>
+                <p class="slide-bottom" style="font-weight:300;">+44 794 632 8097</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>
@@ -207,6 +238,7 @@
             </li>
         </ul>
     </div>
+
 
     <!--address end-->
     <!--site-footer-->

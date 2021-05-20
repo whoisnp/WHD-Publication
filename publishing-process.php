@@ -58,7 +58,7 @@
                     </li>
                     <li><a class="nav-link scrollto active" href="publishing-process.php">Publishing steps</a></li>
                     <li>
-                        <a class="nav-link scrollto" href="books.html">Books</a>
+                        <a class="nav-link scrollto" href="books.php">Books</a>
                     </li>
                     <li>
                         <a class="getstarted scrollto" href="contact-us.php">Contact</a>
@@ -243,7 +243,7 @@
                                 <img src="assets_1/img/printed.png" style="margin-top: 30px;margin-bottom: 20px;" class="img-fluid" alt="">
                             </div>
                             <div class="col-md-7 pt-4" data-aos="fade-up">
-                                <img class="rounded mx-auto d-block" src="assets_1/img/7.png" height==50px width=50px>
+                                <img class="rounded mx-auto d-block" src="assets_1/img/7.png" style="padding-top:30px"height==50px width=50px>
                                 <h3 class="text-center">ISBN Allocation Done</h3>
 
 
@@ -353,7 +353,7 @@
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
-                <p class="slide-bottom" style="font-weight:300;">+91 794 632 8097</p>
+                <p class="slide-bottom" style="font-weight:300;">+44 794 632 8097</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>

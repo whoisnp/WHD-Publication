@@ -100,10 +100,10 @@
                     </li>
                     <li><a href="publishing-process.php">Publishing Steps</a></li>
                     <li>
-                        <a class="nav-link scrollto" href="books.html">Books</a>
+                        <a class="nav-link scrollto" href="books.php">Books</a>
                     </li>
                     <li>
-                        <a class="getstarted scrollto" href="contact-us.php">Contact us</a>
+                        <a class="getstarted scrollto" href="contact-us.php">Contact</a>
                     </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -1014,7 +1014,7 @@
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
-                <p class="slide-bottom" style="font-weight:300;">+91 7946 328097</p>
+                <p class="slide-bottom" style="font-weight:300;">+44 7946 328097</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>

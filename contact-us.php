@@ -56,7 +56,7 @@
                     </li>
                     <li><a href="publishing-process.php">Publishing steps</a></li>
                     <li>
-                        <a class="nav-link scrollto" href="books.html">Books</a>
+                        <a class="nav-link scrollto" href="books.php">Books</a>
                     </li>
                     <li>
                         <a class="getstarted scrollto active" href="contact-us.php">Contact</a>
@@ -94,6 +94,7 @@
         <div class="container" data-aos="fade-up">
             <header class="section-header">
                 <h2>Contact</h2>
+                <br><br>
                 <div class="text-center">
                     <h6 class="underline" style="color: #6e6e6e; font-size: 25px;">
                         <strong>CONTACT US</strong><br />
@@ -116,7 +117,7 @@
                             <div class="info-box">
                                 <i class="bi bi-telephone"></i>
                                 <h3>Call Us</h3>
-                                <p>+91 794 632 8097</p>
+                                <p>+44 794 632 8097</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -147,7 +148,7 @@
                                 <input type="email" class="form-control" name="email" value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>" placeholder="Your Email" required />
                             </div>
                             <div class="col-md-6 ">
-                                    <input type="email " class="form-control " name="email " placeholder="Your Email " required />
+                                    <input type="text " class="form-control " name="numberr " placeholder=" Number " required />
                                 </div>
                                 <div class="col-md-6 ">
                                     <input type="text " name="Country" class="form-control " placeholder="Country" required />
@@ -188,7 +189,7 @@
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
                 <h4 class="slide-bottom">Phone</h4>
-                <p class="slide-bottom" style="font-weight:300;">+91 794 632 8097</p>
+                <p class="slide-bottom" style="font-weight:300;">+44 794 632 8097</p>
             </li>
             <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
                 <h4 class="slide-bottom">Email</h4>

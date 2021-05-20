@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <title>WHD publishing - Free Publish</title>
-        <!-- Favicons -->
+    <!-- Favicons -->
     <link href="assets/img/favicon.ico" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap5.min.css" />
@@ -30,12 +30,18 @@
         background: #356aac;
         color: #fff;
     }
-@media only screen and (max-width:770px)
-{ #sell,#name,#number,#country{
-    margin-top:15px;
-};
-}
-    
+
+    @media only screen and (max-width:770px) {
+
+        #sell,
+        #name,
+        #number,
+        #country {
+            margin-top: 15px;
+        }
+
+        ;
+    }
 </style>
 
 <body>
@@ -54,11 +60,10 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.php">Book Publishing</a
-              >
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="packages.php">Author Kit</a>
+                        <a class="nav-link scrollto" href="self-publishing.php">Book Publishing</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="packages.php">Author Kit</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto active" href="free-publish.php">Quick Publish
@@ -66,10 +71,10 @@
                     </li>
                     <li><a href="publishing-process.php">Publishing Steps</a></li>
                     <li>
-                        <a class="nav-link scrollto" href="books.html">Books</a>
+                        <a class="nav-link scrollto" href="books.php">Books</a>
                     </li>
                     <li>
-                        <a class="getstarted scrollto" href="contact-us.php">Contact us</a>
+                        <a class="getstarted scrollto" href="contact-us.php">Contact</a>
                     </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -129,55 +134,54 @@
                 </div>
             </div>
         </div> -->
-<div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Schedule A Call</h4>
-        <button type="button" class="close" style="padding:0px" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-4">
-          <i class="fas fa-user prefix grey-text"></i>
-          <label data-error="wrong" data-success="right" for="form3">Your name</label>
-          <input type="text" placeholder="Enter Your Name" id="form3" class="form-control validate">
-          
-        </div>
+        <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title w-100 font-weight-bold">Schedule A Call</h4>
+                        <button type="button" class="close" style="padding:0px" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body mx-3">
+                        <div class="md-form mb-4">
 
-        <div class="md-form mb-4">
-          <i class="fas fa-envelope prefix grey-text"></i>
-          <label data-error="wrong" data-success="right" for="form2">Your email</label>
-          <input type="email"  placeholder="Enter Your E-mail" id="form2" class="form-control validate">
-        </div>
+                            <label data-error="wrong" data-success="right" for="form3">Your name</label>
+                            <input type="text" placeholder="Enter Your Name" id="form3" class="form-control validate">
 
-        <div class="md-form mb-4">
-          <i class="fas fa-user prefix grey-text"></i>
-          <label data-error="wrong" data-success="right" for="form3">Country</label>
-          <input type="text" placeholder="Enter Your Country" id="form3" class="form-control validate">
-          
-        </div>
+                        </div>
 
-        <div class="md-form mb-4">
-          <i class="fas fa-user prefix grey-text"></i>
-          <label data-error="wrong" data-success="right" for="form3">Phone number</label>
-          <input type="tel"  placeholder="Enter Your Number" id="form3" class="form-control validate">
-        </div>
+                        <div class="md-form mb-4">
 
-      </div>
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-indigo" style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
-      </div>
-    </div>
-  </div>
-</div>
+                            <label data-error="wrong" data-success="right" for="form2">Your email</label>
+                            <input type="email" placeholder="Enter Your E-mail" id="form2" class="form-control validate">
+                        </div>
+
+                        <div class="md-form mb-4">
+
+                            <label data-error="wrong" data-success="right" for="form3">Country</label>
+                            <input type="text" placeholder="Enter Your Country" id="form3" class="form-control validate">
+
+                        </div>
+
+                        <div class="md-form mb-4">
+
+                            <label data-error="wrong" data-success="right" for="form3">Phone number</label>
+                            <input type="tel" placeholder="Enter Your Number" id="form3" class="form-control validate">
+                        </div>
+
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn btn-indigo" style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'">Send </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <button class="btn" style="
           text-align: center;
           color: white;
-          background-color: #3498db;
+          background-color: #356aac;
           position: fixed;
           display: inline-block;
           bottom: 0;
@@ -268,9 +272,9 @@
 
                                     <p id="uploading"></p>
                                     <progress value="0" max="100" id="progress"></progress>
-                                <div class="text-center">
-                                    <button class="btn btn-upload" id="upload0">Upload</button>
-                                </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-upload" id="upload0">Upload</button>
+                                    </div>
                                 </div>
                                 <!-- <div class="col-12 justify-content-center"> -->
                             </div>
@@ -280,9 +284,9 @@
                                 <div class="col-12 justify-content-center">
                                     <p id="uploading2"></p>
                                     <progress value="0" max="100" id="progress2"></progress>
-                                <div class="text-center">
-                                    <button class="btn btn-upload" id="upload2">Upload</button>
-                                </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-upload" id="upload2">Upload</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>

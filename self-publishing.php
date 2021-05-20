@@ -59,7 +59,7 @@
                     </li>
                     <li><a href="publishing-process.php">Publishing Steps</a></li>
                     <li>
-                        <a class="nav-link scrollto" href="books.html">Books</a>
+                        <a class="nav-link scrollto" href="books.php">Books</a>
                     </li>
                     <li>
                         <a class="getstarted scrollto" href="contact-us.php">Contact</a>
@@ -83,34 +83,30 @@
       </div>
       <div class="modal-body mx-3">
         <div class="md-form mb-4">
-          <i class="fas fa-user prefix grey-text"></i>
           <label data-error="wrong" data-success="right" for="form3">Your name</label>
           <input type="text" placeholder="Enter Your Name" id="form3" class="form-control validate">
           
         </div>
 
         <div class="md-form mb-4">
-          <i class="fas fa-envelope prefix grey-text"></i>
           <label data-error="wrong" data-success="right" for="form2">Your email</label>
           <input type="email"  placeholder="Enter Your E-mail" id="form2" class="form-control validate">
         </div>
 
         <div class="md-form mb-4">
-          <i class="fas fa-user prefix grey-text"></i>
           <label data-error="wrong" data-success="right" for="form3">Country</label>
           <input type="text" placeholder="Enter Your Country" id="form3" class="form-control validate">
           
         </div>
 
         <div class="md-form mb-4">
-          <i class="fas fa-user prefix grey-text"></i>
           <label data-error="wrong" data-success="right" for="form3">Phone number</label>
           <input type="tel"  placeholder="Enter Your Number" id="form3" class="form-control validate">
         </div>
 
       </div>
       <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-indigo" style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+        <button class="btn btn-indigo" style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'">Send</button>
       </div>
     </div>
   </div>
@@ -118,7 +114,7 @@
                 </div>
             </div>
         </div>
-        <button class="btn" style="text-align:center; color:white;background-color: #3498db;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button>
+        <button class="btn" style="text-align:center; color:white;background-color: #356acc;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button>
 
         <a href="">
             <img src="assets/img/whatsapp_logo.png" id="wa" style="position: fixed;z-index: 9999; bottom: 0; right: 60px; height: 11%;">
@@ -440,7 +436,7 @@
                                 <div class="info-box ">
                                     <i class="bi bi-telephone "></i>
                                     <h3>Call Us</h3>
-                                    <p>+91 794 632 8097</p>
+                                    <p>+44 794 632 8097</p>
                                 </div>
                             </div>
                             <div class="col-md-6 ">
@@ -536,7 +532,7 @@
             </li>
             <li class="col-sm-4 "><i class="slide-bottom bi bi-telephone-fill "></i>
                 <h4 class="slide-bottom ">Phone</h4>
-                <p class="slide-bottom " style="font-weight:300;">+91 794 632 8097</p>
+                <p class="slide-bottom " style="font-weight:300;">+44 794 632 8097</p>
             </li>
             <li class="col-sm-4 "><i class="slide-bottom bi bi-envelope-fill "></i>
                 <h4 class="slide-bottom ">Email</h4>
