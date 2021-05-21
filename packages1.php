@@ -1,20 +1,139 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>WHD publishing - Packages</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Search Engine Optimization by Rank Math - https://s.rankmath.com/home -->
-    <title>Packages | HSRA PUBLICATIONS</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="footerfiles/css/my.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-    <link rel='stylesheet' id='js_composer_front-css' href='https://hsrapublications.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.2.0' type='text/css' media='all' />
+    <!-- new -->
+    <!-- <link rel='stylesheet' id='js_composer_front-css' href='https://hsrapublications.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.2.0' type='text/css' media='all' /> -->
     <!-- <link rel='stylesheet' id='bootstrap-css' href='https://hsrapublications.com/wp-content/themes/woodmart/css/bootstrap.min.css?ver=4.5.1' type='text/css' media='all' /> -->
+    <!-- <script type='text/javascript' src='https://hsrapublications.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script> -->
 
-    <script type='text/javascript' src='https://hsrapublications.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
 
-    <body>
+    
+</head>
 
+<body>
+    <header id="header" class="header1 fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+            <a href="index.php" class="logo d-flex align-items-center">
+                <img src="assets/img/whdph_logo.png" />
+
+            </a>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li>
+                        <a class="nav-link scrollto" href="self-publishing.php">Book Publishing</a
+              >
+            </li>
+            <li>
+              <a class="nav-link scrollto active" href="packages.php">Author Kit</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="free-publish.php">Quick Publish
+              </a>
+                    </li>
+                    <li><a href="publishing-process.php">Publishing steps</a></li>
+                    <li>
+                        <a class="nav-link scrollto" href="books.php">Books</a>
+                    </li>
+                    <li>
+                        <a class="getstarted scrollto" href="contact-us.php">Contact</a>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Schedule A Call</h4>
+        <button type="button" class="close" style="padding:0px" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-4">
+          <label data-error="wrong" data-success="right" for="form3">Your name</label>
+          <input type="text" placeholder="Enter Your Name" id="form3" class="form-control validate">
+          
+        </div>
+
+        <div class="md-form mb-4">
+          <label data-error="wrong" data-success="right" for="form2">Your email</label>
+          <input type="email"  placeholder="Enter Your E-mail" id="form2" class="form-control validate">
+        </div>
+
+        <div class="md-form mb-4">
+          <label data-error="wrong" data-success="right" for="form3">Country</label>
+          <input type="text" placeholder="Enter Your Country" id="form3" class="form-control validate">
+          
+        </div>
+
+        <div class="md-form mb-4">
+          <label data-error="wrong" data-success="right" for="form3">Phone number</label>
+          <input type="tel"  placeholder="Enter Your Number" id="form3" class="form-control validate">
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-indigo" style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <button class="btn" style="text-align:center; color:white;background-color: #356aac;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button>
+
+        <a href="https://wa.me/917358541277">
+            <img src="assets/img/whatsapp_logo.png" id="wa" style="position: fixed;z-index: 9999; bottom: 0; right: 60px; height: 11%;">
+        </a>
+        <!-- Modal -->
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <span class="empty_space"></span>
+    <div class="container" data-aos="fade-up">
+        <!-- Feature Icons -->
+        <div class="text-center">
+            <h6 class="underline" style="color: #6e6e6e; font-size: 25px;">
+                <strong>BOOK PUBLISHING PACKAGES</strong><br />
+            </h6>
+
+        </div>
+        <br>
+        
+        <span class="empty_space"></span>
+        
+          
         <div class="website-wrapper">
 
 
@@ -943,52 +1062,127 @@
             </div>
             <!-- end container -->
 
-            <!-- FOOTER -->
+            
 
         </div>
-        <!-- end wrapper -->
+    
+        <!-- <p style="text-align: center;">
+            <h5 style="text-align: center;"><i class="fa fa-download" style="color:#356aac;"></i>
+                <a href="" style="color: #292929;" onMouseOver="this.style.color='#245993'" onMouseOut="this.style.color='#292929'">Download Details</a></h5>
+        </p>
+        <p style="text-align: center;">
+            Give your book a chance to become the best it can become. Choose from the widest range of professional<br> book publishing and marketing services. Get Published by <strong><a href="">Publishinghouse.com.</a></strong><br><br>
+            <button class="btn" style="text-align:center; color:white;background-color: #356aac;">Schedule A Call</button>
+        </p> -->
+
+        <!-- address -->
+        <div class="container">
+            <ul class="address row text-center">
+                <li class="col-sm-4"><i class="slide-bottom bi bi-whatsapp"></i>
+                    <h4 class="slide-bottom">Whatsapp</h4>
+                    <p class="slide-bottom" style="font-weight:300;">+91 735 854 1277</p>
+                </li>
+                <li class="col-sm-4"><i class="slide-bottom bi bi-telephone-fill"></i>
+                    <h4 class="slide-bottom">Phone</h4>
+                    <p class="slide-bottom" style="font-weight:300;">+44 794 632 8097</p>
+                </li>
+                <li class="col-sm-4"><i class="slide-bottom bi bi-envelope-fill"></i>
+                    <h4 class="slide-bottom">Email</h4>
+                    <p class="slide-bottom" style="font-weight:300;">publish@whdph.com</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--address end-->
+    <!--site-footer-->
+    <footer class="site-footer section-spacing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
 
 
+                    <!--social-->
 
 
+                    <!-- <ul class="social">
+                        <li><a style="font-size: 15px;padding-top: 10px; " href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                        <li><a style="font-size: 15px;padding-top: 10px;" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                        <li><a style="font-size: 15px;padding-top: 10px;" href="https://instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                        <li><a style="font-size: 15px;padding-top: 10px;" href="https://youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a></li>
 
-        <link rel='stylesheet' id='frontend.tables-css' href='https://hsrapublications.com/wp-content/plugins/pricing-table-by-supsystic/modules/tables/css/frontend.tables.css?ver=1.9.4' type='text/css' media='all' />
+                    </ul> -->
+                    <!--social end-->
+
+                    <small>&copy; Copyright WHD Publishing House 2021. All Rights Reserved.</small>
+                    <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
+
+                    <!-- Privacy Modal -->
+                    <div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-privacy" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="myModalLabel-privacy">Privacy</h4>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Privacy Modal end -->
+
+                    <!-- Terms of Use Modal -->
+                    <div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-terms" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="myModalLabel-terms">Terms of Use</h4>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Terms of Use Modal end -->
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--site-footer end-->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i
+  ></a>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+    <!-- bootstrap js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <!-- footer -->
+    <script src="footerfiles/js/scripts.min.js"></script>
+    <script src="footerfiles/js/jquery.ajaxchimp.min.js"></script>
+    <script src="footerfiles/js/main.js"></script>
 
 
-
-        <script type='text/javascript' src='https://hsrapublications.com/wp-content/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/js/codedropz-uploader-min.js?ver=1.3.5.9'></script>
-        <script type='text/javascript'>
-            /* <![CDATA[ */
-            var dnd_cf7_uploader = {
-
-                "drag_n_drop_upload": {
-
-
-
-
-
-
-                },
-
-            };
-            /* ]]> */
-        </script>
-        <script type='text/javascript'>
-            /* <![CDATA[ */
-            var edd_scripts = {
-
-            };
-            /* ]]> */
-        </script>
-
-
-        <script type='text/javascript' src='https://hsrapublications.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
-
-
-
-
-
-
+    <!-- new  -->
+    <link rel='stylesheet' id='frontend.tables-css' href='https://hsrapublications.com/wp-content/plugins/pricing-table-by-supsystic/modules/tables/css/frontend.tables.css?ver=1.9.4' type='text/css' media='all' />
 
 
         <script type='text/javascript' src='https://hsrapublications.com/wp-content/plugins/pricing-table-by-supsystic/js/common.js?ver=1.9.4'></script>
@@ -996,7 +1190,6 @@
         <script type='text/javascript' src='https://hsrapublications.com/wp-content/plugins/pricing-table-by-supsystic/js/core.js?ver=1.9.4'></script>
         <script type='text/javascript' src='https://hsrapublications.com/wp-content/plugins/pricing-table-by-supsystic/modules/tables/js/frontend.tables.editor.blocks_fabric.base.js?ver=1.9.4'></script>
         <script type='text/javascript' src='https://hsrapublications.com/wp-content/plugins/pricing-table-by-supsystic/modules/tables/js/frontend.tables.editor.blocks.base.js?ver=1.9.4'></script>
-        <script type='text/javascript' src='https://hsrapublications.com/wp-content/plugins/pricing-table-by-supsystic/modules/tables/js/modal.js?ver=1.9.4'></script>
         <script type='text/javascript'>
             /* <![CDATA[ */
             var ptsBuildConst = {};
@@ -1079,8 +1272,6 @@
         <script type='text/javascript' src='https://hsrapublications.com/wp-content/plugins/pricing-table-by-supsystic/modules/tables/js/frontend.tables.js?ver=1.9.4'></script>
 
 
-    </body>
+</body>
 
 </html>
-
-<!-- Page generated by LiteSpeed Cache 3.6.4 on 2021-05-20 15:34:28 -->
