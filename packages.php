@@ -180,12 +180,12 @@
     <br>
     <br>
     <br>
-    <br>
+    
     <span class="empty_space"></span>
     <div class="container" data-aos="fade-up">
         <!-- Feature Icons -->
         <div class="text-center">
-            <h6 class="underline" style="color: #6e6e6e; font-size: 25px;">
+            <h6 class="underline" style="color: #6e6e6e; font-size: 19px;font-weight:400;">
                 <strong>BOOK PUBLISHING PACKAGES</strong><br />
             </h6>
 

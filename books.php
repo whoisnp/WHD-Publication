@@ -126,7 +126,7 @@
         <br><br><br>
 
         <div class="text-center">
-            <h6 class="underline" style="color: #6e6e6e; font-size: 25px">
+            <h6 class="underline" style="color: #6e6e6e; font-size: 19px;font-weight:400;">
                 <strong>BOOKS</strong><br />
             </h6>
 

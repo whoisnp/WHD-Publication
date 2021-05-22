@@ -123,12 +123,12 @@
     </header>
     <!-- End Header -->
     <!-- ======= Features Section ======= -->
-    <section id="features" class="features" style="padding-bottom:20px">
+    <section id="features" class="features" style="padding-bottom:20px;">
         <div class="container justify-content-center" data-aos="fade-up">
             <!-- Feature Icons -->
             <div class="row feature-icons" data-aos="fade-up">
                 <div class="text-center" style="margin-bottom:0px ;">
-                    <h6 class="underline" style="color: #6e6e6e; font-size: 25px;">
+                    <h6 class="underline" style="color: #6e6e6e; font-size: 19px;font-weight:400;">
                         <strong>BOOK PUBLISHING</strong><br />
                     </h6>
                     <br>
