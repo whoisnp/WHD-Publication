@@ -80,7 +80,8 @@
     <br>
     <br>
     <br>
-    <br>
+    
+    
 
     <!-- Modal -->
     <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -130,7 +131,7 @@
     <!-- <button class="btn" style="text-align:center; color:white;background-color: #356aac;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button> -->
     <main id="main">
         <div class="text-center">
-            <h6 class="underline" style="color: #6e6e6e; font-size: 25px">
+            <h6 class="underline" style="color: #6e6e6e; font-size: 19px;font-weight:400;">
                 <strong>PUBLISHING STEPS</strong><br />
 
             </h6>

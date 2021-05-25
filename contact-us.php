@@ -76,6 +76,7 @@
         <!-- Modal -->
     </header>
     <br>
+    <br>
     <!-- End Header -->
     <!-- <header class="header0">
         <div class="container container-xl d-flex align-items-start justify-content-left">
@@ -96,10 +97,10 @@
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
             <header class="section-header">
-                <h2>Contact</h2>
+                
                 <br><br>
                 <div class="text-center">
-                    <h6 class="underline" style="color: #6e6e6e; font-size: 25px;">
+                    <h6 class="underline" style="color: #6e6e6e; font-size: 19px;font-weight:400;">
                         <strong>CONTACT US</strong><br />
                     </h6>
 

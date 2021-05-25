@@ -212,7 +212,7 @@
     <section class="getintouch">
         <div class="container modern-form">
             <div class="text-center">
-                <h6 style="color: #6e6e6e; font-size: 25px">
+                <h6 style="color: #6e6e6e; font-size: 19px;font-weight:400;">
                     <strong>PUBLISH YOUR OWN BOOK AT ZERO COST</strong>
                     <hr class="modern-form__hr" />
                 </h6>
