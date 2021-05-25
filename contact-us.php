@@ -17,7 +17,9 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet" />
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -68,7 +70,8 @@
         </div>
 
         <a href="https://wa.me/917358541277">
-            <img src="assets/img/whatsapp_logo.png" id="wa" style="position: fixed;z-index: 9999; bottom: 0; right: 60px; height: 11%;">
+            <img src="assets/img/whatsapp_logo.png" id="wa"
+                style="position: fixed;z-index: 9999; bottom: 0; right: 60px; height: 11%;">
         </a>
         <!-- Modal -->
     </header>
@@ -141,25 +144,37 @@
                     <form action="" method="post" enctype="multipart/form-data" class="php-email-form">
                         <div class="row gy-4">
                             <div class="col-md-6">
-                                <input type="text" name="name" class="form-control" value="<?php echo !empty($postData['name']) ? $postData['name'] : ''; ?>" placeholder="Your Name" required />
+                                <input type="text" name="name" class="form-control"
+                                    value="<?php echo !empty($postData['name']) ? $postData['name'] : ''; ?>"
+                                    placeholder="Your Name" required />
                             </div>
 
                             <div class="col-md-6">
-                                <input type="email" class="form-control" name="email" value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>" placeholder="Your Email" required />
+                                <input type="email" class="form-control" name="email"
+                                    value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>"
+                                    placeholder="Your Email" required />
                             </div>
                             <div class="col-md-6 ">
-                                    <input type="text " class="form-control " name="numberr " placeholder=" Number " required />
-                                </div>
-                                <div class="col-md-6 ">
-                                    <input type="text " name="Country" class="form-control " placeholder="Country" required />
-                                </div>
-
-                            <div class="col-md-12">
-                                <input type="text" class="form-control" name="subject" value="<?php echo !empty($postData['subject']) ? $postData['subject'] : ''; ?>" placeholder="Subject" required />
+                                <input type="text " class="form-control " name="numberr" placeholder=" Number"
+                                    value="<?php echo !empty($postData['numberr']) ? $postData['numberr'] : ''; ?>"
+                                    required />
+                            </div>
+                            <div class="col-md-6 ">
+                                <input type="text " name="Country"
+                                    value="<?php echo !empty($postData['Country']) ? $postData['Country'] : ''; ?>"
+                                    class="form-control " placeholder="Country" required />
                             </div>
 
                             <div class="col-md-12">
-                                <textarea class="form-control" name="message" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" rows="6" placeholder="Message" required></textarea>
+                                <input type="text" class="form-control" name="subject"
+                                    value="<?php echo !empty($postData['subject']) ? $postData['subject'] : ''; ?>"
+                                    placeholder="Subject" required />
+                            </div>
+
+                            <div class="col-md-12">
+                                <textarea class="form-control" name="message"
+                                    value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>"
+                                    rows="6" placeholder="Message" required></textarea>
                             </div>
 
                             <div class="col-md-12 text-center">
@@ -169,7 +184,11 @@
                                     Your message has been sent. Thank you!
                                 </div>
 
-                                <input type="submit" name="submit" class="btn btn-primary submit-now"style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
+                                <input type="submit" name="submit" class="btn btn-primary submit-now"
+                                    style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;"
+                                    onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'"
+                                    onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'"
+                                    value="SUBMIT">
                                 <!-- <button type="submit">Send Message</button> -->
                             </div>
                         </div>
@@ -219,16 +238,19 @@
                     <!--social end-->
 
                     <small>&copy; Copyright WHD Publishing House 2021. All Rights Reserved.</small>
-                    <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
+                    <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#"
+                            data-toggle="modal" data-target="#terms">Terms of Use</a></p>
 
                     <!-- Privacy Modal end -->
 
                     <!-- Terms of Use Modal -->
-                    <div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-terms" aria-hidden="true">
+                    <div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-terms"
+                        aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <button type="button" class="close" data-dismiss="modal"><span
+                                            aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                                     <h4 class="modal-title" id="myModalLabel-terms">Terms of Use</h4>
                                 </div>
 
@@ -243,7 +265,8 @@
     </footer>
     <!--site-footer end-->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>

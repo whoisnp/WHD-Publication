@@ -1,3 +1,4 @@
+<?php require_once "submit.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +17,9 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet" />
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -44,15 +47,14 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="self-publishing.php">Book Publishing</a
-              >
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="packages.php">Author Kit</a>
+                        <a class="nav-link scrollto" href="self-publishing.php">Book Publishing</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="packages.php">Author Kit</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto" href="free-publish.php">Quick Publish
-              </a>
+                        </a>
                     </li>
                     <li><a href="publishing-process.php">Publishing Steps</a></li>
                     <li>
@@ -110,7 +112,8 @@
         <!-- <button class="btn" style="text-align:center; color:white;background-color: #356aac;position:fixed;display: inline-block; bottom: 0; z-index: 9999;" data-toggle="modal" data-target="#schedule_modal">Schedule A Call</button> -->
 
         <a href="">
-            <img src="assets/img/whatsapp_logo.png" id="wa" style="position: fixed;z-index: 9999; bottom: 0; right: 60px; height: 11%;">
+            <img src="assets/img/whatsapp_logo.png" id="wa"
+                style="position: fixed;z-index: 9999; bottom: 0; right: 60px; height: 11%;">
         </a>
         <!-- Modal -->
     </header>
@@ -119,8 +122,8 @@
 
 
     <!-- schedule button -->
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i
-    ></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
     <br>
     <main class="container">
         <br><br><br>
@@ -139,16 +142,19 @@
                 <img class="postcard__img" src="assets/img/BookPageImage.jpg" alt="Image Title" />
             </a>
             <div class="postcard__text">
-                <h1 class="postcard__title blue"><a href="#">How Concerned Should I be? 
-                </a></h1>
+                <h1 class="postcard__title blue"><a href="#">How Concerned Should I be?
+                    </a></h1>
                 <div class="postcard__subtitle small">
 
                     Anandhi Narasimhan MD
 
                 </div>
                 <div class="postcard__bar"></div>
-                <div class="postcard__preview-txt">There are numerous parenting books that describe techniques with respect to setting limits, dealing with problematic behaviors, etc. This book may be interpreted as a deviation from a conventional "parenting" book in that it is more nuanced,
-                    with the goal of engaging people in a broadening of perspective approach, as opposed to an instruction manual. </div>
+                <div class="postcard__preview-txt">There are numerous parenting books that describe techniques with
+                    respect to setting limits, dealing with problematic behaviors, etc. This book may be interpreted as
+                    a deviation from a conventional "parenting" book in that it is more nuanced,
+                    with the goal of engaging people in a broadening of perspective approach, as opposed to an
+                    instruction manual. </div>
                 <ul class="postcard__tagbox">
                     <li class="tag__item">Health </li>
                     <li class="tag__item"> 189 Pgs </li>
@@ -195,22 +201,34 @@
                     <form method="post" enctype="multipart/form-data" class="col-lg-8 offset-lg-2">
                         <div class="form-group mb-4">
                             <label for="scheduleInputName" style="font-size:17px;">Name</label>
-                            <input type="text" class="form-control" name="name" id="scheduleInputName" value="<?php echo !empty($postData['name']) ? $postData['name'] : ''; ?>" placeholder="Enter Name" style="font-size:17px;">
+                            <input type="text" class="form-control" name="name" id="scheduleInputName"
+                                value="<?php echo !empty($postData['name']) ? $postData['name'] : ''; ?>"
+                                placeholder="Enter Name" style="font-size:17px;">
                         </div>
                         <div class="form-group mb-4">
                             <label for="scheduleInputName" style="font-size:17px;">Country</label>
-                            <input type="text" class="form-control" name="country" id="scheduleInputCountry" value="" placeholder="Enter Country" style="font-size:17px;">
+                            <input type="text" class="form-control" name="country" id="scheduleInputCountry"
+                                value="<?php echo !empty($postData['country']) ? $postData['country'] : ''; ?>"
+                                placeholder="Enter Country" style="font-size:17px;">
                         </div>
                         <div class="form-group mb-4">
                             <label for="scheduleInputEmail" style="font-size:17px;">Email address</label>
-                            <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>" placeholder="Enter Email" style="font-size:17px;">
+                            <input type="email" class="form-control" name="email" id="scheduleInputEmail"
+                                aria-describedby="emailHelp"
+                                value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>"
+                                placeholder="Enter Email" style="font-size:17px;">
                         </div>
                         <div class="form-group mb-4">
                             <label for="scheduleInputPhone" style="font-size:17px;">Phone Number</label>
-                            <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" style="font-size:17px;">
+                            <input type="tel" class="form-control" name="number" id="scheduleInputPhone"
+                                value="<?php echo !empty($postData['number']) ? $postData['number'] : ''; ?>"
+                                placeholder="Phone Number" style="font-size:17px;">
                         </div>
                         <div class="text-center">
-                            <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'"
+                            <input type="submit" id="submit" name="submit" class="btn btn-buy"
+                                style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;"
+                                onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'"
+                                onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'"
                                 value="SUBMIT">
                         </div>
                     </form>
@@ -261,14 +279,17 @@
                     <!--social end-->
 
                     <small>&copy; Copyright WHD Publishing House 2021. All Rights Reserved.</small>
-                    <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
+                    <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#"
+                            data-toggle="modal" data-target="#terms">Terms of Use</a></p>
 
                     <!-- Privacy Modal -->
-                    <div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-privacy" aria-hidden="true">
+                    <div class="modal fade" id="privacy" tabindex="-1" role="dialog"
+                        aria-labelledby="myModalLabel-privacy" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <button type="button" class="close" data-dismiss="modal"><span
+                                            aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                                     <h4 class="modal-title" id="myModalLabel-privacy">Privacy</h4>
                                 </div>
 
@@ -278,11 +299,13 @@
                     <!-- Privacy Modal end -->
 
                     <!-- Terms of Use Modal -->
-                    <div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-terms" aria-hidden="true">
+                    <div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-terms"
+                        aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <button type="button" class="close" data-dismiss="modal"><span
+                                            aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                                     <h4 class="modal-title" id="myModalLabel-terms">Terms of Use</h4>
                                 </div>
 

@@ -1,4 +1,4 @@
-<?php require_once "schedulecall.php" ?>
+<?php require_once "submit.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,43 +33,48 @@
     <link href="footerfiles/css/my.css" rel="stylesheet">
 </head>
 <style>
-    #head2 {
-        text-align: left;
-        color: #646464;
-    }
+#head2 {
+    text-align: left;
+    color: #646464;
+}
 
-    #head3 {
-        text-align: left;
-    }
-#mob{
+#head3 {
+    text-align: left;
+}
+
+#mob {
     visibility: hidden;
 }
-    @media only screen and (max-width:988px) {
-        #head2 {
-            text-align: center;
 
-        }
-        #mob{
-    visibility: visible;
-}
-#comp img{
-    display: none;
-}
-            
-        
+@media only screen and (max-width:988px) {
+    #head2 {
+        text-align: center;
 
-        #head3 {
-            text-align: center;
-        }
-.counts .count-box {
-    display: flex;
-    align-items: center;
-    /* padding: 30px; */
-    padding-bottom: 20px;
-    padding-left: 0;
-    width: 100%;
-}
     }
+
+    #mob {
+        visibility: visible;
+    }
+
+    #comp img {
+        display: none;
+    }
+
+
+
+    #head3 {
+        text-align: center;
+    }
+
+    .counts .count-box {
+        display: flex;
+        align-items: center;
+        /* padding: 30px; */
+        padding-bottom: 20px;
+        padding-left: 0;
+        width: 100%;
+    }
+}
 </style>
 
 <body>
@@ -153,12 +158,12 @@
                                             <label for="scheduleInputPhone">Phone Number</label>
                                             <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" />
                                         </div> -->
-                                        <!-- <div class="form-check">
+        <!-- <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                       </div> -->
-                                        <!-- <button type="submit" class="btn btn-primary" > Submit</button> -->
-                                        <!-- <input type="submit" name="submit" class="btn btn-primary" style="background-color: #3498db; border-color: #4154f1" value="SUBMIT" />
+        <!-- <button type="submit" class="btn btn-primary" > Submit</button> -->
+        <!-- <input type="submit" name="submit" class="btn btn-primary" style="background-color: #3498db; border-color: #4154f1" value="SUBMIT" />
                                     </form>
                                 </div>
                             </div>
@@ -194,12 +199,12 @@
     <header class="header0">
         <div class="overlay"></div>
         <div class="container container-xl d-flex">
-        <a href="index.php" id="comp"class="logo d-block center-block"style="z-index:930">
+            <a href="index.php" id="comp" class="logo d-block center-block" style="z-index:930">
                 <img src="assets/img/whdph_logo1.png" />
                 <!-- <span>WHD PH</span> -->
             </a>
 
-            <a href="index.php" id="mob"class="logo d-block center-block mx-auto"style="z-index:930">
+            <a href="index.php" id="mob" class="logo d-block center-block mx-auto" style="z-index:930">
                 <img src="assets/img/whdph_logo1.png" />
                 <!-- <span>WHD PH</span> -->
             </a>
@@ -222,19 +227,24 @@
                         You Too Can Become An Author
                     </h1>
                     <h2 data-aos="fade-up" id="head3" data-aos-delay="400">
-                        WHD Publishing House aims to support the authors to publish their novel works in the most simplest way. We provide end to end service and global outreach.
+                        WHD Publishing House aims to support the authors to publish their novel works in the most
+                        simplest way. We provide end to end service and global outreach.
                     </h2>
                     <div style="z-index: 99;">
                         <div class="row">
                             <div class="button-box col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                                <a href="free-publish.php" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100" style="border-radius:64px">
+                                <a href="free-publish.php"
+                                    class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100"
+                                    style="border-radius:64px">
                                     <span>Quick Publish</span>
                                     <i class="bi bi-arrow-right"></i>
                                 </a>
                             </div>
 
                             <div class="button-box col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                                <a href="packages.php" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100" style="border-radius:64px">
+                                <a href="packages.php"
+                                    class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center w-100"
+                                    style="border-radius:64px">
                                     <span> Author Kits</span>
                                     <i class="bi bi-arrow-right"></i>
                                 </a>
@@ -292,7 +302,8 @@
                         <div class="count-box">
                             <i class="bi bi-emoji-smile"></i>
                             <div>
-                                <span data-purecounter-start="0" data-purecounter-end="195" data-purecounter-duration="1" class="purecounter"></span>
+                                <span data-purecounter-start="0" data-purecounter-end="195"
+                                    data-purecounter-duration="1" class="purecounter"></span>
                                 <p>Countries</p>
                             </div>
                         </div>
@@ -302,7 +313,8 @@
                         <div class="count-box">
                             <i class="bi-people"></i>
                             <div>
-                                <span data-purecounter-start="0" data-purecounter-end="7520" data-purecounter-duration="1" class="purecounter"></span>
+                                <span data-purecounter-start="0" data-purecounter-end="7520"
+                                    data-purecounter-duration="1" class="purecounter"></span>
                                 <p>Followers</p>
                             </div>
                         </div>
@@ -312,7 +324,8 @@
                         <div class="count-box">
                             <i class="bi bi-headset"></i>
                             <div>
-                                <span data-purecounter-start="0" data-purecounter-end="1125" data-purecounter-duration="1" class="purecounter"></span>
+                                <span data-purecounter-start="0" data-purecounter-end="1125"
+                                    data-purecounter-duration="1" class="purecounter"></span>
                                 <p>Hours Of Support</p>
                             </div>
                         </div>
@@ -322,7 +335,8 @@
                         <div class="count-box">
                             <i class="bi bi-journal-richtext"></i>
                             <div>
-                                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+                                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
+                                    class="purecounter"></span>
                                 <p>Working Projects</p>
                             </div>
                         </div>
@@ -389,22 +403,36 @@
                 <br>
                 <div class="row">
                     <div class="slide-left col-md-12 col-lg-5 text-center">
-                        <img src="assets/img/small_absimage.png" data-at2x="assets/img/big_absimage.png" alt="author" class="author-img">
+                        <img src="assets/img/small_absimage.png" data-at2x="assets/img/big_absimage.png" alt="author"
+                            class="author-img">
                     </div>
                     <div class="col-md-12 col-lg-7" align="left">
                         <h4 align="left" class="slide-right">Dr Abdul Basit Syed</h4>
                         <hr class="slide-right">
-                        <p id="gfty1" class="slide-right">Books are our companion which we carry not only in our hands but also in our mind and heart. As a humanitarian, I feel my responsibility to give a platform to the words and thoughts which can support world peace.</p>
-                        <p id="gfty1" class="slide-right"> Hence, I have established this sounded platform WHD Publishing House to be an able companion of not only renowned writes, scholars and journalist but also to the people of common thinking like me. I feel it is the moral duty of each resourceful person to publish a book which can be a friend and guide, as our theme ' Fiat Lux ' (Let light be made)</p>
-                        <img src="assets/img/small_absgreysign.png" data-at2x="assets/img/big_absgreysign.png" alt="signature" class="slide-right signature">
+                        <p id="gfty1" class="slide-right">Books are our companion which we carry not only in our hands
+                            but also in our mind and heart. As a humanitarian, I feel my responsibility to give a
+                            platform to the words and thoughts which can support world peace.</p>
+                        <p id="gfty1" class="slide-right"> Hence, I have established this sounded platform WHD
+                            Publishing House to be an able companion of not only renowned writes, scholars and
+                            journalist but also to the people of common thinking like me. I feel it is the moral duty of
+                            each resourceful person to publish a book which can be a friend and guide, as our theme '
+                            Fiat Lux ' (Let light be made)</p>
+                        <img src="assets/img/small_absgreysign.png" data-at2x="assets/img/big_absgreysign.png"
+                            alt="signature" class="slide-right signature">
 
                         <!--social-->
                         <div class="social" align="left">
                             <ul>
-                                <li class="slide-right"><a href="https://twitter.com/abdulbasit4777" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li class="slide-right"><a href="https://www.facebook.com/abdulsyedibrahim" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li class="slide-right"><a href="https://www.instagram.com/abdulbasitsyed7/?igshid=1v0kvltbcmeu4" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li class="slide-right"><a href="https://www.linkedin.com/in/abdul-basit-syed-88762b163/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="slide-right"><a href="https://twitter.com/abdulbasit4777" target="_blank"><i
+                                            class="fa fa-twitter"></i></a></li>
+                                <li class="slide-right"><a href="https://www.facebook.com/abdulsyedibrahim"
+                                        target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li class="slide-right"><a
+                                        href="https://www.instagram.com/abdulbasitsyed7/?igshid=1v0kvltbcmeu4"
+                                        target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li class="slide-right"><a
+                                        href="https://www.linkedin.com/in/abdul-basit-syed-88762b163/"
+                                        target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                         <!--social end-->
@@ -482,42 +510,55 @@
             <div class="container">
                 <header>
                     <h2>Our Specialities</h2>
-                    <h3 style="font-weight:300;color:#807d7d;">We have few of our features to stand out from the rest and makes WHD Publishing House your Go-To publishing service provider</h3>
+                    <h3 style="font-weight:300;color:#807d7d;">We have few of our features to stand out from the rest
+                        and makes WHD Publishing House your Go-To publishing service provider</h3>
                 </header>
                 <br>
 
                 <div class="row">
-                    <div class="slide-left col-sm-4"> <img src="assets/img/feature-3.png" data-at2x="assets/img/feature-1@2x.png" alt="features">
+                    <div class="slide-left col-sm-4"> <img src="assets/img/feature-3.png"
+                            data-at2x="assets/img/feature-1@2x.png" alt="features">
                         <h4 style="font-size: calc(1.05rem + .3vw);"> Global Outreach</h4>
                         <hr>
-                        <p style="font-weight:200;color:#807d7d;"> We have our trusted readers and supporters around the world and each book that gets published is assured of a international audience. </p>
+                        <p style="font-weight:200;color:#807d7d;"> We have our trusted readers and supporters around the
+                            world and each book that gets published is assured of a international audience. </p>
                     </div>
-                    <div class="slide-top col-sm-4"> <img src="assets/img/feature-1.png" data-at2x="assets/img/feature-2@2x.png" alt="features">
+                    <div class="slide-top col-sm-4"> <img src="assets/img/feature-1.png"
+                            data-at2x="assets/img/feature-2@2x.png" alt="features">
                         <h4 style="font-size: calc(1.05rem + .3vw);">24x7 Round the Clock Service</h4>
                         <hr>
-                        <p style="font-weight:300;color:#807d7d;">Throughout the year, we ensure our team is active and be available for our clients.</p>
+                        <p style="font-weight:300;color:#807d7d;">Throughout the year, we ensure our team is active and
+                            be available for our clients.</p>
                     </div>
-                    <div class="slide-right col-sm-4"> <img src="assets/img/feature-5.png" data-at2x="assets/img/feature-3@2x.png" alt="features">
+                    <div class="slide-right col-sm-4"> <img src="assets/img/feature-5.png"
+                            data-at2x="assets/img/feature-3@2x.png" alt="features">
                         <h4 style="font-size: calc(1.05rem + .3vw);">100% Author Share</h4>
                         <hr>
-                        <p style="font-weight:300;color:#807d7d;">We assure all the profits go directly to the author and do not levy any royalties.</p>
+                        <p style="font-weight:300;color:#807d7d;">We assure all the profits go directly to the author
+                            and do not levy any royalties.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="slide-left col-sm-4"> <img src="assets/img/feature-2.png" data-at2x="assets/img/feature-4@2x.png" alt="features">
+                    <div class="slide-left col-sm-4"> <img src="assets/img/feature-2.png"
+                            data-at2x="assets/img/feature-4@2x.png" alt="features">
                         <h4 style="font-size: calc(1.05rem + .3vw);">Customer Discussion</h4>
                         <hr>
-                        <p style="font-weight:300;color:#807d7d;"> We provide opportunity for everyone to have a free discussion or consultation with our team to understand more.</p>
+                        <p style="font-weight:300;color:#807d7d;"> We provide opportunity for everyone to have a free
+                            discussion or consultation with our team to understand more.</p>
                     </div>
-                    <div class="slide-top col-sm-4"> <img src="assets/img/feature-4.png" data-at2x="assets/img/feature-5@2x.png" alt="features">
+                    <div class="slide-top col-sm-4"> <img src="assets/img/feature-4.png"
+                            data-at2x="assets/img/feature-5@2x.png" alt="features">
                         <h4 style="font-size: calc(1.05rem + .3vw);">WHD PH Membership</h4>
                         <hr>
-                        <p style="font-weight:300;color:#807d7d;">Once a person becomes a Client with us, they will have an exclusive advantage to become a Member of WHD PH which will have its own benefits.</p>
+                        <p style="font-weight:300;color:#807d7d;">Once a person becomes a Client with us, they will have
+                            an exclusive advantage to become a Member of WHD PH which will have its own benefits.</p>
                     </div>
-                    <div class="slide-right col-sm-4"> <img src="assets/img/feature-6.png" data-at2x="assets/img/feature-6@2x.png" alt="features">
+                    <div class="slide-right col-sm-4"> <img src="assets/img/feature-6.png"
+                            data-at2x="assets/img/feature-6@2x.png" alt="features">
                         <h4 style="font-size: calc(1.05rem + .3vw);">Fast Track Publications</h4>
                         <hr>
-                        <p style="font-weight:300;color:#807d7d;">We ensure the books gets ready in the quickest timeframe possible with our exclusive Author Kits.</p>
+                        <p style="font-weight:300;color:#807d7d;">We ensure the books gets ready in the quickest
+                            timeframe possible with our exclusive Author Kits.</p>
                     </div>
                 </div>
             </div>
@@ -537,13 +578,15 @@
                         <div class="accordion accordion-flush" id="faqlist1">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-content-1">
                                         What's is the process for me to publish my work?
                                     </button>
                                 </h2>
                                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                                     <div class="accordion-body">
-                                        You can E-mail or WhatsApp us and our team will get in touch with you ASAP. Meanwhile you can look into our website to more about the Author Kit Pricing.
+                                        You can E-mail or WhatsApp us and our team will get in touch with you ASAP.
+                                        Meanwhile you can look into our website to more about the Author Kit Pricing.
 
                                     </div>
                                 </div>
@@ -551,7 +594,8 @@
 
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-content-2">
                                         Who will hold the copyrights of my work?
 
                                     </button>
@@ -565,32 +609,40 @@
 
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-content-3">
                                         What is the Author share when the books are Sold?
                                     </button>
                                 </h2>
                                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                                     <div class="accordion-body">
-                                        It is 100% Share. Zero Royalty. We are purely a Publishing Company and only take up services in relation to editing, formatting, designing, printing and primary distribution. The Author can decide on the Post Publishing Sales and Marketing as it is non exclusive.
+                                        It is 100% Share. Zero Royalty. We are purely a Publishing Company and only take
+                                        up services in relation to editing, formatting, designing, printing and primary
+                                        distribution. The Author can decide on the Post Publishing Sales and Marketing
+                                        as it is non exclusive.
 
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-content-4">
                                         What's the printing cost?
                                     </button>
                                 </h2>
                                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                                     <div class="accordion-body">
-                                        It is purely a Case to Case criteria as this depends on various factors as Page Quality, Colors Indexed, Number of Pages, Binding Type, Dimensions and Number of Copies ordered.
+                                        It is purely a Case to Case criteria as this depends on various factors as Page
+                                        Quality, Colors Indexed, Number of Pages, Binding Type, Dimensions and Number of
+                                        Copies ordered.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-content-5">
                                         What are the available mode of payment?
                                     </button>
                                 </h2>
@@ -609,33 +661,39 @@
                         <div class="accordion accordion-flush" id="faqlist2">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq2-content-1">
                                         What are all the documents that are required to submit / signed along?
                                     </button>
                                 </h2>
                                 <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                                     <div class="accordion-body">
-                                        Author ID Proof is mandatory. Also we require the basic details about the book and the Author. Novel Work Declaration and Publishing Agreement are to be signed.
+                                        Author ID Proof is mandatory. Also we require the basic details about the book
+                                        and the Author. Novel Work Declaration and Publishing Agreement are to be
+                                        signed.
                                     </div>
                                 </div>
                             </div>
 
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq2-content-2">
                                         How long will it take for the book to be published?
                                     </button>
                                 </h2>
                                 <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                                     <div class="accordion-body">
-                                        Minimum of 7 to 14 days after the Final Manuscript, Final Book Cover Design and Signed Approval are submitted.
+                                        Minimum of 7 to 14 days after the Final Manuscript, Final Book Cover Design and
+                                        Signed Approval are submitted.
                                     </div>
                                 </div>
                             </div>
 
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq2-content-3">
                                         Can I edit the contents of the book after publishing?
                                     </button>
                                 </h2>
@@ -648,25 +706,31 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq2-content-4">
                                         Will there be any hidden charges?
                                     </button>
                                 </h2>
                                 <div id="faq2-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                                     <div class="accordion-body">
-                                        Absolutely No. The prices depends on the package the Author chooses with us. Any additional services asked might incur extra cost that will definitely be intimated to the Author before processing.
+                                        Absolutely No. The prices depends on the package the Author chooses with us. Any
+                                        additional services asked might incur extra cost that will definitely be
+                                        intimated to the Author before processing.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq2-content-5">
                                         What are the payment terms?
                                     </button>
                                 </h2>
                                 <div id="faq2-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                                     <div class="accordion-body">
-                                        If a Priced Author Kit is chosen, then 50 % advance to be paid while the work begins, 40 % after finalizing the Manuscript before ISBN is applied and the balance 10% after the work is published.
+                                        If a Priced Author Kit is chosen, then 50 % advance to be paid while the work
+                                        begins, 40 % after finalizing the Manuscript before ISBN is applied and the
+                                        balance 10% after the work is published.
                                     </div>
                                 </div>
                             </div>
@@ -832,24 +896,35 @@
                     <form method="post" enctype="multipart/form-data" class="col-lg-8 offset-lg-2">
                         <div class="form-group mb-4">
                             <label for="scheduleInputName" style="font-size:17px;">Name</label>
-                            <input type="text" class="form-control" name="name" id="scheduleInputName" value="<?php echo !empty($postData['name']) ? $postData['name'] : ''; ?>" placeholder="Enter Name" style="font-size:17px;">
+                            <input type="text" class="form-control" name="name" id="scheduleInputName"
+                                value="<?php echo !empty($postData['name']) ? $postData['name'] : ''; ?>"
+                                placeholder="Enter Name" style="font-size:17px;">
                         </div>
                         <div class="form-group mb-4">
                             <label for="scheduleInputName" style="font-size:17px;">Country</label>
-                            <input type="text" class="form-control" name="country" id="scheduleInputCountry" value="" placeholder="Enter Country" style="font-size:17px;">
+                            <input type="text" class="form-control" name="country" id="scheduleInputCountry" value=""
+                                placeholder="Enter Country" style="font-size:17px;">
                         </div>
-                        
+
                         <div class="form-group mb-4">
                             <label for="scheduleInputEmail" style="font-size:17px;">Email address</label>
-                            <input type="email" class="form-control" name="email" id="scheduleInputEmail" aria-describedby="emailHelp" value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>" placeholder="Enter Email" style="font-size:17px;">
+                            <input type="email" class="form-control" name="email" id="scheduleInputEmail"
+                                aria-describedby="emailHelp"
+                                value="<?php echo !empty($postData['email']) ? $postData['email'] : ''; ?>"
+                                placeholder="Enter Email" style="font-size:17px;">
                         </div>
-                    
+
                         <div class="form-group mb-4">
                             <label for="scheduleInputPhone" style="font-size:17px;">Phone Number</label>
-                            <input type="tel" class="form-control" name="message" id="scheduleInputPhone" value="<?php echo !empty($postData['message']) ? $postData['message'] : ''; ?>" placeholder="Phone Number" style="font-size:17px;">
+                            <input type="tel" class="form-control" name="number" id="scheduleInputPhone"
+                                value="<?php echo !empty($postData['number']) ? $postData['number'] : ''; ?>"
+                                placeholder="Phone Number" style="font-size:17px;">
                         </div>
-                        
-                        <input type="submit" name="submit" class="btn btn-buy" style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
+
+                        <input type="submit" name="submit" class="btn btn-buy"
+                            style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;"
+                            onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'"
+                            onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'" value="SUBMIT">
                     </form>
                 </div>
 
@@ -1044,14 +1119,17 @@
                     <!--social end-->
 
                     <small>&copy; Copyright WHD Publishing House 2021. All Rights Reserved.</small>
-                    <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
+                    <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#"
+                            data-toggle="modal" data-target="#terms">Terms of Use</a></p>
 
                     <!-- Privacy Modal -->
-                    <div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-privacy" aria-hidden="true">
+                    <div class="modal fade" id="privacy" tabindex="-1" role="dialog"
+                        aria-labelledby="myModalLabel-privacy" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <button type="button" class="close" data-dismiss="modal"><span
+                                            aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                                     <h4 class="modal-title" id="myModalLabel-privacy">Privacy</h4>
                                 </div>
 
@@ -1061,11 +1139,13 @@
                     <!-- Privacy Modal end -->
 
                     <!-- Terms of Use Modal -->
-                    <div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-terms" aria-hidden="true">
+                    <div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-terms"
+                        aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <button type="button" class="close" data-dismiss="modal"><span
+                                            aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                                     <h4 class="modal-title" id="myModalLabel-terms">Terms of Use</h4>
                                 </div>
 
@@ -1079,7 +1159,8 @@
         </div>
     </footer>
     <!--site-footer end-->
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>

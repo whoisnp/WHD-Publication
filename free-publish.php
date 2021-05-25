@@ -17,31 +17,31 @@
     <link href="footerfiles/css/my.css" rel="stylesheet">
 </head>
 <style>
-    .btn-upload {
-        border-radius: 50px;
-        transition: 0.5s;
-        color: #356aac;
-        border: 1px solid #356aac;
-        transition: 0.3s;
-        /* box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4); */
+.btn-upload {
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #356aac;
+    border: 1px solid #356aac;
+    transition: 0.3s;
+    /* box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4); */
+}
+
+.btn-upload:hover {
+    background: #356aac;
+    color: #fff;
+}
+
+@media only screen and (max-width:770px) {
+
+    #sell,
+    #name,
+    #number,
+    #country {
+        margin-top: 15px;
     }
 
-    .btn-upload:hover {
-        background: #356aac;
-        color: #fff;
-    }
-
-    @media only screen and (max-width:770px) {
-
-        #sell,
-        #name,
-        #number,
-        #country {
-            margin-top: 15px;
-        }
-
-        ;
-    }
+    ;
+}
 </style>
 
 <body>
@@ -134,7 +134,8 @@
                 </div>
             </div>
         </div> -->
-        <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header text-center">
@@ -154,13 +155,15 @@
                         <div class="md-form mb-4">
 
                             <label data-error="wrong" data-success="right" for="form2">Your email</label>
-                            <input type="email" placeholder="Enter Your E-mail" id="form2" class="form-control validate">
+                            <input type="email" placeholder="Enter Your E-mail" id="form2"
+                                class="form-control validate">
                         </div>
 
                         <div class="md-form mb-4">
 
                             <label data-error="wrong" data-success="right" for="form3">Country</label>
-                            <input type="text" placeholder="Enter Your Country" id="form3" class="form-control validate">
+                            <input type="text" placeholder="Enter Your Country" id="form3"
+                                class="form-control validate">
 
                         </div>
 
@@ -172,7 +175,10 @@
 
                     </div>
                     <div class="modal-footer d-flex justify-content-center">
-                        <button class="btn btn-indigo" style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;" onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'" onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'">Send </button>
+                        <button class="btn btn-indigo"
+                            style="background-color: #ffffff;border-color: #3498db; color:#356aac; border-radius:50px; font-weight:600;"
+                            onMouseOver="this.style.color='white';this.style.backgroundColor='#356aac'"
+                            onMouseOut="this.style.color='#356aac';this.style.backgroundColor='white'">Send </button>
                     </div>
                 </div>
             </div>
@@ -210,7 +216,8 @@
                     <strong>PUBLISH YOUR OWN BOOK AT ZERO COST</strong>
                     <hr class="modern-form__hr" />
                 </h6>
-                <p> If you have your Manuscript and Cover Design ready, you can become a Author.<br> Fill in the details below and we will publish your book at no cost in 15 days.</p>
+                <p> If you have your Manuscript and Cover Design ready, you can become a Author.<br> Fill in the details
+                    below and we will publish your book at no cost in 15 days.</p>
             </div>
             <div class="modern-form__form-container" style="padding-top: 20px;">
                 <!-- <form method="" id="book-form"> -->
@@ -248,7 +255,8 @@
                         </div>
                         <div class="row justify-content-evenly">
                             <div class="col-md-6">
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" />
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Email Address" />
                             </div>
                             <div class="col-md-6">
                                 <input type="tel" class="form-control" id="number" placeholder="Contact Number" />
@@ -272,8 +280,8 @@
 
                                     <p id="uploading"></p>
                                     <progress value="0" max="100" id="progress"></progress>
-                                    <div class="text-center">
-                                        <button class="btn btn-upload" id="upload0">Upload</button>
+                                    <div class="text-center"> <button class="btn btn-upload"
+                                            id="upload0">Upload</button>
                                     </div>
                                 </div>
                                 <!-- <div class="col-12 justify-content-center"> -->
@@ -346,14 +354,17 @@
                     <!--social end-->
 
                     <small>&copy; Copyright WHD Publishing House 2021. All Rights Reserved.</small>
-                    <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
+                    <p><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="#"
+                            data-toggle="modal" data-target="#terms">Terms of Use</a></p>
 
                     <!-- Privacy Modal -->
-                    <div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-privacy" aria-hidden="true">
+                    <div class="modal fade" id="privacy" tabindex="-1" role="dialog"
+                        aria-labelledby="myModalLabel-privacy" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <button type="button" class="close" data-dismiss="modal"><span
+                                            aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                                     <h4 class="modal-title" id="myModalLabel-privacy">Privacy</h4>
                                 </div>
 
@@ -363,11 +374,13 @@
                     <!-- Privacy Modal end -->
 
                     <!-- Terms of Use Modal -->
-                    <div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-terms" aria-hidden="true">
+                    <div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-terms"
+                        aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <button type="button" class="close" data-dismiss="modal"><span
+                                            aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                                     <h4 class="modal-title" id="myModalLabel-terms">Terms of Use</h4>
                                 </div>
 
@@ -408,159 +421,216 @@
     <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-storage.js"></script>
 
     <script>
-        // Your web app's Firebase configuration
-        var firebaseConfig = {
-            apiKey: "AIzaSyAQa9sqI2iUpTXMdnQzDkYtqkv8oOfbTyE",
-            authDomain: "whd-publication.firebaseapp.com",
-            projectId: "whd-publication",
-            storageBucket: "whd-publication.appspot.com",
-            messagingSenderId: "72199742776",
-            appId: "1:72199742776:web:f9ac0480dbf95e996c4dcd",
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        var files = [];
-        var bookfiles = [];
-        var bookfilesUrl = [];
-        document
-            .getElementById("customFile")
-            .addEventListener("change", function(e) {
-                bookfiles = e.target.files;
-                for (let i = 0; i < bookfiles.length; i++) {
-                    console.log(bookfiles[i]);
-                }
-            });
-        document
-            .getElementById("formFileMultiple")
-            .addEventListener("change", function(e) {
-                files = e.target.files;
-                for (let i = 0; i < files.length; i++) {
-                    console.log(files[i]);
-                }
-            });
-
-        document.getElementById("upload0").addEventListener("click", function() {
-            //checks if files are selected
-            if (bookfiles.length != 0) {
-                //Loops through all the selected files
-                for (let i = 0; i < bookfiles.length; i++) {
-                    //create a storage reference
-                    var storage = firebase.storage().ref(bookfiles[i].name);
-
-                    //upload file
-                    var upload = storage.put(bookfiles[i]);
-
-                    //update progress bar
-                    upload.on(
-                        "state_changed",
-                        function progress(snapshot) {
-                            var percentage =
-                                (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-                            document.getElementById("progress").value = percentage;
-                        },
-
-                        function error(error) {
-                            alert("error uploading file", error);
-                        },
-
-                        function complete() {
-                            document.getElementById(
-                                "uploading"
-                            ).innerHTML += `${bookfiles[i].name} upoaded <br />`;
-                            getFileUrl(`${bookfiles[i].name}`);
-                        }
-                    );
-                }
-            } else {
-                alert("No file chosen");
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyBCh8hT0cnWKipVW9HzjsvvFUao_1eMpZs",
+        authDomain: "whd-publishing.firebaseapp.com",
+        projectId: "whd-publishing",
+        storageBucket: "whd-publishing.appspot.com",
+        messagingSenderId: "993453003264",
+        appId: "1:993453003264:web:fe39752c1315098cca7ee5"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    var files = [];
+    var bookfiles = [];
+    var bookfilesUrl = [];
+    var ShortUrl = [];
+    document
+        .getElementById("customFile")
+        .addEventListener("change", function(e) {
+            bookfiles = e.target.files;
+            for (let i = 0; i < bookfiles.length; i++) {
+                console.log(bookfiles[i]);
             }
-            // ajaxFuntion(filesUrl,bookfilesUrl)
         });
-        document.getElementById("upload2").addEventListener("click", function() {
-            //checks if files are selected
-            if (files.length != 0) {
-                //Loops through all the selected files
-                for (let i = 0; i < files.length; i++) {
-                    //create a storage reference
-                    var storage = firebase.storage().ref(files[i].name);
-
-                    //upload file
-                    var upload = storage.put(files[i]);
-
-                    //update progress bar
-                    upload.on(
-                        "state_changed",
-                        function progress(snapshot) {
-                            var percentage =
-                                (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-                            document.getElementById("progress2").value = percentage;
-                        },
-
-                        function error(error) {
-                            alert("error uploading file", error);
-                        },
-
-                        function complete() {
-                            document.getElementById(
-                                "uploading2"
-                            ).innerHTML += `${files[i].name} upoaded <br />`;
-                            getFileUrl(`${files[i].name}`);
-                        }
-                    );
-                }
-            } else {
-                alert("No file chosen");
+    document
+        .getElementById("formFileMultiple")
+        .addEventListener("change", function(e) {
+            files = e.target.files;
+            for (let i = 0; i < files.length; i++) {
+                console.log(files[i]);
             }
-            // ajaxFuntion(filesUrl,bookfilesUrl)
-        });
-        document.getElementById("send").addEventListener("click", function() {
-            ajaxFuntion();
         });
 
-        function getFileUrl(filename) {
-            //create a storage reference
-            var storage = firebase.storage().ref(filename);
+    document.getElementById("upload0").addEventListener("click", function() {
+        //checks if files are selected
+        if (bookfiles.length != 0) {
+            //Loops through all the selected files
+            for (let i = 0; i < bookfiles.length; i++) {
+                //create a storage reference
+                var storage = firebase.storage().ref(bookfiles[i].name);
 
-            //get file url
-            storage
-                .getDownloadURL()
-                .then(function(url) {
-                    console.log(url);
-                    bookfilesUrl.push(url);
+                //upload file
+                var upload = storage.put(bookfiles[i]);
+
+                //update progress bar
+                upload.on(
+                    "state_changed",
+                    function progress(snapshot) {
+                        var percentage =
+                            (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+                        document.getElementById("progress").value = percentage;
+                    },
+
+                    function error(error) {
+                        alert("error uploading file", error);
+                    },
+
+                    function complete() {
+                        document.getElementById(
+                            "uploading"
+                        ).innerHTML += `${bookfiles[i].name} upoaded <br />`;
+                        getFileUrl(`${bookfiles[i].name}`);
+                    }
+                );
+            }
+        } else {
+            alert("No file chosen");
+        }
+        // ajaxFuntion(filesUrl,bookfilesUrl)
+    });
+    document.getElementById("upload2").addEventListener("click", function() {
+        //checks if files are selected
+        if (files.length != 0) {
+            //Loops through all the selected files
+            for (let i = 0; i < files.length; i++) {
+                //create a storage reference
+                var storage = firebase.storage().ref(files[i].name);
+
+                //upload file
+                var upload = storage.put(files[i]);
+
+                //update progress bar
+                upload.on(
+                    "state_changed",
+                    function progress(snapshot) {
+                        var percentage =
+                            (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+                        document.getElementById("progress2").value = percentage;
+                    },
+
+                    function error(error) {
+                        alert("error uploading file", error);
+                    },
+
+                    function complete() {
+                        document.getElementById(
+                            "uploading2"
+                        ).innerHTML += `${files[i].name} upoaded <br />`;
+                        getFileUrl(`${files[i].name}`);
+                    }
+                );
+            }
+        } else {
+            alert("No file chosen");
+        }
+        // ajaxFuntion(filesUrl,bookfilesUrl)
+    });
+    document.getElementById("send").addEventListener("click", function() {
+        ajaxFuntion();
+    });
+
+    function getFileUrl(filename) {
+        //create a storage reference
+        var storage = firebase.storage().ref(filename);
+
+        //get file url
+        storage
+            .getDownloadURL()
+            .then(function(url) {
+                console.log(url);
+                // var su = shorten(url)
+                // alert(su);
+                shorten(url)
+            })
+            .catch(function(error) {
+                console.log("error encountered", error);
+            });
+    }
+
+    function ajaxFuntion() {
+        var prefix = document.getElementById("sel1").value;
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("exampleInputEmail1").value;
+        var cno = document.getElementById("number").value;
+        var BookTitle = document.getElementById("BookTitle").value;
+        var country = document.getElementById("country").value;
+        // console.log(prefix, name, email, cno, BookTitle, country);
+        $.ajax({
+            type: "POST",
+            url: "test.php",
+            data: {
+                bookUrls: bookfilesUrl,
+                prefix: prefix,
+                name: name,
+                email: email,
+                cno: cno,
+                BookTitle: BookTitle,
+                country: country,
+            },
+            success: function(response) {
+                // $('#result').html(response);
+                // alert(response)
+            },
+        });
+        alert(bookfilesUrl);
+    }
+
+    function shorten(su) {
+        const url = "https://shorts.glitch.me/new/";
+        getURL(su);
+
+        // const urlInput = document.querySelector(".urlInput");
+        // const result = document.querySelector(".result");
+        // const results = document.querySelector(".results");
+        // const copy = document.querySelector(".copy");
+        // const submit = document.querySelector(".submit");
+        // const clear = document.querySelector(".clear");
+        // const initial = "Paste your link here...";
+
+        // function shorten() {
+        //     if (!urlInput.value) {
+        //         urlInput.placeholder = "You need to enter a link to shorten...";
+        //     } else {
+        //         urlInput.placeholder = initial;
+        //         getURL();
+        //     }
+        // }
+
+        function getURL(su) {
+            const site = su;
+            const requestURL = `${url}${site}`;
+            fetch(requestURL)
+                .then((res) => {
+                    if (res.status !== 200) {
+                        console.log(`There was a problem. Code: ${res.status}`);
+                        return;
+                    }
+                    return res.json();
                 })
-                .catch(function(error) {
-                    console.log("error encountered", error);
-                });
+                .then((data) => {
+                    if (data.error) {
+                        // urlInput.value = "";
+                        // urlInput.placeholder = data.error;
+                        console.log(data.error);
+                        setTimeout(() => {
+                            // urlInput.placeholder = initial;
+                        }, 4000)
+
+                    } else {
+                        // urlInput.value = data.newUrl;
+                        console.log(data.newUrl);
+                        // return data.newUrl;
+                        bookfilesUrl.push(data.newUrl);
+                    }
+                })
+                .catch((err) => console.log('Fetch Error', err));
         }
 
-        function ajaxFuntion() {
-            var prefix = document.getElementById("sel1").value;
-            var name = document.getElementById("name").value;
-            var email = document.getElementById("exampleInputEmail1").value;
-            var cno = document.getElementById("number").value;
-            var BookTitle = document.getElementById("BookTitle").value;
-            var country = document.getElementById("country").value;
-            // console.log(prefix, name, email, cno, BookTitle, country);
-            $.ajax({
-                type: "POST",
-                url: "test.php",
-                data: {
-                    bookUrls: bookfilesUrl,
-                    prefix: prefix,
-                    name: name,
-                    email: email,
-                    cno: cno,
-                    BookTitle: BookTitle,
-                    country: country,
-                },
-                success: function(response) {
-                    // $('#result').html(response);
-                    // alert(response)
-                },
-            });
-            alert(bookfilesUrl);
-        }
-        // ajaxFuntion()
+        // submit.addEventListener("click", shorten);
+    }
+    // ajaxFuntion()
     </script>
 </body>
 
