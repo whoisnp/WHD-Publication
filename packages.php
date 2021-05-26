@@ -49,12 +49,24 @@
                 vertical-align: middle;
                 text-align: center;
             }
-            .included {
-                background-color: #356aac !important;
-                color: white;
-            }
             .table_small{
                 display: none;
+            }
+            .ask_us{
+                color:#CCD9E8;
+                font-size:80%;
+            }
+            .ask_us:hover{
+                color:white;
+                font-size:100%;
+            }
+            .authorkits{
+                vertical-align:middle !important;
+            }
+            .buy_now:hover {
+                -ms-transform: scale(1.5); /* IE 9 */
+                -webkit-transform: scale(1.5); /* Safari 3-8 */
+                transform: scale(1.5); 
             }
         }
         
@@ -84,12 +96,24 @@
                 vertical-align: middle;
                 text-align: center;
             }
-            .included {
-                background-color: #356aac !important;
-                color: white;
-            }
-            .table_large {
+            .table_large{
                 display: none;
+            }
+            .ask_us{
+                color:#CCD9E8;
+                font-size:80%;
+            }
+            .ask_us:hover{
+                color:white;
+                font-size:100%;
+            }
+            .authorkits{
+                vertical-align:middle !important;
+            }
+            .buy_now:hover {
+                -ms-transform: scale(1.5); /* IE 9 */
+                -webkit-transform: scale(1.5); /* Safari 3-8 */
+                transform: scale(1.5); 
             }
         }
     </style>
@@ -188,22 +212,16 @@
             <h6 class="underline" style="color: #6e6e6e; font-size: 19px;font-weight:400;">
                 <strong>BOOK PUBLISHING PACKAGES</strong><br />
             </h6>
-
         </div>
-        <span class="empty_space"></span>
         <div class="table-responsive-sm table-responsive-md table_small" id="table-responsive">
             <table class="table table-hover table-bordered" data-aos="fade-up">
                 <thead>
                     <tr>
-                        <th style="color:white; font-size:25; background-color: #356aac;">AuthorKits</th>
-                        <th style="color:white; font-size:25; background-color: #356aac;">Chipher
+                        <th style="color:white;background-color: #356aac;" class="authorkits">AuthorKits<br></th>
+                        <th style="color:white;background-color: #356aac;">Chipher<br><a class="ask_us"onclick="preventDefault()" style="color:white;">₹0</a>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th style="color:white; font-size:21; background-color: #356aac;">Price</th>
-                        <th style="color:white; font-size:21; background-color: #356aac;">0</th>
-                    </tr>
                     <tr>
                         <td>Book Cover Design</td>
                         <td>Add-On</td>
@@ -300,6 +318,9 @@
                         <td>WHD PH Membership</td>
                         <td class="Included">Included</td>
                     </tr>
+                    <tr>
+                        <td class="buy_now" style="color:white;background-color: #356aac;" colspan="2"><a href="contact-us.php"style="color:white;">Choose This</a></td>
+                    </tr>
                 </tbody>
             </table>
         </div>
@@ -307,15 +328,11 @@
             <table class="table table-hover table-bordered" data-aos="fade-up">
                 <thead>
                     <tr>
-                        <th style="color:white; font-size:25; background-color: #356aac;">AuthorKits</th>
-                        <th style="color:white; font-size:25; background-color: #356aac;">Standard
+                        <th style="color:white;background-color: #356aac;" class="authorkits">AuthorKits</th>
+                        <th style="color:white;background-color: #356aac;">Standard<br><a class="ask_us" href="https://wa.me/917358541277">Ask Us</a>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th style="color:white; font-size:21; background-color: #356aac;">Price</th>
-                        <th style="color:white; font-size:21; background-color: #356aac;">Ask Us</th>
-                    </tr>
                     <tr>
                         <td>Book Cover Design</td>
                         <td>Add-On</td>
@@ -412,6 +429,9 @@
                         <td>WHD PH Membership</td>
                         <td class="Included">Included</td>
                     </tr>
+                    <tr>
+                        <td class="buy_now" style="color:white;background-color: #356aac;" colspan="2"><a href="contact-us.php"style="color:white;">Choose This</a></td>
+                    </tr>
                 </tbody>
             </table>
         </div>
@@ -419,15 +439,11 @@
             <table class="table table-hover table-bordered" data-aos="fade-up">
                 <thead>
                     <tr>
-                        <th style="color:white; font-size:25; background-color: #356aac;">AuthorKits</th>
-                        <th style="color:white; font-size:25; background-color: #356aac;">Specialist
+                        <th style="color:white;background-color: #356aac;" class="authorkits">AuthorKits</th>
+                        <th style="color:white;background-color: #356aac;">Specialist<br><a class="ask_us" href="https://wa.me/917358541277">Ask Us</a>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th style="color:white; font-size:21; background-color: #356aac;">Price</th>
-                        <th style="color:white; font-size:21; background-color: #356aac;">Ask Us</th>
-                    </tr>
                     <tr>
                         <td>Book Cover Design</td>
                         <td>1 Option</td>
@@ -524,6 +540,9 @@
                         <td>WHD PH Membership</td>
                         <td class="Included">Included</td>
                     </tr>
+                    <tr>
+                        <td class="buy_now" style="color:white;background-color: #356aac;" colspan="2"><a href="contact-us.php"style="color:white;">Choose This</a></td>
+                    </tr>
                 </tbody>
             </table>
         </div>
@@ -531,15 +550,11 @@
             <table class="table table-hover table-bordered" data-aos="fade-up">
                 <thead>
                     <tr>
-                        <th style="color:white; font-size:25; background-color: #356aac;">AuthorKits</th>
-                        <th style="color:white; font-size:25; background-color: #356aac;">Expert
+                        <th style="color:white;background-color: #356aac;" class="authorkits">AuthorKits</th>
+                        <th style="color:white;background-color: #356aac;">Expert<br><a class="ask_us" href="https://wa.me/917358541277">Ask Us</a>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th style="color:white; font-size:21; background-color: #356aac;">Price</th>
-                        <th style="color:white; font-size:21; background-color: #356aac;">Ask Us</th>
-                    </tr>
                     <tr>
                         <td>Book Cover Design</td>
                         <td>2 Option</td>
@@ -636,6 +651,9 @@
                         <td>WHD PH Membership</td>
                         <td class="Included">Included</td>
                     </tr>
+                    <tr>
+                        <td class="buy_now" style="color:white;background-color: #356aac;" colspan="2"><a href="contact-us.php"style="color:white;">Choose This</a></td>
+                    </tr>
                 </tbody>
             </table>
         </div>
@@ -643,15 +661,11 @@
             <table class="table table-hover table-bordered" data-aos="fade-up">
                 <thead>
                     <tr>
-                        <th style="color:white; font-size:25; background-color: #356aac;">AuthorKits</th>
-                        <th style="color:white; font-size:25; background-color: #356aac;">Pro Plus
+                        <th style="color:white;background-color: #356aac;" class="authorkits">AuthorKits</th>
+                        <th style="color:white;background-color: #356aac;">Pro Plus<br><a class="ask_us" href="https://wa.me/917358541277">Ask Us</a>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th style="color:white; font-size:21; background-color: #356aac;">Price</th>
-                        <th style="color:white; font-size:21; background-color: #356aac;">Ask Us</th>
-                    </tr>
                     <tr>
                         <td>Book Cover Design</td>
                         <td>3 Option</td>
@@ -748,38 +762,42 @@
                         <td>WHD PH Membership</td>
                         <td class="Included">Included</td>
                     </tr>
+                    <tr>
+                        <td class="buy_now" style="color:white;background-color: #356aac;" colspan="2"><a href="contact-us.php"style="color:white;">Choose This</a></td>
+                    </tr>
                 </tbody>
             </table>
-        </div>    
-        <div class="table-responsive-md table_large" id="table-responsive">
+        </div>
+        <span class="empty_space"></span>    
+        <div class="table-responsive-md table-responsive-lg table-responsive-sm table_large" id="table-responsive">
             <table class="table table-hover table-bordered" data-aos="fade-up">
                 <thead>
-                    <tr>
-                        <th style="color:white; font-size:25; background-color: #356aac;">AuthorKits</th>
-                        <th style="color:white; font-size:25; background-color: #356aac;">Chipher
+                    <tr style="height:120px">
+                        <th style="color:white;background-color: #356aac; vertical-align:middle;font-size:20px">AuthorKits</th>
+                        <th style="color:white;background-color: #356aac;vertical-align:middle;font-size:20px">Cipher<br><a class="ask_us" onclick="preventDefault()"  style="color:white;">₹0</a>
                         </th>
-                        <th style="color:white; font-size:25; background-color: #356aac;">Standard
+                        <th style="color:white;background-color: #356aac;vertical-align:middle;font-size:20px">Standard<br><a class="ask_us" href="https://wa.me/917358541277">Ask Us</a>
                         </th>
-                        <th style="color:white; font-size:25; background-color: #356aac;">Specialist
+                        <th style="color:white;background-color: #356aac;vertical-align:middle;font-size:20px">Specialist<br><a class="ask_us" href="https://wa.me/917358541277">Ask Us</a>
                         </th>
-                        <th style="color:white; font-size:25; background-color: #356aac;">Expert
+                        <th style="color:white;background-color: #356aac;vertical-align:middle;font-size:20px">Expert<br><a class="ask_us" href="https://wa.me/917358541277">Ask Us</a>
                         </th>
-                        <th style="color:white; font-size:25; background-color: #356aac;">Pro Plus
+                        <th style="color:white;background-color: #356aac;vertical-align:middle;font-size:20px">Pro Plus<br><a class="ask_us" href="https://wa.me/917358541277">Ask Us</a>
                         </th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th style="color:white; font-size:21; background-color: #356aac;">Price</th>
-                        <th style="color:white; font-size:21; background-color: #356aac;" class="tb_content">0</th>
-                        <th style="color:white; font-size:21; background-color: #356aac;" class="tb_content">Ask Us</th>
-                        <th style="color:white; font-size:21; background-color: #356aac;" class="tb_content">Ask Us</th>
-                        <th style="color:white; font-size:21; background-color: #356aac;" class="tb_content">Ask Us</th>
-                        <th style="color:white; font-size:21; background-color: #356aac;" class="tb_content">Ask Us</th>
-                    </tr>
+                    <!-- <tr>
+                        <th style="color:white; text-align:left; background-color: #356aac;"></th>
+                        <th style="color:white; background-color: #356aac;" class="tb_content"></th>
+                        <th style="color:white; background-color: #356aac;" class="tb_content"></th>
+                        <th style="color:white; background-color: #356aac;" class="tb_content"></th>
+                        <th style="color:white; background-color: #356aac;" class="tb_content"></th>
+                        <th style="color:white; background-color: #356aac;" class="tb_content"></th>
+                    </tr> -->
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="Basic editing or copy editing involves an editor going through the manuscript line by line and cleaning up grammatical, phrasing and punctuation errors. *Should the work need a lot of editing, its better to avail the extensive editing service">Book Cover Design<br>
+                            <div class="">Book Cover Design<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -790,7 +808,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="Extensive editing is a collaborative process between the author and the editor. In addition to one round of basic editing, this service includes editorial inputs and work on plot, narrative, thoughtflow, structure characterization, description, etc.">Design Revision<br>
+                            <div class="">Design Revision<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -801,7 +819,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="A successful book cover needs to make a reader ‘feel’ the manuscript rather than ‘tell’ about it. Let our designers create a cover for your book from pre-set stock images">Digital Proof<br>
+                            <div class="">Digital Proof<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -812,7 +830,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="An attractive front cover and informative back cover captures the essence of the content within, go a long way in enhancing the saleability of a book. The customized cover designs are developed from the authors brief to achieve their vision of the cover, with creative inputs from our designers to make it work.">Author Book Copies<br>
+                            <div class="">Author Book Copies<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -823,7 +841,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="For most books we recommend our standard pagination services, where the matter has flowing text with which is essentially called, flow text. The same is pre-standardised to book readers and suit the size and genre of the book.">ISBN + Barcode<br>
+                            <div class="">ISBN + Barcode<br>
                             </div>
                         </td>
                         <td class="Included">Included</td>
@@ -834,7 +852,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="For books which need customized page making, if the standard templates dont work out or may have images to be inserted within text.">Govt Copyrights<br>
+                            <div class="">Govt Copyrights<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -845,7 +863,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="The final version of the book in PDF format, along with cover pages and inside pages. The book will be a printed version of the same.">Page Formatting<br>
+                            <div class="">Page Formatting<br>
                             </div>
                         </td>
                         <td class="">Add-On</td>
@@ -856,7 +874,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="The international Standard Book Number (ISBN) is the unique identifier of a published book. An ISBN is assigned to each edition and variation/format (except reprintings) of a book.">Formatting Revision<br>
+                            <div class="">Formatting Revision<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -868,7 +886,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="As per most copyright laws globally, if you have created something unique as an art form, you own the copyrights of the same. Once the same is brought to the public domain, it establishes your copyright over the material. While that being the case, one may seek to register her/his copyright with a copyright registering authority as per the laws of your land. The process takes 6-8 months to be completed.">Book Cover Type<br>
+                            <div class="">Book Cover Type<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -880,7 +898,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="The file is converted to all key ebook versions like ePub, mobi, etc to ensure it is enabled for sale on all leading ebook retail platforms.">Add'nl Author Copies<br>
+                            <div class="">Add'nl Author Copies<br>
                             </div>
                         </td>
                         <td class="tb_content">Print Cost</td>
@@ -891,7 +909,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="Make your book light, compact and easily transportable by printing it in the paperback format">Proof Reading<br>
+                            <div class="">Proof Reading<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -902,7 +920,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="The ebook is then listed for sales on various ebook retail platforms with all key details like cover, price, ISBN and other metadata. The listing is partially direct and partially via some distributors for a wider availability.">E-Book Formatting<br>
+                            <div class="">E-Book Formatting<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -913,8 +931,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="The paperback books are listed on all key ecommerce retailers. The listing data is checked and validated. The book is now
-                    ready to be purchased from these ecommerce sites.">E-Book Publishing<br>
+                            <div class="">E-Book Publishing<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -925,7 +942,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="Distribute your book in physical stores across the country.">Non Exclusive Contract<br>
+                            <div class="">Non Exclusive Contract<br>
                             </div>
                         </td>
                         <td class="Included">Included</td>
@@ -936,7 +953,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="The first copy made by the printer digitally. The same is to ensure the author likes the quality of the paper used both for cover and inside pages.">Promotional Materials<br>
+                            <div class="">Promotional Materials<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -948,7 +965,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="The copies are printed per the package chosen. Mostly printing is done digitally which allows for lower print runs.">Book Website<br>
+                            <div class="">Book Website<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -959,7 +976,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="Where the print run is substantial, we use offset printing. While in cases where the quantity is higher than a few thousands, we use web offset printing technology. This entirely depends on the requirement of the author.">Individual Customer Support<br>
+                            <div class="">Individual Customer Support<br>
                             </div>
                         </td>
                         <td class="Included">Included</td>
@@ -970,8 +987,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="The book is listed on all key Bibliographic<br>
-                    databases like Nielsens BookScan &amp; Bowkers to ensure retailers across the globe can easily find access to your work.">Press Release<br>
+                            <div class="">Press Release<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -982,7 +998,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="This enables Google, Amazon, and other book search engines to easily spot your book in search results.">Online Book Launch<br>
+                            <div class="">Online Book Launch<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -993,7 +1009,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="“This enables retailers (both paperback and ebooks) to keep a restricted amount of the book available as a sample for readers to browse through.">Social Media Initial Setup<br>
+                            <div class="">Social Media Initial Setup<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -1005,7 +1021,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="Set up promotional offers for your book on the BSC website to increase your sales. Create discount coupons and share with prospective buyers for a limited time period.">Marketing Collaterals<br>
+                            <div class="">Marketing Collaterals<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -1016,7 +1032,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="We will assist the AUTHOR to (1) Send email to his connects, announcing of the release of his book along with the details of the Discount Coupon. (2) Promote Author’s video message on Social Media Handles">Shipping Charges<br>
+                            <div class="">Shipping Charges<br>
                             </div>
                         </td>
                         <td class="tb_content">Add-On</td>
@@ -1027,7 +1043,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="We will design the marketing collaterals that can be used on Facebook, Twitter, Instagram and Whatsapp.">Author Profit<br>
+                            <div class="">Author Profit<br>
                             </div>
                         </td>
                         <td class="tb_content">100%</td>
@@ -1038,7 +1054,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="" data-toggle="tooltip" data-placement="top" title="Set up your author profile accounts on popular social media platforms like FB, Instagram and Twitter under the guidance of our experts.">WHD PH Membership<br>
+                            <div class="">WHD PH Membership<br>
                             </div>
                         </td>
                         <td class="Included">Included</td>
@@ -1046,6 +1062,15 @@
                         <td class="Included">Included</td>
                         <td class="Included">Included</td>
                         <td class="Included">Included</td>
+                    </tr>
+                    <tr>
+                        <td style="color:transparent; background-color:white;">
+                        </td>
+                        <td class="buy_now" style="color:white;background-color: #356aac;"><a href="free-publish.php"style="color:white;">Choose This</a></td>
+                        <td class="buy_now" style="color:white;background-color: #356aac;"><a href="contact-us.php"style="color:white;">Choose This</a></td>
+                        <td class="buy_now" style="color:white;background-color: #356aac;"><a href="contact-us.php"style="color:white;">Choose This</a></td>
+                        <td class="buy_now" style="color:white;background-color: #356aac;"><a href="contact-us.php"style="color:white;">Choose This</a></td>
+                        <td class="buy_now" style="color:white;background-color: #356aac;"><a href="contact-us.php"style="color:white;">Choose This</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -1142,9 +1167,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script>
-        $(function() {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
+        // $(function() {
+        //     $('[data-toggle="tooltip"]').tooltip()
+        // })
     </script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>

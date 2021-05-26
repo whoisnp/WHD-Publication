@@ -800,7 +800,7 @@
                             <a href="packages.php" class="btn-buy">Know More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0" data-aos="zoom-in" data-aos-delay="100">
 
                         <div class="box" style="padding-top:0px">
                             <div class="row text-center" style="background:#356aac;color:white">
